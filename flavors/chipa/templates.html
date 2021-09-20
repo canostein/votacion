@@ -1,0 +1,622 @@
+
+<!-- saved from url=(0078)https://actitudrepublicananemby.000webhostapp.com/flavors/chipa/templates.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script id="tmpl_chipa/candidato" type="text/x-handlebars-template" class="raw_template">
+{{#unless candidato.blanco}}
+<div class="candidato candidato-persona {{extra_classes}}" id="{{id_boton}}" style="background-color: {{candidato.lista.color}}; color: {{candidato.lista.color_tipografia}}; border-color: {{{mod_color -0.5 candidato.lista.color}}};">
+    {{#if_mostrar_data_candidato candidato}}
+        <div class="nombre-lista">{{nombre_lista}}</div>
+        <div class="foto-candidato">
+            {{imagen_candidatura candidato.imagenes.[0]}}
+        </div>
+        <div class="lista-con-imagen">
+            <p class="palabra-lista">{{i18n "palabra_lista"}}</p>
+            <p class="numero-lista">{{candidato.lista.numero}}</p>
+            <div class="nombre-corto-lista">{{candidato.lista.nombre_corto}}</div>
+        </div>
+        <div class="candidato-principal">{{candidato.nombre}}</div>
+    {{else}}
+        <div class="nombre-candidato" >
+            {{#if nombre_lista}}
+                <div class="lista">
+                    <p class="palabra-lista">{{i18n "palabra_lista"}}</p>
+                    <p class="numero-lista">{{candidato.lista.numero}}</p>
+                </div>
+                <div class="nombre-lista">{{nombre_lista}}</div>
+                <div class="nombre-corto-lista">{{candidato.lista.nombre_corto}}</div>
+            {{/if}}
+            {{#if_mostrar_data_candidato candidato}}
+                <div class="candidato-principal">{{candidato.nombre}}</div>
+            {{/if_mostrar_data_candidato}}
+            {{#if candidato.cargo_ejecutivo}}
+                <div class="candidato-secundario">{{{secundarios}}}</div>
+            {{/if}}
+            {{#if candidato.mostrar_nombre_primer_candidato}}
+                <div class="candidato-principal">{{candidato.nombre}}</div>
+            {{/if}}
+            {{&extra_html}}
+        </div>
+    {{/if_mostrar_data_candidato}}
+</div>
+{{else}}
+<div class="candidato candidato-persona candidato-blanco {{extra_classes}}" id="{{id_boton}}" style="border-color: #808080;">
+    <div class="nombre-candidato">
+        <div class="candidato-principal">{{candidato.nombre}}</div>
+        {{&extra_html}}
+    </div>
+</div>
+{{/unless}}
+
+</script>
+<script id="tmpl_chipa/candidato_multiple" type="text/x-handlebars-template" class="raw_template">
+{{#unless candidato.blanco}}
+<div class="candidato candidato-persona {{extra_classes}}" id="{{id_boton}}" style="background-color: {{candidato.lista.color}}; color: {{candidato.lista.color_tipografia}}; border-color: {{{mod_color -0.5 candidato.lista.color}}};">
+	<main class="candidato_multiple">
+		<div class="nombre-lista">{{nombre_lista}}</div>
+		{{#if es_pvm}}
+			<div class="foto-candidato candidato_multiple-foto-candidato">
+				{{imagen_candidatura candidato.lista.imagenes.[0]}}
+			</div>
+		{{else if es_pvp}}
+			<div class="candidato_multiple-contenedor_imagenes">
+				<div class="foto-candidato candidato_multiple-foto-candidato">
+					{{imagen_candidatura candidato.imagenes.[1]}}
+				</div>
+				<div class="foto-candidato candidato_multiple-foto-candidato">
+					{{imagen_candidatura candidato.imagenes.[0]}}
+				</div>
+				<div class="foto-candidato candidato_multiple-foto-candidato">
+					{{imagen_candidatura candidato.imagenes.[2]}}
+				</div>
+			</div>
+		{{/if}}
+        <div class="lista candidato_multiple-lista">
+            <p class="palabra-lista">{{i18n "palabra_lista"}}</p>
+            <p class="numero-lista">{{candidato.lista.numero}}</p>
+            <div class="nombre-corto-lista">{{candidato.lista.nombre_corto}}</div>
+        </div>
+		<div class="candidato_multiple-lista_container">
+			<div class="candidato_multiple-cargos">
+				{{#each candidato.lista.datos_extra.cargos}}
+					<li><span class="candidato_multiple-cargos__nombre">{{this.nombre}}:</span><span class="candidato_multiple-cargos__candidato">{{this.candidato}}</span></span></li>
+				{{/each}}
+			</div>
+		</div>
+	</main>
+</div>
+{{else}}
+<div class="candidato candidato-persona candidato-blanco {{extra_classes}}" id="{{id_boton}}" style="border-color: #808080;">
+    <div class="nombre-candidato">
+        <div class="candidato-principal">{{candidato.nombre}}</div>
+        {{&extra_html}}
+    </div>
+</div>
+{{/unless}}
+
+</script>
+<script id="tmpl_chipa/categoria" type="text/x-handlebars-template" class="raw_template">
+<div class="candidato {{seleccionado}}" id="{{id_boton}}">
+    <div class="nombre-cargo">{{categoria.nombre}}</div>
+    <div class="lista">
+        <p class="palabra-lista">{{palabra_lista}}</p>
+        <p class="numero-lista">{{candidato.lista.numero}}</p>
+    </div>
+    <div class="foto-candidato">
+        {{imagen_candidatura candidato.imagenes.[0]}}
+    </div>
+    <div class="foto-partido">
+        {{imagen_candidatura candidato.lista.imagenes.[0]}}
+    </div>
+    <div class="candidato-principal">{{candidato.nombre}}</div>
+    <div class="candidato-secundario"> {{{secundarios}}}</div>
+    <div class="nombre-partido">{{candidato.lista.nombre}}</div>
+</div>
+
+</script>
+<script id="tmpl_chipa/lista" type="text/x-handlebars-template" class="raw_template">
+<div id="{{id_boton}}" class="candidato candidato-lista-completa boton-lista {{#if normal}}cand-{{cantidad_candidatos}}{{else}}candidato-agrupa{{/if}} {{seleccionado}}">
+    {{#if lista.numero}}
+        <div class="lista">
+            <p class="palabra-lista">{{i18n "palabra_lista"}}</p>
+            <p class="numero-lista">{{lista.numero}}</p>
+        </div>
+    {{/if}}
+    {{#if normal}}
+        <div class="nombre-partido">{{lista.nombre}}</div>
+        <div class="foto-partido">
+            {{imagen_candidatura lista.imagenes.[0]}}
+        </div>
+
+        {{#candidatos}}
+            <div class="foto-candidato {{#if es_blanco}}blanco{{/if}}">
+                {{imagen_candidatura imagenes.[0]}}
+            </div>
+        {{/candidatos}}
+
+        {{colores lista.color}}
+        <div class="lista-candidatos">
+            {{#candidatos}}
+            <div class="nombre-categoria">{{categoria.nombre}}:</div>
+            <div class="nombre-candidato">
+                {{#if es_blanco}}
+                    {{i18n "palabra_no_presenta_candidatos"}}
+                {{else}}
+                    {{nombre}}
+                    {{#if categoria.cargo_ejecutivo}}
+                        / {{secundarios}}
+                    {{/if}}
+                {{/if}}
+            </div>
+            {{/candidatos}}
+        </div>
+    {{else}}
+        <div class="foto-candidato">
+            {{#if lista.imagenes.[0]}}
+                {{imagen_candidatura lista.imagenes.[0]}}
+            {{/if}}
+        </div>
+        <div class="nombre-partido">{{lista.nombre}}</div>
+    {{/if}}
+</div>
+
+</script>
+<script id="tmpl_chipa/partido" type="text/x-handlebars-template" class="raw_template">
+<div id="{{id_boton}}" class="candidato candidato-lista-completa partido {{extra_classes}}">
+    <div class="foto-partido">
+        {{imagen_candidatura partido.imagenes.[0]}}
+    </div>
+    {{#imagenes_candidatos}}
+    <div class="foto-candidato">
+        {{imagen_candidatura . }}
+    </div>
+    {{/imagenes_candidatos}}
+    {{colores lista.color}}
+    <!--<div class="clear"></div>-->
+    <div class="nombre-partido">
+        {{partido.nombre}}
+    </div>
+</div>
+
+</script>
+<script id="tmpl_chipa/candidato_hijo" type="text/x-handlebars-template" class="raw_template">
+    <div class="candidato-secundario">
+      {{categoria.nombre}}: 
+      {{candidato.nombre}}{{#if candidato.secundarios}}; {{/if}}
+      {{{candidato.secundarios}}}
+    </div>
+
+</script>
+<script id="tmpl_chipa/confirmacion" type="text/x-handlebars-template" class="raw_template">
+<div class="candidato {{#if blanco}}blanco{{/if}} {{consulta_popular}} {{#if modificar}}modificable{{/if}}
+            {{#if candidato.habilitar_tachas}}tachas{{/if}} {{#if candidato.habilitar_preferencias}}preferencias{{/if}}"
+     id="{{id_boton}}"
+     style="background-color: {{candidato.lista.color}};
+            color: {{candidato.lista.color_tipografia}};">
+    <div class="contenedor-candidato">
+        <div class="nombre-cargo">
+            {{#if_do_salto_linea categoria.nombre}}
+                <br>
+            {{/if_do_salto_linea}}
+            {{categoria.nombre}}
+        </div>
+        <div class="lista">
+            <p class="palabra-lista">{{i18n "palabra_lista"}}</p>
+            <p class="numero-lista">{{candidato.lista.numero}}</p>
+        </div>
+
+        {{#if candidato.mostrar_foto_candidato_principal}}
+            <div class="foto-candidato">
+                {{imagen_candidatura candidato.imagenes.[0]}}
+            </div>
+        {{else}}
+            {{#if blanco}}
+            <div class="foto-candidato">
+                {{imagen_candidatura candidato.imagenes.[0]}}
+            </div>
+            {{else}}
+                {{#unless candidato.habilitar_preferencias}}
+                    <div class="foto-candidato">
+                        {{imagen_candidatura candidato.imagenes.[0]}}
+                    </div>
+                {{/unless}}
+            {{/if}}
+        {{/if}}
+        <div class="nombre-partido">{{candidato.lista.nombre}}</div>
+
+        {{#if candidato.cargo_ejecutivo}}
+            <div class="candidato-principal">{{candidato.nombre}}</div>
+            <div class="candidato-secundario">{{{secundarios}}}</div>
+        {{else}}
+            {{#if blanco}}
+              <div class="candidato-principal">{{candidato.nombre}}</div>
+            {{/if}}
+
+        {{#if candidato.habilitar_preferencias}}
+           <div class="contenedor-secundarios">
+            {{#each candidatos_confirmacion}}
+            {{#if_preferencia this.id_candidatura ../candidato.cod_categoria}}
+            <div class="candidato-secundario secundario-no-ejecutivo preferido">
+                <div class="foto-preferencia">
+                    {{imagen_candidatura this.imagen}}
+                </div>
+                <p class="nombre-candidato">{{this.nombre}}</p>
+                <p class="nro-orden">Opción {{this.nro_orden}}</p>
+            </div>
+            {{/if_preferencia}}
+            {{/each}}
+           </div>
+           <div class="header-suplentes">Suplentes</div>
+            {{#each candidato.suplentes_datos_extra}}
+           <div class="candidato-secundario suplente"><span class="checkbox icono">&#9744;</span>{{{this.nro_orden}}}. {{{this.nombre}}}</div>
+            {{/each}}
+        {{/if}}
+
+        {{/if}}
+    </div>
+    <!-- {{#if candidato.habilitar_tachas}}
+        <div class="btn-tachas"><p>Tachas</p></div>
+    {{/if}}
+    {{#if candidato.habilitar_preferencias}}
+        <div class="btn-preferencias"><p>Preferencias</p></div>
+    {{/if}} -->
+    {{#if modificar}}
+        <div class="btn-modificar-voto"><p>{{i18n "modificar"}}</p></div>
+    {{/if}}
+</div>
+
+</script>
+<script id="tmpl_chipa/consulta_popular" type="text/x-handlebars-template" class="raw_template">
+<div id="{{id_boton}}" class="opcion-consulta candidato {{seleccionado}}">
+    <div class="nombre-candidato">
+        <div class="candidato-principal" style="color:{{candidato.lista.color.[0]}}">{{candidato.nombre}}</div>
+        <div class="candidato-secundario">{{{candidato.secundarios}}}</div>
+    </div>
+</div>
+</script>
+<script id="tmpl_chipa/candidatos_adicionales" type="text/x-handlebars-template" class="raw_template">
+{{#candidatos}}
+    <span>
+        {{this}}{{#unless @last}};{{/unless}}
+    </span>
+{{/candidatos}}
+
+</script>
+<script id="tmpl_chipa/colores" type="text/x-handlebars-template" class="raw_template">
+<div class="color-lista">
+  {{#each colores}}
+  <div class="color colores{{../num_colores}}" style="background:{{this}}"></div>
+  {{/each}}
+</div>
+
+</script>
+<script id="tmpl_chipa/candidato_verificacion" type="text/x-handlebars-template" class="raw_template">
+<div class=" candidato cant-{{cant_cargos}} {{#if blanco}}blanco{{/if}} {{#if es_consulta}}consulta_popular{{/if}} " id="{{id_boton}}"
+     style="background-color: {{candidato.lista.color}}; color: {{candidato.lista.color_tipografia}};">
+    <div class="nombre-cargo">{{categoria.nombre}}</div>
+    <div class="datos-cargo" style="{{#if blanco}}display:block;{{/if}}">
+        {{#if blanco}}
+            <div id="datos-texto">
+                <div class="candidato-principal">{{candidato.nombre}}</div>
+            </div>
+            <div class="foto-blanco">
+                {{imagen_candidatura candidato.imagenes.[0]}}
+            </div>
+        {{else}}
+            {{#if image_to_left}}
+                <div class="foto-candidato-principal">
+                    {{imagen_candidatura candidato.imagenes.[0]}}
+                </div>
+            {{/if}}
+        {{/if}}
+        <div id="datos-texto">
+            {{#if blanco}}
+                
+            {{else}}
+                <p class="nombre-lista">{{candidato.lista.nombre}}</p>
+                <p class="numero-lista">{{i18n "palabra_lista"}} {{candidato.lista.numero}}</p>
+                {{#unless image_to_left}}
+                    <div class="foto-candidato-principal">
+                        {{imagen_candidatura candidato.imagenes.[0]}}
+                    </div>
+                {{/unless}}
+                <div class="candidato-principal-int">{{candidato.nombre}}</div>
+                {{#if candidato.cargo_ejecutivo}}
+                    <div class="nro-orden"></div>
+                {{else}}
+                    <div class="nro-orden">{{i18n "palabra_orden"}} {{candidato.nro_orden}}</div>
+                {{/if}}
+            {{/if}}
+        </div>
+    </div>
+
+</div>
+</script>
+<script id="tmpl_chipa/confirmacion_con_secundarios" type="text/x-handlebars-template" class="raw_template">
+<div class="candidato {{#if blanco}}blanco{{/if}} {{consulta_popular}} {{#if modificar}}modificable{{/if}}
+            {{#if candidato.habilitar_tachas}}tachas{{/if}} {{#if candidato.habilitar_preferencias}}preferencias{{/if}}"
+     id="{{id_boton}}"
+     style="background-color: {{candidato.lista.color}};
+            color: {{candidato.lista.color_tipografia}};">
+    <div class="contenedor-candidato candidato_plra">
+        <div class="nombre-cargo-con-secundarios candidato_plra-categoria">
+            {{#if_do_salto_linea categoria.nombre}}
+                <br>
+            {{/if_do_salto_linea}}
+            {{categoria.nombre}}
+        </div>
+
+        <div class="nombre-partido nombre-partido-plra">{{candidato.lista.nombre}}</div>
+
+        <div class="candidato_plra-lista_partido">
+            <div class="lista candidato_plra-lista">
+                <p class="palabra-lista">{{i18n "palabra_lista"}}</p>
+                <p class="numero-lista">{{candidato.lista.numero}}</p>
+            </div>
+            
+        </div>
+
+        {{#if blanco}}
+        <div class="foto-candidato">
+            {{imagen_candidatura candidato.imagenes.[0]}}
+        </div>
+        {{else}}
+            {{#unless candidato.habilitar_preferencias}}
+            <div class="candidato_plra-contenedor_fotos">
+                <div class="foto-candidato-custom">
+                    {{imagen_candidatura candidato.imagenes.[1]}}
+                </div>
+        
+                <div class="foto-candidato-custom">
+                    {{imagen_candidatura candidato.imagenes.[0]}}
+                </div>
+                
+                <div class="foto-candidato-custom">
+                    {{imagen_candidatura candidato.imagenes.[2]}}
+                </div>
+            </div>
+            {{/unless}}
+        {{/if}}
+
+        {{#if candidato.cargo_ejecutivo}}
+            {{#if blanco}}
+                <div class="candidato-principal">{{candidato.nombre}}</div>
+            {{else}}
+                <div class="candidato_plra-cargos">
+                    <li><span class="candidato_plra-cargos__nombre">Pdte:</span><span class="candidato_plra-cargos__candidato">{{candidato.nombre}}</span></span></li>
+                    <li><span class="candidato_plra-cargos__nombre">Vice. Pdte. 1Â°:</span><span class="candidato_plra-cargos__candidato">{{vice1}}</span></span></li>
+                    <li><span class="candidato_plra-cargos__nombre">Vice. Pdte. 2Â°:</span><span class="candidato_plra-cargos__candidato">{{vice2}}</span></span></li>
+                </div>
+            {{/if}}
+        {{else}}
+            {{#if blanco}}
+              <div class="candidato-principal">{{candidato.nombre}}</div>
+            {{/if}}
+        {{/if}}
+
+       
+
+    </div>
+    {{#if modificar}}
+        <div class="btn-modificar-voto"><p>{{i18n "modificar"}}</p></div>
+    {{/if}}
+</div>
+
+</script>
+<script id="tmpl_chipa/candidato_verificacion_con_secundarios" type="text/x-handlebars-template" class="raw_template">
+<div class=" candidato cant-{{cant_cargos}} {{#if blanco}}blanco{{/if}} {{#if es_consulta}}consulta_popular{{/if}} " id="{{id_boton}}"
+     style="background-color: {{candidato.lista.color}}; color: {{candidato.lista.color_tipografia}};">
+    <div class="nombre-cargo">{{categoria.nombre}}</div>
+    <div class="datos-cargo" style="{{#if blanco}}display:block;{{/if}}">
+        
+        <div id="datos-texto">
+            {{#if blanco}}
+            <div class="candidato-principal">{{candidato.nombre}}</div>
+            {{else}}
+                <p class="nombre-lista">{{candidato.lista.nombre}}</p>
+                <p class="numero-lista">{{i18n "palabra_lista"}} {{candidato.lista.numero}}</p>
+    
+            {{/if}}
+        </div>
+        {{#if blanco}}
+            <div class="foto-blanco">
+                {{imagen_candidatura candidato.imagenes.[0]}}
+            </div>
+        {{else}}
+            {{#if cat_cerrada_abierta}}
+                <div class="foto-candidato-principal">
+                    {{imagen_candidatura candidato.lista.imagenes.[0]}}
+                </div>
+            {{else}}
+                <div class="fotos-terna">
+                    <div class="foto-candidato-terna">
+                        {{imagen_candidatura candidato.imagenes.[1]}}
+                    </div>
+
+                    <div class="foto-candidato-terna">
+                        {{imagen_candidatura candidato.imagenes.[0]}}
+                    </div>
+                    
+                    <div class="foto-candidato-terna">
+                        {{imagen_candidatura candidato.imagenes.[2]}}
+                    </div>
+                </div>
+            {{/if}}    
+        {{/if}}
+        <div id="datos-texto">
+            {{#if blanco}}
+               
+            {{else}}                
+                {{#if candidato.cargo_ejecutivo}}
+                    <div class="candidatos-terna">
+                        <div class="candidato-terna"><span class="key-pdte">Presidente :</span> {{presidente}}</div>
+                        <div class="candidato-terna"><span class="key-pdte">Vice Pdte. 1Â°:</span> {{vice_1}}</div>
+                        <div class="candidato-terna"><span class="key-pdte">Vice Pdte. 2Â°:</span> {{vice_2}}</div>
+                    </div>
+                    <div class="nro-orden"></div>
+                {{else}}
+                    <div class="candidatos-terna">
+                        <div class="candidato-terna"><span class="key-pdte">Presidente : </span>{{presidente}}</div>
+                        <div class="candidato-terna"><span class="key-pdte">{{i18n "palabra_orden"}} {{candidato.nro_orden}} - </span>{{candidato.nombre}}</div>
+                    </div>
+                {{/if}}
+              
+                
+            {{/if}}
+        </div>
+    </div>
+
+</div>
+
+</script>
+<script id="tmpl_chipa/confirmacion_jlra" type="text/x-handlebars-template" class="raw_template">
+<div class="candidato {{#if blanco}}blanco{{/if}} {{consulta_popular}} {{#if modificar}}modificable{{/if}}
+            {{#if candidato.habilitar_tachas}}tachas{{/if}} {{#if candidato.habilitar_preferencias}}preferencias{{/if}}"
+     id="{{id_boton}}"
+     style="background-color: {{candidato.lista.color}};
+            color: {{candidato.lista.color_tipografia}};">
+    <div class="contenedor-candidato">
+        <div class="nombre-cargo">
+            {{#if_do_salto_linea categoria.nombre}}
+                <br>
+            {{/if_do_salto_linea}}
+            {{categoria.nombre}}
+        </div>
+        <div class="lista">
+            <p class="palabra-lista">{{i18n "palabra_lista"}}</p>
+            <p class="numero-lista">{{candidato.lista.numero}}</p>
+        </div>
+
+        {{#if candidato.mostrar_foto_candidato_principal}}
+            <div class="foto-candidato">
+                {{imagen_candidatura candidato.imagenes.[0]}}
+            </div>
+        {{else}}
+            {{#if blanco}}
+            <div class="foto-candidato">
+                {{imagen_candidatura candidato.imagenes.[0]}}
+            </div>
+            {{else}}
+                {{#unless candidato.habilitar_preferencias}}
+                <div class="foto-candidato">
+                    {{imagen_candidatura candidato.imagenes.[0]}}
+                </div>
+                    <div class="foto-candidato">
+                        {{imagen_candidatura candidato.imagenes.[0]}}
+                    </div>
+                {{/unless}}
+            {{/if}}
+        {{/if}}
+        <div class="nombre-partido">{{candidato.lista.nombre}}</div>
+
+        {{#if candidato.cargo_ejecutivo}}
+            <div class="candidato-principal">{{candidato.nombre}}</div>
+            <div class="candidato-secundario">{{{secundarios}}}</div>
+        {{else}}
+            {{#if blanco}}
+              <div class="candidato-principal">{{candidato.nombre}}</div>
+            {{/if}}
+
+        {{#if candidato.habilitar_preferencias}}
+           <div class="contenedor-secundarios">
+               <div class="foto-candidato foto-candidato-confirmacion-jlra">
+                {{imagen_candidatura candidato.lista.imagenes.[0]}}
+                </div>
+            <div class="candidato-secundario candidato-jlra"><span class="key-pdte">Pdte : </span>{{candidato.lista.datos_extra.presidente}}</div>
+            {{#each candidatos_confirmacion}}
+            {{#if_preferencia this.id_candidatura ../candidato.cod_categoria}}
+            <div class="candidato-secundario secundario-no-ejecutivo preferido preferido-jlra">
+                <p class="nombre-candidato"><span class="opcion-preferente-jlra" style="font-weight: normal;">OpciÃ³n {{this.nro_orden}}</span>  <span class="candidato-preferente-jlra">{{this.nombre}}</span></p>
+                <!--p class="nro-orden">OpciÃ³n {{this.nro_orden}}</p-->
+            </div>
+            {{/if_preferencia}}
+            {{/each}}
+           </div>
+           <div class="header-suplentes">Suplentes</div>
+            {{#each candidato.suplentes_datos_extra}}
+           <div class="candidato-secundario suplente"><span class="checkbox icono">&#9744;</span>{{{this.nro_orden}}}. {{{this.nombre}}}</div>
+            {{/each}}
+        {{/if}}
+
+        {{/if}}
+    </div>
+    {{#if modificar}}
+        <div class="btn-modificar-voto"><p>{{i18n "modificar"}}</p></div>
+    {{/if}}
+</div>
+
+</script>
+<script id="tmpl_chipa/solapa" type="text/x-handlebars-template" class="raw_template">
+{{#categoria}}
+<div class="categoria">
+    {{nombre}}
+</div>
+{{/categoria}}
+{{#candidatura}}
+<div class="foto-candidato">
+    {{imagen_candidatura imagenes.[0]}}
+</div>
+<div class="candidato-principal">
+    {{nombre}}
+</div>
+{{/candidatura}}
+
+</script>
+<script id="tmpl_chipa/tachas" type="text/x-handlebars-template" class="raw_template">
+<div class="candidato">
+    <div class="lista">
+        <p class="palabra-lista">{{i18n "palabra_lista"}}</p>
+        <p class="numero-lista">{{lista.numero}}</p>
+    </div>
+    <div class="foto-candidato">
+        {{imagen_candidatura lista.imagenes.[0]}}
+    </div>
+    <div class="clear"></div>
+    {{colores lista.color}}
+    <div class="nombre-partido">{{lista.nombre}}</div>
+</div>
+
+<div class="columna-izquierda">
+{{#each candidatos.izq}}
+    <div id="candidato_{{this.id_candidatura}}" class="opcion-tacha candidato {{this.seleccionado}}">
+        <i class="material-icons"></i>
+        {{this.nro_orden}}. {{this.nombre}}
+    </div>
+{{/each}}
+</div>
+
+<div class="columna-derecha">
+{{#each candidatos.der}}
+    <div id="candidato_{{this.id_candidatura}}" class="opcion-tacha candidato {{this.seleccionado}}">
+        <i class="material-icons"></i>
+        {{this.nro_orden}}. {{this.nombre}}
+    </div>
+{{/each}}
+</div>
+
+</script>
+<script id="tmpl_chipa/preferencias" type="text/x-handlebars-template" class="raw_template">
+<div class="candidato datos-lista" style="background-color: {{lista.color}}; color: {{lista.color_tipografia}}; border-color: {{{mod_color -0.5 lista.color}}};">
+    <div class="lista">
+        <p class="palabra-lista">{{i18n "palabra_lista"}}</p>
+        <p class="numero-lista">{{lista.numero}}</p>
+    </div>
+    <div class="foto-candidato">
+        {{imagen_candidatura lista.imagenes.[0]}}
+    </div>
+    <div class="clear"></div>
+    {{colores lista.color}}
+    <div class="nombre-partido">{{lista.nombre}}</div>
+</div>
+
+{{#each candidatos}}
+    <div id="candidato_{{this.id_candidatura}}" class="opcion-preferencia candidato {{this.seleccionado}}" style="border-color: {{{mod_color -0.5 ../lista.color}}};">
+        <div class="foto-preferencia">
+            {{imagen_candidatura this.imagen}}
+        </div>
+        <i class="material-icons"></i>
+        <p class="nro-orden"><span>Opción</span> {{this.nro_orden}}</p>
+        <p class="nombre-candidato">{{this.nombre}}</p>
+    </div>
+{{/each}}
+
+</script>
+</head><body></body></html>
