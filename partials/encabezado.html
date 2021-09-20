@@ -1,0 +1,40 @@
+
+<!-- saved from url=(0054)https://simulador.tsje.gov.py/partials/encabezado.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"></head><body><div id="logo_eleccion">
+    <img class="logo-eleccion imagen-alto-contraste" src="./img/logo_eleccion_alto_contraste_segundo.png">
+    <img class="logo-eleccion" src="./img/logo_eleccion.png">
+</div>
+<!-- <p id="datos_eleccion">
+    <b id="_txt_titulo"></b> <br>
+    <span id="_txt_fecha"></span><br>
+    <span id="_txt_entidad"></span><br>
+</p> -->
+{{#voto}}
+<div id="datos_ubicacion">
+    <div class="label" id="_txt_l_eleccion">Elección: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+    <div class="label" id="_txt_l_distrito">Departamento: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+    <div class="label" id="_txt_l_departamento">Distrito: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+    <div class="label" id="_txt_l_localidad">Zona: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+    <div class="label" id="_txt_l_establecimiento">Local: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+    <div class="label" id="_txt_l_mesa">Mesa: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+</div>
+{{/voto}}
+{{#voto}}
+    <div id="contenedor_solapa"></div>
+{{/voto}}
+{{#escrutinio}}
+    <span id="_txt_escrutinio_mesa" class="titulo-escrutinio">
+    </span>
+{{/escrutinio}}
+{{#mesa}}
+    <span class="num-mesa" id="numero_mesa"></span>
+{{/mesa}}
+<div id="logo_votar">
+    <img class="logo-votar imagen-alto-contraste" src="./img/logo_paraguay_blanco.png">
+    <img class="logo-votar" src="./img/logo_paraguay.png">
+</div>
+
+<div class="cinta-capacitacion">
+    <ul class="cinta"><span id="_txt_cinta_capacitacion"></span></ul>
+</div>
+</body></html>
