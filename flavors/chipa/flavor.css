@@ -1,0 +1,4641 @@
+.opciones.conbarra.max3 .candidato {
+  width: 387px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  height: 615px;
+  margin-top: 10px;
+}
+.opciones.conbarra.max21 .candidato {
+  width: 160.14285714px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  height: 198.33333333px;
+  margin-top: 10px;
+}
+.opciones.conbarra.max28 .candidato {
+  width: 160.14285714px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  height: 146.25px;
+  margin-top: 10px;
+}
+.opciones.conbarra.max30 .candidato {
+  width: 188.5px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  height: 115px;
+  margin-top: 10px;
+}
+.opciones.conbarra.max36 .candidato {
+  width: 188.5px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  height: 94.16666667px;
+  margin-top: 10px;
+}
+.opciones.sinbarra.max3 .candidato {
+  width: 441.66666667px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  height: 615px;
+  margin-top: 10px;
+}
+.opciones.sinbarra.max21 .candidato {
+  width: 183.57142857px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  height: 198.33333333px;
+  margin-top: 10px;
+}
+.opciones.sinbarra.max28 .candidato {
+  width: 183.57142857px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  height: 146.25px;
+  margin-top: 10px;
+}
+.opciones.sinbarra.max30 .candidato {
+  width: 215.83333333px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  height: 115px;
+  margin-top: 10px;
+}
+.opciones.sinbarra.max36 .candidato {
+  width: 215.83333333px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+  height: 94.16666667px;
+  margin-top: 10px;
+}
+#contenedor_izq #contenedor_opciones #voto_blanco {
+  display: none !important;
+}
+#contenedor_opciones {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-right: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#contenedor_opciones #confirmar_seleccion.deshabilitado {
+  background-color: #aaa;
+  border-color: #aaa;
+  pointer-events: none;
+}
+.opciones .candidato * {
+  pointer-events: none;
+}
+.opciones .candidato .foto-candidato,
+.opciones .candidato .foto-partido,
+.opciones .candidato .foto-principal,
+.opciones .candidato .foto-secundaria {
+  display: inline;
+  float: left;
+  width: 33%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.opciones .candidato .color-lista {
+  display: inline;
+  float: left;
+  width: 21%;
+  position: relative;
+  border: 1px solid #cccccc;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.opciones .candidato .color-lista:before {
+  content: "";
+  display: block;
+}
+.opciones .candidato .color-lista .colores1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.opciones .candidato .color-lista .colores2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+}
+.opciones .candidato .color-lista .colores2:nth-child(2) {
+  left: 50%;
+}
+.opciones .candidato .color-lista .colores3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 33.33333333%;
+  height: 100%;
+}
+.opciones .candidato .color-lista .colores3:nth-child(2) {
+  left: 33.33333333%;
+}
+.opciones .candidato .color-lista .colores3:nth-child(3) {
+  left: 66.66666667%;
+}
+.opciones .candidato .lista {
+  margin-bottom: 0.1em;
+  font-size: 2em;
+}
+.opciones .candidato .candidato-principal,
+.opciones .candidato .candidato-secundario,
+.opciones .candidato .nombre-partido {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+.opciones .candidato .lista-candidatos {
+  position: relative;
+  clear: both;
+}
+.opciones .candidato.candidato-persona .nombre-candidato .nombre-lista,
+.opciones .candidato.candidato-persona .nombre-candidato .candidato-principal,
+.opciones .candidato.candidato-persona .nombre-candidato .candidato-secundario {
+  color: inherit;
+}
+.opciones .candidato.boton-lista .nombre-categoria {
+  color: #545859;
+}
+.opciones .candidato.boton-lista .nombre-candidato {
+  color: #003366;
+  font-weight: bold;
+}
+.opciones .candidato.boton-lista .foto-partido {
+  display: inline;
+  float: left;
+  width: 42%;
+}
+.opciones .candidato.boton-lista .foto-candidato {
+  display: inline;
+  float: left;
+  width: 21%;
+}
+.opciones .candidato.boton-lista .color-lista {
+  display: inline;
+  float: left;
+  width: 21%;
+}
+.opciones .candidato.seleccionado {
+  border: 3px solid;
+  -webkit-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.75);
+}
+.opciones.max2 .candidato.candidato-lista-completa.partido .foto-partido {
+  width: 45%;
+}
+.opciones.max2 .candidato.candidato-lista-completa.partido .nombre-partido {
+  font-size: 1.2em;
+  width: 50%;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.opciones.max6 .candidato.candidato-lista-completa.partido .foto-partido {
+  width: 43%;
+}
+.opciones.max6 .candidato.candidato-lista-completa.partido .nombre-partido {
+  font-size: 1.2em;
+  width: 52%;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.opciones.max8 .candidato.candidato-lista-completa.partido .foto-partido {
+  width: 43%;
+}
+.opciones.max8 .candidato.candidato-lista-completa.partido .nombre-partido {
+  font-size: 1.2em;
+  width: 52%;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.opciones.max9 .candidato.candidato-lista-completa.partido .foto-partido {
+  width: 35%;
+}
+.opciones.max9 .candidato.candidato-lista-completa.partido .nombre-partido {
+  font-size: 1.2em;
+  width: 60%;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.opciones.max10 .candidato.candidato-lista-completa.partido .foto-partido {
+  width: 35%;
+}
+.opciones.max10 .candidato.candidato-lista-completa.partido .nombre-partido {
+  font-size: 1.2em;
+  width: 60%;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.opciones.max12 .candidato.candidato-lista-completa.partido .foto-partido {
+  width: 35%;
+}
+.opciones.max12 .candidato.candidato-lista-completa.partido .nombre-partido {
+  font-size: 1.2em;
+  width: 60%;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.opciones.max24 .candidato.candidato-lista-completa.partido .foto-partido {
+  width: 50%;
+}
+.opciones.max24 .candidato.candidato-lista-completa.partido .nombre-partido {
+  font-size: 0.8em;
+  width: 45%;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.opciones.max32 .candidato.candidato-lista-completa.partido .foto-partido {
+  width: 30%;
+}
+.opciones.max32 .candidato.candidato-lista-completa.partido .nombre-partido {
+  font-size: 0.8em;
+  width: 65%;
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.opciones:not(.cargo-ejecutivo-o-preferente-unico) .candidato-persona {
+  display: flex;
+  flex-direction: column;
+}
+.opciones:not(.cargo-ejecutivo-o-preferente-unico) .candidato-persona .foto-partido {
+  display: none;
+}
+.opciones:not(.cargo-ejecutivo-o-preferente-unico) .candidato-persona .lista {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.opciones:not(.cargo-ejecutivo-o-preferente-unico) .candidato-persona .nombre-candidato {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.opciones:not(.cargo-ejecutivo-o-preferente-unico) .candidato-persona .nombre-candidato .nombre-lista,
+.opciones:not(.cargo-ejecutivo-o-preferente-unico) .candidato-persona .nombre-candidato .nombre-corto-lista {
+  text-align: center;
+}
+.opciones:not(.cargo-ejecutivo-o-preferente-unico) .candidato-persona .nombre-candidato .nombre-lista {
+  width: 100%;
+}
+.opciones:not(.cargo-ejecutivo-o-preferente-unico) .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal {
+  font-size: 2.4em;
+}
+.opciones.conbarra .partido .foto-candidato {
+  display: none;
+}
+.opciones.conbarra .partido .color-lista,
+.opciones.conbarra .partido .foto-partido {
+  display: inline;
+  float: left;
+  width: 100%;
+}
+.opciones.conbarra .partido .candidato-blanco {
+  color: #333;
+}
+.opciones.conbarra .partido .candidato-blanco .nombre-candidato .candidato-principal {
+  color: inherit;
+}
+.opciones.sinbarra.max2 .candidato {
+  height: 470px;
+  display: flex;
+}
+.opciones.sinbarra.max10 .candidato {
+  margin-left: 10px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  display: inline;
+  float: left;
+}
+.opciones.max2.cat_DD.preferencias .datos-lista {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 129px;
+  width: calc(100% - 20px);
+}
+.opciones.max2.cat_DD.preferencias .datos-lista .foto-candidato,
+.opciones.max2.cat_DD.preferencias .datos-lista .color-lista {
+  display: none;
+}
+.opciones.max2.cat_DD.preferencias .datos-lista .lista {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.opciones.max2.cat_DD.preferencias .datos-lista .lista .palabra-lista,
+.opciones.max2.cat_DD.preferencias .datos-lista .lista .numero-lista {
+  font-size: 2rem;
+  color: inherit;
+  font-weight: normal;
+}
+.opciones.max2.cat_DD.preferencias .datos-lista .lista .palabra-lista {
+  padding-right: .7rem;
+}
+.opciones.max2.cat_DD.preferencias .datos-lista .nombre-partido {
+  font-size: 2.3rem;
+  text-align: center;
+  margin-top: 0px;
+}
+.opciones.max2.cat_DD.preferencias .opcion-preferencia.candidato {
+  display: inline-block;
+  align-items: center;
+  height: 470px;
+  width: 668px;
+}
+.opciones.max2.cat_DD.preferencias .opcion-preferencia.candidato .foto-preferencia {
+  width: 50%;
+  float: left;
+  margin-top: 20px;
+}
+.opciones.max2.cat_DD.preferencias .opcion-preferencia.candidato .nombre-candidato {
+  text-align: center;
+  font-size: 3rem;
+  float: left;
+  width: 100%;
+}
+.opciones.max2.cat_DD.preferencias .opcion-preferencia.candidato .nro-orden {
+  font-weight: 700;
+  padding-bottom: 5px;
+  float: right;
+  width: 35%;
+  margin-top: 75px;
+  font-size: 6em;
+  text-align: center;
+}
+.opciones.max2.cat_DD.preferencias .opcion-preferencia.candidato .nro-orden span {
+  font-size: 3.5rem;
+  display: block;
+}
+.opciones.max6.preferencias .datos-lista {
+  width: calc(100% - 20px);
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 30%;
+}
+.opciones.max6.preferencias .datos-lista .foto-candidato,
+.opciones.max6.preferencias .datos-lista .color-lista {
+  display: none;
+}
+.opciones.max6.preferencias .datos-lista .lista {
+  display: flex;
+  justify-content: center;
+}
+.opciones.max6.preferencias .datos-lista .lista .palabra-lista,
+.opciones.max6.preferencias .datos-lista .lista .numero-lista {
+  font-size: 2rem;
+  color: inherit;
+}
+.opciones.max6.preferencias .datos-lista .lista .palabra-lista {
+  padding-right: .7rem;
+}
+.opciones.max6.preferencias .datos-lista .nombre-partido {
+  font-size: 3.5rem;
+  text-align: center;
+  color: inherit;
+}
+.opciones.max6.preferencias.opcion-preferencia.candidato {
+  display: inline-block;
+  align-items: center;
+  height: 200px;
+}
+.opciones.max6.preferencias.opcion-preferencia.candidato .foto-preferencia img {
+  width: 150px;
+  float: left;
+  margin-left: 30px;
+}
+.opciones.max6.preferencias.opcion-preferencia.candidato .nombre-candidato {
+  text-align: center;
+  font-size: 1.4rem;
+  width: 100%;
+  float: left;
+  margin-top: 10px;
+}
+.opciones.max6.preferencias.opcion-preferencia.candidato .nro-orden {
+  font-weight: 700;
+  padding-bottom: 5px;
+  float: right;
+  text-align: center;
+  width: 57%;
+  margin-top: 25px;
+  font-size: 4.5rem;
+}
+.opciones.max6.cargo-ejecutivo-o-preferente-unico .candidato-persona .nombre-lista {
+  width: 100%;
+  font-size: 1.7rem;
+  font-weight: bold;
+  height: 55px;
+  text-align: center;
+}
+.opciones.max6.cargo-ejecutivo-o-preferente-unico .candidato-persona .foto-candidato {
+  height: 145px;
+  margin-left: 40px;
+}
+.opciones.max6.cargo-ejecutivo-o-preferente-unico .candidato-persona .lista-con-imagen {
+  text-align: center;
+  align-self: center;
+  width: 50%;
+}
+.opciones.max6.cargo-ejecutivo-o-preferente-unico .candidato-persona .lista-con-imagen .palabra-lista {
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.opciones.max6.cargo-ejecutivo-o-preferente-unico .candidato-persona .lista-con-imagen .numero-lista {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.opciones.max6.cargo-ejecutivo-o-preferente-unico .candidato-persona .lista-con-imagen .nombre-corto-lista {
+  font-size: 1.5rem;
+}
+.opciones.max6.cargo-ejecutivo-o-preferente-unico .candidato-persona .candidato-principal {
+  font-size: 1.9em;
+  text-align: center;
+  color: #000;
+  font-weight: normal;
+}
+.opciones.max6.cargo-ejecutivo-o-preferente-unico .candidato-persona.candidato-blanco {
+  align-items: center;
+}
+.opciones.max6.cargo-ejecutivo-o-preferente-unico .candidato-persona.candidato-blanco .nombre-candidato {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+.opciones.max6.cargo-ejecutivo-o-preferente-unico .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal {
+  font-weight: 700;
+  font-size: 2.8em;
+  text-align: center;
+  margin: auto;
+}
+.opciones.max6.cat_MNA .candidato-persona,
+.opciones.max6.cat_MDE .candidato-persona,
+.opciones.max6.cat_MSE .candidato-persona,
+.opciones.max6.cat_DD .candidato-persona,
+.opciones.max6.cat_CL .candidato-persona,
+.opciones.max6.cat_PVM .candidato-persona,
+.opciones.max6.cat_MFC .candidato-persona {
+  display: flex;
+  flex-direction: column;
+}
+.opciones.max6.cat_MNA .candidato-persona .foto-partido,
+.opciones.max6.cat_MDE .candidato-persona .foto-partido,
+.opciones.max6.cat_MSE .candidato-persona .foto-partido,
+.opciones.max6.cat_DD .candidato-persona .foto-partido,
+.opciones.max6.cat_CL .candidato-persona .foto-partido,
+.opciones.max6.cat_PVM .candidato-persona .foto-partido,
+.opciones.max6.cat_MFC .candidato-persona .foto-partido {
+  display: none;
+}
+.opciones.max6.cat_MNA .candidato-persona .lista,
+.opciones.max6.cat_MDE .candidato-persona .lista,
+.opciones.max6.cat_MSE .candidato-persona .lista,
+.opciones.max6.cat_DD .candidato-persona .lista,
+.opciones.max6.cat_CL .candidato-persona .lista,
+.opciones.max6.cat_PVM .candidato-persona .lista,
+.opciones.max6.cat_MFC .candidato-persona .lista {
+  display: flex;
+  justify-content: center;
+  flex-grow: 0.5;
+  margin: 0rem 0 .5rem 0;
+}
+.opciones.max6.cat_MNA .candidato-persona .lista .palabra-lista,
+.opciones.max6.cat_MDE .candidato-persona .lista .palabra-lista,
+.opciones.max6.cat_MSE .candidato-persona .lista .palabra-lista,
+.opciones.max6.cat_DD .candidato-persona .lista .palabra-lista,
+.opciones.max6.cat_CL .candidato-persona .lista .palabra-lista,
+.opciones.max6.cat_PVM .candidato-persona .lista .palabra-lista,
+.opciones.max6.cat_MFC .candidato-persona .lista .palabra-lista,
+.opciones.max6.cat_MNA .candidato-persona .lista .numero-lista,
+.opciones.max6.cat_MDE .candidato-persona .lista .numero-lista,
+.opciones.max6.cat_MSE .candidato-persona .lista .numero-lista,
+.opciones.max6.cat_DD .candidato-persona .lista .numero-lista,
+.opciones.max6.cat_CL .candidato-persona .lista .numero-lista,
+.opciones.max6.cat_PVM .candidato-persona .lista .numero-lista,
+.opciones.max6.cat_MFC .candidato-persona .lista .numero-lista {
+  font-size: 3rem;
+  color: inherit;
+  margin-top: 15px;
+}
+.opciones.max6.cat_MNA .candidato-persona .lista .palabra-lista,
+.opciones.max6.cat_MDE .candidato-persona .lista .palabra-lista,
+.opciones.max6.cat_MSE .candidato-persona .lista .palabra-lista,
+.opciones.max6.cat_DD .candidato-persona .lista .palabra-lista,
+.opciones.max6.cat_CL .candidato-persona .lista .palabra-lista,
+.opciones.max6.cat_PVM .candidato-persona .lista .palabra-lista,
+.opciones.max6.cat_MFC .candidato-persona .lista .palabra-lista {
+  padding-right: 1rem;
+}
+.opciones.max6.cat_MNA .candidato-persona .nombre-candidato,
+.opciones.max6.cat_MDE .candidato-persona .nombre-candidato,
+.opciones.max6.cat_MSE .candidato-persona .nombre-candidato,
+.opciones.max6.cat_DD .candidato-persona .nombre-candidato,
+.opciones.max6.cat_CL .candidato-persona .nombre-candidato,
+.opciones.max6.cat_PVM .candidato-persona .nombre-candidato,
+.opciones.max6.cat_MFC .candidato-persona .nombre-candidato {
+  width: 100%;
+  height: 100%;
+}
+.opciones.max6.cat_MNA .candidato-persona .nombre-candidato .candidato-principal,
+.opciones.max6.cat_MDE .candidato-persona .nombre-candidato .candidato-principal,
+.opciones.max6.cat_MSE .candidato-persona .nombre-candidato .candidato-principal,
+.opciones.max6.cat_DD .candidato-persona .nombre-candidato .candidato-principal,
+.opciones.max6.cat_CL .candidato-persona .nombre-candidato .candidato-principal,
+.opciones.max6.cat_PVM .candidato-persona .nombre-candidato .candidato-principal,
+.opciones.max6.cat_MFC .candidato-persona .nombre-candidato .candidato-principal {
+  width: 100%;
+}
+.opciones.max6.cat_MNA .candidato-persona .nombre-candidato .nombre-lista,
+.opciones.max6.cat_MDE .candidato-persona .nombre-candidato .nombre-lista,
+.opciones.max6.cat_MSE .candidato-persona .nombre-candidato .nombre-lista,
+.opciones.max6.cat_DD .candidato-persona .nombre-candidato .nombre-lista,
+.opciones.max6.cat_CL .candidato-persona .nombre-candidato .nombre-lista,
+.opciones.max6.cat_PVM .candidato-persona .nombre-candidato .nombre-lista,
+.opciones.max6.cat_MFC .candidato-persona .nombre-candidato .nombre-lista,
+.opciones.max6.cat_MNA .candidato-persona .nombre-candidato .nombre-corto-lista,
+.opciones.max6.cat_MDE .candidato-persona .nombre-candidato .nombre-corto-lista,
+.opciones.max6.cat_MSE .candidato-persona .nombre-candidato .nombre-corto-lista,
+.opciones.max6.cat_DD .candidato-persona .nombre-candidato .nombre-corto-lista,
+.opciones.max6.cat_CL .candidato-persona .nombre-candidato .nombre-corto-lista,
+.opciones.max6.cat_PVM .candidato-persona .nombre-candidato .nombre-corto-lista,
+.opciones.max6.cat_MFC .candidato-persona .nombre-candidato .nombre-corto-lista {
+  text-align: center;
+  font-size: 2.1rem;
+}
+.opciones.max6.cat_MNA .candidato-persona .nombre-candidato .nombre-lista,
+.opciones.max6.cat_MDE .candidato-persona .nombre-candidato .nombre-lista,
+.opciones.max6.cat_MSE .candidato-persona .nombre-candidato .nombre-lista,
+.opciones.max6.cat_DD .candidato-persona .nombre-candidato .nombre-lista,
+.opciones.max6.cat_CL .candidato-persona .nombre-candidato .nombre-lista,
+.opciones.max6.cat_PVM .candidato-persona .nombre-candidato .nombre-lista,
+.opciones.max6.cat_MFC .candidato-persona .nombre-candidato .nombre-lista {
+  font-weight: 700;
+  min-height: 6rem;
+  width: 100%;
+}
+.opciones.max6.cat_MNA .candidato-persona .nombre-candidato .nombre-corto-lista,
+.opciones.max6.cat_MDE .candidato-persona .nombre-candidato .nombre-corto-lista,
+.opciones.max6.cat_MSE .candidato-persona .nombre-candidato .nombre-corto-lista,
+.opciones.max6.cat_DD .candidato-persona .nombre-candidato .nombre-corto-lista,
+.opciones.max6.cat_CL .candidato-persona .nombre-candidato .nombre-corto-lista,
+.opciones.max6.cat_PVM .candidato-persona .nombre-candidato .nombre-corto-lista,
+.opciones.max6.cat_MFC .candidato-persona .nombre-candidato .nombre-corto-lista {
+  font-weight: 500;
+}
+.opciones.max6.cat_MNA .candidato-persona.candidato-blanco,
+.opciones.max6.cat_MDE .candidato-persona.candidato-blanco,
+.opciones.max6.cat_MSE .candidato-persona.candidato-blanco,
+.opciones.max6.cat_DD .candidato-persona.candidato-blanco,
+.opciones.max6.cat_CL .candidato-persona.candidato-blanco,
+.opciones.max6.cat_PVM .candidato-persona.candidato-blanco,
+.opciones.max6.cat_MFC .candidato-persona.candidato-blanco {
+  align-items: center;
+}
+.opciones.max6.cat_MNA .candidato-persona.candidato-blanco .nombre-candidato,
+.opciones.max6.cat_MDE .candidato-persona.candidato-blanco .nombre-candidato,
+.opciones.max6.cat_MSE .candidato-persona.candidato-blanco .nombre-candidato,
+.opciones.max6.cat_DD .candidato-persona.candidato-blanco .nombre-candidato,
+.opciones.max6.cat_CL .candidato-persona.candidato-blanco .nombre-candidato,
+.opciones.max6.cat_PVM .candidato-persona.candidato-blanco .nombre-candidato,
+.opciones.max6.cat_MFC .candidato-persona.candidato-blanco .nombre-candidato {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+.opciones.max6.cat_MNA .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal,
+.opciones.max6.cat_MDE .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal,
+.opciones.max6.cat_MSE .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal,
+.opciones.max6.cat_DD .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal,
+.opciones.max6.cat_CL .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal,
+.opciones.max6.cat_PVM .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal,
+.opciones.max6.cat_MFC .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal {
+  font-weight: 700;
+  font-size: 2.8em;
+  text-align: center;
+  margin: auto;
+}
+.opciones.max6.cat_PVM .candidato_multiple .nombre-lista {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  height: 25px;
+}
+.opciones.max6.cat_RDJ .candidato-persona.candidato-blanco {
+  align-items: center;
+}
+.opciones.max6.cat_RDJ .candidato-persona.candidato-blanco .nombre-candidato {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+.opciones.max6.cat_RDJ .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal {
+  font-weight: 700;
+  font-size: 2.8em;
+  text-align: center;
+  margin: auto;
+}
+.opciones.max8.cat_INT .candidato-persona {
+  display: flex;
+  flex-wrap: wrap;
+}
+.opciones.max8.cat_INT .candidato-persona.candidato-blanco {
+  align-items: center;
+  flex-direction: column;
+}
+.opciones.max8.cat_INT .candidato-persona.candidato-blanco .nombre-candidato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.opciones.max8.cat_INT .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal {
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+  flex-grow: 0;
+}
+.opciones.max8.cat_INT .candidato-persona .lista {
+  order: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  height: 40%;
+  width: 40%;
+  font-size: 3rem;
+}
+.opciones.max8.cat_INT .candidato-persona .lista .palabra-lista {
+  display: none;
+  color: inherit;
+}
+.opciones.max8.cat_INT .candidato-persona .foto-partido {
+  display: none;
+}
+.opciones.max8.cat_INT .candidato-persona .foto-candidato {
+  order: 0;
+  width: 48%;
+  height: 48%;
+  border: 0;
+}
+.opciones.max8.cat_INT .candidato-persona .color-lista {
+  display: none;
+}
+.opciones.max8.cat_INT .candidato-persona .nombre-lista {
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.opciones.max8.cat_INT .candidato-persona .lista-con-imagen {
+  width: 40%;
+  align-self: center;
+}
+.opciones.max8.cat_INT .candidato-persona .lista-con-imagen .palabra-lista {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.opciones.max8.cat_INT .candidato-persona .lista-con-imagen .numero-lista {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+.opciones.max8.cat_INT .candidato-persona .lista-con-imagen .nombre-corto-lista {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.opciones.max8.cat_INT .candidato-persona .candidato-principal {
+  width: 100%;
+  order: 1;
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-align: center;
+  align-self: center;
+  color: #000;
+}
+.opciones.max8.cat_MNA .candidato-persona,
+.opciones.max8.cat_DCO .candidato-persona {
+  display: flex;
+  flex-direction: column;
+}
+.opciones.max8.cat_MNA .candidato-persona .foto-partido,
+.opciones.max8.cat_DCO .candidato-persona .foto-partido {
+  display: none;
+}
+.opciones.max8.cat_MNA .candidato-persona .lista,
+.opciones.max8.cat_DCO .candidato-persona .lista {
+  display: flex;
+  justify-content: center;
+  flex-grow: 0.5;
+  margin: 1rem 0 .5rem 0;
+}
+.opciones.max8.cat_MNA .candidato-persona .lista .palabra-lista,
+.opciones.max8.cat_DCO .candidato-persona .lista .palabra-lista,
+.opciones.max8.cat_MNA .candidato-persona .lista .numero-lista,
+.opciones.max8.cat_DCO .candidato-persona .lista .numero-lista {
+  font-size: 2rem;
+  color: inherit;
+}
+.opciones.max8.cat_MNA .candidato-persona .lista .palabra-lista,
+.opciones.max8.cat_DCO .candidato-persona .lista .palabra-lista {
+  padding-right: 0.3rem;
+}
+.opciones.max8.cat_MNA .candidato-persona .nombre-candidato,
+.opciones.max8.cat_DCO .candidato-persona .nombre-candidato {
+  width: 100%;
+}
+.opciones.max8.cat_MNA .candidato-persona .nombre-candidato .candidato-principal,
+.opciones.max8.cat_DCO .candidato-persona .nombre-candidato .candidato-principal {
+  width: 100%;
+}
+.opciones.max8.cat_MNA .candidato-persona .nombre-candidato .nombre-lista,
+.opciones.max8.cat_DCO .candidato-persona .nombre-candidato .nombre-lista,
+.opciones.max8.cat_MNA .candidato-persona .nombre-candidato .nombre-corto-lista,
+.opciones.max8.cat_DCO .candidato-persona .nombre-candidato .nombre-corto-lista {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.opciones.max8.cat_MNA .candidato-persona .nombre-candidato .nombre-lista,
+.opciones.max8.cat_DCO .candidato-persona .nombre-candidato .nombre-lista {
+  font-weight: 700;
+  min-height: 3rem;
+  width: 100%;
+}
+.opciones.max8.cat_MNA .candidato-persona .nombre-candidato .nombre-corto-lista,
+.opciones.max8.cat_DCO .candidato-persona .nombre-candidato .nombre-corto-lista {
+  font-weight: 500;
+}
+.opciones.max8.cat_MNA .candidato-persona.candidato-blanco,
+.opciones.max8.cat_DCO .candidato-persona.candidato-blanco {
+  align-items: center;
+}
+.opciones.max8.cat_MNA .candidato-persona.candidato-blanco .nombre-candidato,
+.opciones.max8.cat_DCO .candidato-persona.candidato-blanco .nombre-candidato {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+.opciones.max8.cat_MNA .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal,
+.opciones.max8.cat_DCO .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal {
+  font-weight: 700;
+  font-size: 1.5em;
+  text-align: center;
+}
+.opciones.max8 .candidato-persona .lista {
+  font-size: 1.5em;
+}
+.opciones.max8 .candidato-persona .foto-candidato {
+  width: 56%;
+}
+.opciones.max8 .candidato-persona .foto-partido {
+  width: 41%;
+  margin-top: 1px;
+}
+.opciones.max8 .candidato-persona .color-lista {
+  width: 100%;
+}
+.opciones.max8 .candidato-persona .color-lista:before {
+  padding-top: 25px;
+}
+.opciones.max8 .candidato-persona .nombre-partido {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+.opciones.max8 .candidato-persona .nombre-candidato {
+  font-size: 1.1em;
+  margin-top: 0px;
+}
+.opciones.max8 .candidato-persona .nombre-candidato .nombre-lista {
+  font-size: 1em;
+}
+.opciones.max8 .candidato-persona .nombre-candidato .candidato-principal {
+  font-size: 1.2em;
+}
+.opciones.max9.cat_CNJ .candidato-persona {
+  display: flex;
+  flex-direction: column;
+}
+.opciones.max9.cat_CNJ .candidato-persona .foto-partido {
+  display: none;
+}
+.opciones.max9.cat_CNJ .candidato-persona .lista {
+  display: flex;
+  justify-content: center;
+  flex-grow: 0.5;
+  margin: 1rem 0 .5rem 0;
+}
+.opciones.max9.cat_CNJ .candidato-persona .lista .palabra-lista,
+.opciones.max9.cat_CNJ .candidato-persona .lista .numero-lista {
+  font-size: 1.5rem;
+  color: inherit;
+}
+.opciones.max9.cat_CNJ .candidato-persona .lista .palabra-lista {
+  padding-right: 0.3rem;
+}
+.opciones.max9.cat_CNJ .candidato-persona .nombre-candidato {
+  width: 100%;
+}
+.opciones.max9.cat_CNJ .candidato-persona .nombre-candidato .candidato-principal {
+  width: 100%;
+}
+.opciones.max9.cat_CNJ .candidato-persona .nombre-candidato .nombre-lista,
+.opciones.max9.cat_CNJ .candidato-persona .nombre-candidato .nombre-corto-lista {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.opciones.max9.cat_CNJ .candidato-persona .nombre-candidato .nombre-lista {
+  font-weight: 700;
+  min-height: 3rem;
+  width: 100%;
+}
+.opciones.max9.cat_CNJ .candidato-persona .nombre-candidato .nombre-corto-lista {
+  font-weight: 500;
+}
+.opciones.max9.cat_CNJ .candidato-persona.candidato-blanco {
+  align-items: center;
+}
+.opciones.max9.cat_CNJ .candidato-persona.candidato-blanco .nombre-candidato {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+.opciones.max9.cat_CNJ .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal {
+  font-weight: 700;
+  font-size: 1.5em;
+  text-align: center;
+}
+.opciones.max9.preferencias .datos-lista {
+  width: calc(100% - 20px);
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 115px;
+}
+.opciones.max9.preferencias .datos-lista .foto-candidato,
+.opciones.max9.preferencias .datos-lista .color-lista {
+  display: none;
+}
+.opciones.max9.preferencias .datos-lista .lista {
+  display: flex;
+  justify-content: center;
+}
+.opciones.max9.preferencias .datos-lista .lista .palabra-lista,
+.opciones.max9.preferencias .datos-lista .lista .numero-lista {
+  font-size: 2rem;
+  color: inherit;
+}
+.opciones.max9.preferencias .datos-lista .lista .palabra-lista {
+  padding-right: .7rem;
+}
+.opciones.max9.preferencias .datos-lista .nombre-partido {
+  font-size: 3.5rem;
+  text-align: center;
+  color: inherit;
+}
+.opciones.max9.preferencias .opcion-preferencia.candidato {
+  height: 156px;
+}
+.opciones.max9.preferencias .opcion-preferencia.candidato .foto-preferencia {
+  width: 116px;
+  float: left;
+  margin-left: 35px;
+}
+.opciones.max9.preferencias .opcion-preferencia.candidato .nombre-candidato {
+  text-align: center;
+  font-size: 1.5rem;
+  float: left;
+  width: 100%;
+}
+.opciones.max9.preferencias .opcion-preferencia.candidato .nro-orden {
+  font-weight: 700;
+  padding-bottom: 5px;
+  float: right;
+  width: 45%;
+  margin-top: 20px;
+  font-size: 3em;
+  text-align: center;
+}
+.opciones.max9.preferencias .opcion-preferencia.candidato .nro-orden span {
+  font-size: 2rem;
+  display: block;
+}
+.opciones.max10.cat_C.preferencias .datos-lista {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 129px;
+  width: calc(100% - 20px);
+}
+.opciones.max10.cat_C.preferencias .datos-lista .foto-candidato,
+.opciones.max10.cat_C.preferencias .datos-lista .color-lista {
+  display: none;
+}
+.opciones.max10.cat_C.preferencias .datos-lista .lista {
+  display: flex;
+  justify-content: center;
+}
+.opciones.max10.cat_C.preferencias .datos-lista .lista .palabra-lista,
+.opciones.max10.cat_C.preferencias .datos-lista .lista .numero-lista {
+  font-size: 2rem;
+  color: inherit;
+}
+.opciones.max10.cat_C.preferencias .datos-lista .lista .palabra-lista {
+  padding-right: .7rem;
+}
+.opciones.max10.cat_C.preferencias .datos-lista .nombre-partido {
+  font-size: 2.5rem;
+  text-align: center;
+  color: inherit;
+}
+.opciones.max10.cat_C.preferencias .opcion-preferencia.candidato {
+  display: inline-block;
+  align-items: center;
+  height: 231px;
+  width: 261px;
+}
+.opciones.max10.cat_C.preferencias .opcion-preferencia.candidato .foto-preferencia {
+  width: 145px;
+  float: left;
+  margin-top: 20px;
+}
+.opciones.max10.cat_C.preferencias .opcion-preferencia.candidato .nombre-candidato {
+  text-align: center;
+  font-size: 1.5rem;
+  float: left;
+  width: 100%;
+}
+.opciones.max10.cat_C.preferencias .opcion-preferencia.candidato .nro-orden {
+  font-weight: 700;
+  padding-bottom: 5px;
+  float: right;
+  width: 40%;
+  margin-top: 40px;
+  font-size: 3em;
+  text-align: center;
+}
+.opciones.max10.cat_C.preferencias .opcion-preferencia.candidato .nro-orden span {
+  font-size: 1.5rem;
+  display: block;
+}
+.opciones.max12.cat_CNJ .candidato-persona,
+.opciones.max12.cat_DN .candidato-persona,
+.opciones.max12.cat_C .candidato-persona {
+  display: flex;
+  flex-direction: column;
+}
+.opciones.max12.cat_CNJ .candidato-persona .foto-partido,
+.opciones.max12.cat_DN .candidato-persona .foto-partido,
+.opciones.max12.cat_C .candidato-persona .foto-partido {
+  display: none;
+}
+.opciones.max12.cat_CNJ .candidato-persona .lista,
+.opciones.max12.cat_DN .candidato-persona .lista,
+.opciones.max12.cat_C .candidato-persona .lista {
+  display: flex;
+  justify-content: center;
+  flex-grow: 0.5;
+  margin: 0rem 0 .5rem 0;
+}
+.opciones.max12.cat_CNJ .candidato-persona .lista .palabra-lista,
+.opciones.max12.cat_DN .candidato-persona .lista .palabra-lista,
+.opciones.max12.cat_C .candidato-persona .lista .palabra-lista,
+.opciones.max12.cat_CNJ .candidato-persona .lista .numero-lista,
+.opciones.max12.cat_DN .candidato-persona .lista .numero-lista,
+.opciones.max12.cat_C .candidato-persona .lista .numero-lista {
+  font-size: 2.5rem;
+  color: inherit;
+}
+.opciones.max12.cat_CNJ .candidato-persona .lista .palabra-lista,
+.opciones.max12.cat_DN .candidato-persona .lista .palabra-lista,
+.opciones.max12.cat_C .candidato-persona .lista .palabra-lista {
+  padding-right: 1rem;
+}
+.opciones.max12.cat_CNJ .candidato-persona .nombre-candidato,
+.opciones.max12.cat_DN .candidato-persona .nombre-candidato,
+.opciones.max12.cat_C .candidato-persona .nombre-candidato {
+  width: 100%;
+  height: 100%;
+}
+.opciones.max12.cat_CNJ .candidato-persona .nombre-candidato .candidato-principal,
+.opciones.max12.cat_DN .candidato-persona .nombre-candidato .candidato-principal,
+.opciones.max12.cat_C .candidato-persona .nombre-candidato .candidato-principal {
+  width: 100%;
+}
+.opciones.max12.cat_CNJ .candidato-persona .nombre-candidato .nombre-lista,
+.opciones.max12.cat_DN .candidato-persona .nombre-candidato .nombre-lista,
+.opciones.max12.cat_C .candidato-persona .nombre-candidato .nombre-lista,
+.opciones.max12.cat_CNJ .candidato-persona .nombre-candidato .nombre-corto-lista,
+.opciones.max12.cat_DN .candidato-persona .nombre-candidato .nombre-corto-lista,
+.opciones.max12.cat_C .candidato-persona .nombre-candidato .nombre-corto-lista {
+  text-align: center;
+  font-size: 1.5rem;
+}
+.opciones.max12.cat_CNJ .candidato-persona .nombre-candidato .nombre-lista,
+.opciones.max12.cat_DN .candidato-persona .nombre-candidato .nombre-lista,
+.opciones.max12.cat_C .candidato-persona .nombre-candidato .nombre-lista {
+  font-weight: 700;
+  min-height: 4rem;
+  width: 100%;
+}
+.opciones.max12.cat_CNJ .candidato-persona .nombre-candidato .nombre-corto-lista,
+.opciones.max12.cat_DN .candidato-persona .nombre-candidato .nombre-corto-lista,
+.opciones.max12.cat_C .candidato-persona .nombre-candidato .nombre-corto-lista {
+  font-weight: 500;
+}
+.opciones.max12.cat_CNJ .candidato-persona.candidato-blanco,
+.opciones.max12.cat_DN .candidato-persona.candidato-blanco,
+.opciones.max12.cat_C .candidato-persona.candidato-blanco {
+  align-items: center;
+}
+.opciones.max12.cat_CNJ .candidato-persona.candidato-blanco .nombre-candidato,
+.opciones.max12.cat_DN .candidato-persona.candidato-blanco .nombre-candidato,
+.opciones.max12.cat_C .candidato-persona.candidato-blanco .nombre-candidato {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+.opciones.max12.cat_CNJ .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal,
+.opciones.max12.cat_DN .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal,
+.opciones.max12.cat_C .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal {
+  font-weight: 700;
+  font-size: 2em;
+  text-align: center;
+  margin: auto;
+}
+.opciones.max12.cat_CNJ.preferencias .datos-lista,
+.opciones.max12.cat_CL.preferencias .datos-lista,
+.opciones.max12.cat_MFC.preferencias .datos-lista {
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 129px;
+  width: calc(100% - 20px);
+}
+.opciones.max12.cat_CNJ.preferencias .datos-lista .foto-candidato,
+.opciones.max12.cat_CL.preferencias .datos-lista .foto-candidato,
+.opciones.max12.cat_MFC.preferencias .datos-lista .foto-candidato,
+.opciones.max12.cat_CNJ.preferencias .datos-lista .color-lista,
+.opciones.max12.cat_CL.preferencias .datos-lista .color-lista,
+.opciones.max12.cat_MFC.preferencias .datos-lista .color-lista {
+  display: none;
+}
+.opciones.max12.cat_CNJ.preferencias .datos-lista .lista,
+.opciones.max12.cat_CL.preferencias .datos-lista .lista,
+.opciones.max12.cat_MFC.preferencias .datos-lista .lista {
+  display: flex;
+  justify-content: center;
+}
+.opciones.max12.cat_CNJ.preferencias .datos-lista .lista .palabra-lista,
+.opciones.max12.cat_CL.preferencias .datos-lista .lista .palabra-lista,
+.opciones.max12.cat_MFC.preferencias .datos-lista .lista .palabra-lista,
+.opciones.max12.cat_CNJ.preferencias .datos-lista .lista .numero-lista,
+.opciones.max12.cat_CL.preferencias .datos-lista .lista .numero-lista,
+.opciones.max12.cat_MFC.preferencias .datos-lista .lista .numero-lista {
+  font-size: 2rem;
+  color: inherit;
+}
+.opciones.max12.cat_CNJ.preferencias .datos-lista .lista .palabra-lista,
+.opciones.max12.cat_CL.preferencias .datos-lista .lista .palabra-lista,
+.opciones.max12.cat_MFC.preferencias .datos-lista .lista .palabra-lista {
+  padding-right: .7rem;
+}
+.opciones.max12.cat_CNJ.preferencias .datos-lista .nombre-partido,
+.opciones.max12.cat_CL.preferencias .datos-lista .nombre-partido,
+.opciones.max12.cat_MFC.preferencias .datos-lista .nombre-partido {
+  font-size: 2.5rem;
+  text-align: center;
+  color: inherit;
+}
+.opciones.max12.cat_CNJ.preferencias .opcion-preferencia.candidato,
+.opciones.max12.cat_CL.preferencias .opcion-preferencia.candidato,
+.opciones.max12.cat_MFC.preferencias .opcion-preferencia.candidato {
+  display: inline-block;
+  align-items: center;
+  height: 151px;
+}
+.opciones.max12.cat_CNJ.preferencias .opcion-preferencia.candidato .foto-preferencia,
+.opciones.max12.cat_CL.preferencias .opcion-preferencia.candidato .foto-preferencia,
+.opciones.max12.cat_MFC.preferencias .opcion-preferencia.candidato .foto-preferencia {
+  width: 100px;
+  float: left;
+  margin-left: 30px;
+}
+.opciones.max12.cat_CNJ.preferencias .opcion-preferencia.candidato .nombre-candidato,
+.opciones.max12.cat_CL.preferencias .opcion-preferencia.candidato .nombre-candidato,
+.opciones.max12.cat_MFC.preferencias .opcion-preferencia.candidato .nombre-candidato {
+  text-align: center;
+  font-size: 1.5rem;
+  float: left;
+  width: 100%;
+}
+.opciones.max12.cat_CNJ.preferencias .opcion-preferencia.candidato .nro-orden,
+.opciones.max12.cat_CL.preferencias .opcion-preferencia.candidato .nro-orden,
+.opciones.max12.cat_MFC.preferencias .opcion-preferencia.candidato .nro-orden {
+  font-weight: 700;
+  padding-bottom: 5px;
+  float: right;
+  width: 40%;
+  margin-top: 25px;
+  font-size: 3em;
+  text-align: center;
+}
+.opciones.max12.cat_CNJ.preferencias .opcion-preferencia.candidato .nro-orden span,
+.opciones.max12.cat_CL.preferencias .opcion-preferencia.candidato .nro-orden span,
+.opciones.max12.cat_MFC.preferencias .opcion-preferencia.candidato .nro-orden span {
+  font-size: 2rem;
+  display: block;
+}
+.opciones.max24.cat_CNJ .candidato-persona {
+  display: flex;
+  flex-direction: column;
+}
+.opciones.max24.cat_CNJ .candidato-persona .foto-partido {
+  display: none;
+}
+.opciones.max24.cat_CNJ .candidato-persona .lista {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  margin: 1rem 0 .5rem 0;
+}
+.opciones.max24.cat_CNJ .candidato-persona .lista .palabra-lista,
+.opciones.max24.cat_CNJ .candidato-persona .lista .numero-lista {
+  font-size: 1.5rem;
+  color: inherit;
+}
+.opciones.max24.cat_CNJ .candidato-persona .lista .palabra-lista {
+  padding-right: 0.3rem;
+}
+.opciones.max24.cat_CNJ .candidato-persona .nombre-candidato {
+  width: 100%;
+}
+.opciones.max24.cat_CNJ .candidato-persona .nombre-candidato .candidato-principal {
+  width: 100%;
+}
+.opciones.max24.cat_CNJ .candidato-persona .nombre-candidato .nombre-lista,
+.opciones.max24.cat_CNJ .candidato-persona .nombre-candidato .nombre-corto-lista {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.opciones.max24.cat_CNJ .candidato-persona .nombre-candidato .nombre-lista {
+  font-weight: 700;
+  min-height: 3rem;
+  width: 100%;
+}
+.opciones.max24.cat_CNJ .candidato-persona .nombre-candidato .nombre-corto-lista {
+  font-weight: 500;
+}
+.opciones.max24.cat_CNJ .candidato-persona.candidato-blanco {
+  align-items: center;
+}
+.opciones.max24.cat_CNJ .candidato-persona.candidato-blanco .nombre-candidato {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+.opciones.max24.cat_CNJ .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal {
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+}
+.opciones.max24.preferencias .datos-lista {
+  width: calc(100% - 20px);
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 115px;
+}
+.opciones.max24.preferencias .datos-lista .foto-candidato,
+.opciones.max24.preferencias .datos-lista .color-lista {
+  display: none;
+}
+.opciones.max24.preferencias .datos-lista .lista {
+  display: flex;
+  justify-content: center;
+}
+.opciones.max24.preferencias .datos-lista .lista .palabra-lista,
+.opciones.max24.preferencias .datos-lista .lista .numero-lista {
+  font-size: 2rem;
+  color: inherit;
+}
+.opciones.max24.preferencias .datos-lista .lista .palabra-lista {
+  padding-right: .7rem;
+}
+.opciones.max24.preferencias .datos-lista .nombre-partido {
+  font-size: 3rem;
+  text-align: center;
+  color: inherit;
+}
+.opciones.max24.preferencias .opcion-preferencia.candidato {
+  height: 115px;
+}
+.opciones.max24.preferencias .opcion-preferencia.candidato .foto-preferencia {
+  width: 85px;
+  float: left;
+}
+.opciones.max24.preferencias .opcion-preferencia.candidato .nombre-candidato {
+  text-align: center;
+  font-size: 0.9rem;
+  width: 100%;
+  float: left;
+}
+.opciones.max24.preferencias .opcion-preferencia.candidato .nro-orden {
+  font-weight: 600;
+  font-size: 2.5rem;
+  padding-bottom: 5px;
+  float: right;
+  text-align: center;
+  margin-top: 0px;
+  width: 40%;
+}
+.opciones.max24.preferencias .opcion-preferencia.candidato .nro-orden span {
+  font-size: 1rem;
+  display: block;
+}
+.opciones.max30.cat_PVM.preferencias .opcion-preferencia.candidato {
+  height: 90px;
+  display: inline-block;
+  align-items: center;
+}
+.opciones.max30.cat_PVM.preferencias .opcion-preferencia.candidato .foto-preferencia {
+  width: 65px;
+  float: left;
+}
+.opciones.max30.cat_PVM.preferencias .opcion-preferencia.candidato .nombre-candidato {
+  text-align: center;
+  font-size: 0.9rem;
+  width: 100%;
+  float: left;
+}
+.opciones.max30.cat_PVM.preferencias .opcion-preferencia.candidato .nro-orden {
+  font-weight: 600;
+  font-size: 2.5rem;
+  padding-bottom: 5px;
+  float: right;
+  text-align: center;
+  margin-top: 3px;
+  width: 43%;
+}
+.opciones.max30.cat_PVM.preferencias .datos-lista {
+  width: calc(100% - 20px);
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 115px;
+}
+.opciones.max30.cat_PVM.preferencias .datos-lista .foto-candidato,
+.opciones.max30.cat_PVM.preferencias .datos-lista .color-lista {
+  display: none;
+}
+.opciones.max30.cat_PVM.preferencias .datos-lista .lista {
+  display: flex;
+  justify-content: center;
+}
+.opciones.max30.cat_PVM.preferencias .datos-lista .lista .palabra-lista,
+.opciones.max30.cat_PVM.preferencias .datos-lista .lista .numero-lista {
+  font-size: 2rem;
+  color: inherit;
+}
+.opciones.max30.cat_PVM.preferencias .datos-lista .lista .palabra-lista {
+  padding-right: .7rem;
+}
+.opciones.max30.cat_PVM.preferencias .datos-lista .nombre-partido {
+  font-size: 3rem;
+  text-align: center;
+  color: inherit;
+}
+.opciones.max30.preferencias .candidato {
+  height: 103px;
+  padding: 4px;
+}
+.opciones.max30.preferencias .datos-lista {
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  width: calc(100% - 20px);
+}
+.opciones.max30.preferencias .datos-lista .foto-candidato,
+.opciones.max30.preferencias .datos-lista .color-lista {
+  display: none;
+}
+.opciones.max30.preferencias .datos-lista .lista {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+.opciones.max30.preferencias .datos-lista .lista .palabra-lista,
+.opciones.max30.preferencias .datos-lista .lista .numero-lista {
+  font-size: 2rem;
+  color: inherit;
+  font-weight: normal;
+}
+.opciones.max30.preferencias .datos-lista .lista .palabra-lista {
+  padding-right: .7rem;
+}
+.opciones.max30.preferencias .datos-lista .nombre-partido {
+  font-size: 2.3rem;
+  color: inherit;
+  margin-left: 50px;
+  width: auto;
+  margin-top: 0px;
+}
+.opciones.max30.preferencias .opcion-preferencia.candidato {
+  display: inline-block;
+  align-items: center;
+}
+.opciones.max30.preferencias .opcion-preferencia.candidato .foto-preferencia {
+  width: 77px;
+  float: left;
+  margin-left: 15px;
+}
+.opciones.max30.preferencias .opcion-preferencia.candidato .nombre-candidato {
+  text-align: center;
+  font-size: 0.9rem;
+  width: 100%;
+  float: left;
+}
+.opciones.max30.preferencias .opcion-preferencia.candidato .nro-orden {
+  font-weight: 600;
+  font-size: 2.5rem;
+  padding-bottom: 5px;
+  float: right;
+  text-align: center;
+  margin-top: 10px;
+  width: 43%;
+}
+.opciones.max30.preferencias .opcion-preferencia.candidato .nro-orden span {
+  font-size: 1rem;
+  display: block;
+}
+.opciones.max32.cat_CNJ .candidato-persona {
+  display: flex;
+  flex-direction: column;
+}
+.opciones.max32.cat_CNJ .candidato-persona .foto-partido {
+  display: none;
+}
+.opciones.max32.cat_CNJ .candidato-persona .lista {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  margin: 1rem 0 .5rem 0;
+}
+.opciones.max32.cat_CNJ .candidato-persona .lista .palabra-lista,
+.opciones.max32.cat_CNJ .candidato-persona .lista .numero-lista {
+  font-size: 1.5rem;
+  color: inherit;
+}
+.opciones.max32.cat_CNJ .candidato-persona .lista .palabra-lista {
+  padding-right: 0.3rem;
+}
+.opciones.max32.cat_CNJ .candidato-persona .nombre-candidato {
+  width: 100%;
+}
+.opciones.max32.cat_CNJ .candidato-persona .nombre-candidato .candidato-principal {
+  width: 100%;
+}
+.opciones.max32.cat_CNJ .candidato-persona .nombre-candidato .nombre-lista,
+.opciones.max32.cat_CNJ .candidato-persona .nombre-candidato .nombre-corto-lista {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.opciones.max32.cat_CNJ .candidato-persona .nombre-candidato .nombre-lista {
+  font-weight: 700;
+  min-height: 3rem;
+  width: 100%;
+}
+.opciones.max32.cat_CNJ .candidato-persona .nombre-candidato .nombre-corto-lista {
+  font-weight: 500;
+}
+.opciones.max32.cat_CNJ .candidato-persona.candidato-blanco {
+  align-items: center;
+}
+.opciones.max32.cat_CNJ .candidato-persona.candidato-blanco .nombre-candidato {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+.opciones.max32.cat_CNJ .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal {
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+}
+.opciones.max32.preferencias .datos-lista {
+  width: calc(100% - 20px);
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.opciones.max32.preferencias .datos-lista .foto-candidato,
+.opciones.max32.preferencias .datos-lista .color-lista {
+  display: none;
+}
+.opciones.max32.preferencias .datos-lista .lista {
+  display: flex;
+  justify-content: center;
+}
+.opciones.max32.preferencias .datos-lista .lista .palabra-lista,
+.opciones.max32.preferencias .datos-lista .lista .numero-lista {
+  font-size: 2rem;
+  color: inherit;
+}
+.opciones.max32.preferencias .datos-lista .lista .palabra-lista {
+  padding-right: .7rem;
+}
+.opciones.max32.preferencias .datos-lista .nombre-partido {
+  font-size: 3.5rem;
+  text-align: center;
+  color: inherit;
+}
+.opciones.max32.preferencias.opcion-preferencia.candidato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.opciones.max32.preferencias.opcion-preferencia.candidato .foto-preferencia {
+  width: 80px;
+}
+.opciones.max32.preferencias.opcion-preferencia.candidato .nombre-candidato {
+  text-align: center;
+  font-size: .9rem;
+}
+.opciones.max32.preferencias.opcion-preferencia.candidato .nro-orden {
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+.opciones.max40.cat_CNJ .candidato-persona {
+  display: flex;
+  flex-direction: column;
+}
+.opciones.max40.cat_CNJ .candidato-persona .foto-partido {
+  display: none;
+}
+.opciones.max40.cat_CNJ .candidato-persona .lista {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+  margin: 1rem 0 .5rem 0;
+}
+.opciones.max40.cat_CNJ .candidato-persona .lista .palabra-lista,
+.opciones.max40.cat_CNJ .candidato-persona .lista .numero-lista {
+  font-size: 1.5rem;
+  color: inherit;
+}
+.opciones.max40.cat_CNJ .candidato-persona .lista .palabra-lista {
+  padding-right: 0.3rem;
+}
+.opciones.max40.cat_CNJ .candidato-persona .nombre-candidato {
+  width: 100%;
+}
+.opciones.max40.cat_CNJ .candidato-persona .nombre-candidato .candidato-principal {
+  width: 100%;
+}
+.opciones.max40.cat_CNJ .candidato-persona .nombre-candidato .nombre-lista,
+.opciones.max40.cat_CNJ .candidato-persona .nombre-candidato .nombre-corto-lista {
+  text-align: center;
+  font-size: 1.2rem;
+}
+.opciones.max40.cat_CNJ .candidato-persona .nombre-candidato .nombre-lista {
+  font-weight: 700;
+  min-height: 3rem;
+  width: 100%;
+}
+.opciones.max40.cat_CNJ .candidato-persona .nombre-candidato .nombre-corto-lista {
+  font-weight: 500;
+}
+.opciones.max40.cat_CNJ .candidato-persona.candidato-blanco {
+  align-items: center;
+}
+.opciones.max40.cat_CNJ .candidato-persona.candidato-blanco .nombre-candidato {
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+}
+.opciones.max40.cat_CNJ .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal {
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+}
+.opciones.max40.preferencias .datos-lista {
+  width: calc(100% - 20px);
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 14%;
+}
+.opciones.max40.preferencias .datos-lista .foto-candidato,
+.opciones.max40.preferencias .datos-lista .color-lista {
+  display: none;
+}
+.opciones.max40.preferencias .datos-lista .lista {
+  display: flex;
+  justify-content: center;
+}
+.opciones.max40.preferencias .datos-lista .lista .palabra-lista,
+.opciones.max40.preferencias .datos-lista .lista .numero-lista {
+  font-size: 1.5rem;
+  color: inherit;
+}
+.opciones.max40.preferencias .datos-lista .lista .palabra-lista {
+  padding-right: .7rem;
+}
+.opciones.max40.preferencias .datos-lista .nombre-partido {
+  font-size: 2rem;
+  text-align: center;
+  color: inherit;
+}
+.opciones.max40.preferencias.opcion-preferencia.candidato {
+  display: inline-block;
+  align-items: center;
+  height: 95px;
+}
+.opciones.max40.preferencias.opcion-preferencia.candidato .foto-preferencia img {
+  width: 50px;
+  float: left;
+  margin-left: 10px;
+}
+.opciones.max40.preferencias.opcion-preferencia.candidato .nombre-candidato {
+  text-align: center;
+  font-size: .9rem;
+  float: left;
+  width: 100%;
+  margin-top: 5px;
+}
+.opciones.max40.preferencias.opcion-preferencia.candidato .nro-orden {
+  font-weight: 550;
+  padding-bottom: 3px;
+  font-size: 35px;
+  margin-top: 10px;
+  float: right;
+  width: 43%;
+  text-align: left;
+}
+.opciones.cargo-ejecutivo-o-preferente-unico .candidato-persona {
+  display: flex!important;
+  flex-wrap: wrap;
+}
+.opciones.cargo-ejecutivo-o-preferente-unico .candidato-persona.candidato-blanco {
+  align-items: center;
+  flex-direction: column;
+}
+.opciones.cargo-ejecutivo-o-preferente-unico .candidato-persona.candidato-blanco .nombre-candidato {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.opciones.cargo-ejecutivo-o-preferente-unico .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal {
+  font-weight: 700;
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+  flex-grow: 0;
+}
+.opciones.cargo-ejecutivo-o-preferente-unico .candidato-persona .lista {
+  order: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  font-size: 3rem;
+}
+.opciones.cargo-ejecutivo-o-preferente-unico .candidato-persona .lista .palabra-lista {
+  display: none;
+  color: inherit;
+}
+.opciones.cargo-ejecutivo-o-preferente-unico .candidato-persona .foto-partido {
+  display: none;
+}
+.opciones.cargo-ejecutivo-o-preferente-unico .candidato-persona .foto-candidato {
+  order: 0;
+  border: 0;
+}
+.opciones.cargo-ejecutivo-o-preferente-unico .candidato-persona .color-lista {
+  display: none;
+}
+.opciones.cargo-ejecutivo-o-preferente-unico .candidato-persona .nombre-candidato {
+  order: 2;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.opciones.cargo-ejecutivo-o-preferente-unico .candidato-persona .nombre-candidato *:empty {
+  display: none;
+}
+.opciones.cargo-ejecutivo-o-preferente-unico .candidato-persona .nombre-candidato .candidato-principal {
+  order: 1;
+  min-height: 1.8rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+.opciones.cargo-ejecutivo-o-preferente-unico .candidato-persona .nombre-candidato .nombre-lista,
+.opciones.cargo-ejecutivo-o-preferente-unico .candidato-persona .nombre-candidato .nombre-corto-lista {
+  text-align: center;
+  font-size: 1.6rem;
+}
+.opciones.cargo-ejecutivo-o-preferente-unico .candidato-persona .nombre-candidato .nombre-lista {
+  order: 2;
+  font-weight: 700;
+  min-height: 3.3rem;
+  width: 100%;
+}
+.opciones.cargo-ejecutivo-o-preferente-unico .candidato-persona .nombre-candidato .nombre-corto-lista {
+  order: 3;
+  font-weight: 500;
+  padding-bottom: 16px;
+}
+.opciones.cargo-ejecutivo-o-preferente-unico .candidato-persona .nombre-candidato .nombre-lista,
+.opciones.cargo-ejecutivo-o-preferente-unico .candidato-persona .nombre-candidato .candidato-principal,
+.opciones.cargo-ejecutivo-o-preferente-unico .candidato-persona .nombre-candidato .candidato-secundario {
+  padding: 0;
+}
+#contenedor_solapa {
+  top: auto;
+  left: 16%;
+  right: 16%;
+  bottom: 0;
+  margin: auto;
+  position: absolute;
+  font-size: 1em;
+}
+#contenedor_solapa #categoria_votada {
+  color: rgba(255, 255, 255, 0.9);
+  background-color: black;
+}
+.candidato_multiple {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: space-evenly;
+  position: relative;
+}
+.candidato_multiple .candidato_multiple-lista {
+  position: absolute;
+  right: 0;
+  top: 29%;
+}
+.candidato_multiple .candidato_multiple-lista .numero-lista {
+  font-size: 1rem;
+  text-align: center;
+}
+.candidato_multiple .candidato_multiple-lista .palabra-lista {
+  display: block!important;
+  font-size: 1.5rem!important;
+  text-align: center;
+  padding-right: 0rem!important;
+}
+.candidato_multiple .candidato_multiple-lista .nombre-corto-lista {
+  font-size: 1.5rem;
+  text-align: center;
+}
+.candidato_multiple .candidato_multiple-contenedor_imagenes {
+  display: flex;
+}
+.candidato_multiple .candidato_multiple-contenedor_imagenes .foto-candidato {
+  width: 25%!important;
+  height: auto !important;
+}
+.candidato_multiple .candidato_multiple-foto-candidato {
+  float: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: none !important;
+}
+.candidato_multiple .candidato_multiple-lista_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1rem;
+  margin: 0.5em 5px;
+}
+.candidato_multiple .candidato_multiple-cargos {
+  list-style: none;
+}
+.candidato_multiple .candidato_multiple-cargos li {
+  margin: 0.33em 0;
+}
+.candidato_multiple .candidato_multiple-cargos__nombre {
+  display: inline-block;
+  min-width: 15ch;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.candidato_multiple .candidato_multiple-cargos__candidato {
+  font-size: 1.2em;
+}
+.candidato_multiple .candidato_multiple-lista {
+  /*RESETEA ESTILOS DE LISTA QUE NO QUIERO PARA ESTE CARGO*/
+  display: block !important;
+  flex-grow: inherit !important;
+  float: none !important;
+  width: auto !important;
+  height: auto !important;
+  /*Agranda tamano del numero de lista*/
+  font-size: 3rem !important;
+}
+.candidato_multiple .candidato_multiple-lista .numero-lista {
+  margin: 0 !important;
+}
+.candidato_multiple .candidato_multiple-nombre-candidato {
+  display: block !important;
+  height: auto !important;
+  width: auto !important;
+  flex-grow: initial !important;
+  align-self: center !important;
+}
+.candidato_multiple .candidato_multiple-nombre-candidato .nombre-lista {
+  min-height: auto !important;
+  width: auto !important;
+  font-size: 1.66rem !important;
+  padding: 0 !important;
+}
+.candidato_multiple .candidato_multiple-nombre-candidato .nombre-corto-lista {
+  min-height: auto !important;
+  width: auto !important;
+  font-size: 1.66rem !important;
+  padding: 0 !important;
+}
+@media screen and (min-width: 1900px) {
+  #contenedor_opciones .barra_opciones {
+    padding-bottom: 0.75em;
+  }
+  .opciones.sinbarra {
+    width: 1920px;
+    height: 1080px;
+  }
+  .opciones.sinbarra.max2 .candidato {
+    height: 730px;
+    display: flex;
+    width: 945px;
+    font-size: 1.5em;
+  }
+  .opciones.sinbarra.max6 .candidato {
+    width: 625px;
+    height: 445px;
+  }
+  .opciones.sinbarra.max8 .candidato {
+    width: 467px;
+    height: 445px;
+  }
+  .opciones.sinbarra.max12 .candidato {
+    width: 462px;
+    height: 290px;
+    margin-top: 14px;
+    margin-left: 14px;
+  }
+  .opciones.max2.cat_DD.preferencias .datos-lista {
+    height: 160px;
+  }
+  .opciones.max2.cat_DD.preferencias .datos-lista .nombre-partido {
+    font-size: 3.3rem;
+  }
+  .opciones.max2.cat_DD.preferencias .opcion-preferencia.candidato {
+    height: 730px;
+    width: 945px;
+  }
+  .opciones.max2.cat_DD.preferencias .opcion-preferencia.candidato .foto-preferencia {
+    margin-top: 40px;
+  }
+  .opciones.max2.cat_DD.preferencias .opcion-preferencia.candidato .nombre-candidato {
+    align-self: center;
+    font-size: 3em;
+  }
+  .opciones.max2.cat_DD.preferencias .opcion-preferencia.candidato .nro-orden {
+    font-size: 4em;
+    width: 50%;
+    margin-top: 15%;
+  }
+  .opciones.max6.cat_MDE .candidato-persona,
+  .opciones.max6.cat_MNA .candidato-persona,
+  .opciones.max6.cat_MSE .candidato-persona,
+  .opciones.max6.cat_DD .candidato-persona,
+  .opciones.max6.cat_CL .candidato-persona,
+  .opciones.max6.cat_PVM .candidato-persona,
+  .opciones.max6.cat_MFC .candidato-persona {
+    display: flex;
+    flex-direction: column;
+  }
+  .opciones.max6.cat_MDE .candidato-persona .foto-partido,
+  .opciones.max6.cat_MNA .candidato-persona .foto-partido,
+  .opciones.max6.cat_MSE .candidato-persona .foto-partido,
+  .opciones.max6.cat_DD .candidato-persona .foto-partido,
+  .opciones.max6.cat_CL .candidato-persona .foto-partido,
+  .opciones.max6.cat_PVM .candidato-persona .foto-partido,
+  .opciones.max6.cat_MFC .candidato-persona .foto-partido {
+    display: none;
+  }
+  .opciones.max6.cat_MDE .candidato-persona .lista,
+  .opciones.max6.cat_MNA .candidato-persona .lista,
+  .opciones.max6.cat_MSE .candidato-persona .lista,
+  .opciones.max6.cat_DD .candidato-persona .lista,
+  .opciones.max6.cat_CL .candidato-persona .lista,
+  .opciones.max6.cat_PVM .candidato-persona .lista,
+  .opciones.max6.cat_MFC .candidato-persona .lista {
+    display: flex;
+    justify-content: center;
+    flex-grow: 0.4;
+    margin: 0rem 0 .5rem 0;
+  }
+  .opciones.max6.cat_MDE .candidato-persona .lista .palabra-lista,
+  .opciones.max6.cat_MNA .candidato-persona .lista .palabra-lista,
+  .opciones.max6.cat_MSE .candidato-persona .lista .palabra-lista,
+  .opciones.max6.cat_DD .candidato-persona .lista .palabra-lista,
+  .opciones.max6.cat_CL .candidato-persona .lista .palabra-lista,
+  .opciones.max6.cat_PVM .candidato-persona .lista .palabra-lista,
+  .opciones.max6.cat_MFC .candidato-persona .lista .palabra-lista,
+  .opciones.max6.cat_MDE .candidato-persona .lista .numero-lista,
+  .opciones.max6.cat_MNA .candidato-persona .lista .numero-lista,
+  .opciones.max6.cat_MSE .candidato-persona .lista .numero-lista,
+  .opciones.max6.cat_DD .candidato-persona .lista .numero-lista,
+  .opciones.max6.cat_CL .candidato-persona .lista .numero-lista,
+  .opciones.max6.cat_PVM .candidato-persona .lista .numero-lista,
+  .opciones.max6.cat_MFC .candidato-persona .lista .numero-lista {
+    font-size: 4rem;
+    color: inherit;
+  }
+  .opciones.max6.cat_MDE .candidato-persona .lista .numero-lista,
+  .opciones.max6.cat_MNA .candidato-persona .lista .numero-lista,
+  .opciones.max6.cat_MSE .candidato-persona .lista .numero-lista,
+  .opciones.max6.cat_DD .candidato-persona .lista .numero-lista,
+  .opciones.max6.cat_CL .candidato-persona .lista .numero-lista,
+  .opciones.max6.cat_PVM .candidato-persona .lista .numero-lista,
+  .opciones.max6.cat_MFC .candidato-persona .lista .numero-lista {
+    margin-left: 10px;
+  }
+  .opciones.max6.cat_MDE .candidato-persona .lista .palabra-lista,
+  .opciones.max6.cat_MNA .candidato-persona .lista .palabra-lista,
+  .opciones.max6.cat_MSE .candidato-persona .lista .palabra-lista,
+  .opciones.max6.cat_DD .candidato-persona .lista .palabra-lista,
+  .opciones.max6.cat_CL .candidato-persona .lista .palabra-lista,
+  .opciones.max6.cat_PVM .candidato-persona .lista .palabra-lista,
+  .opciones.max6.cat_MFC .candidato-persona .lista .palabra-lista {
+    padding-right: 0.3rem;
+  }
+  .opciones.max6.cat_MDE .candidato-persona .nombre-candidato,
+  .opciones.max6.cat_MNA .candidato-persona .nombre-candidato,
+  .opciones.max6.cat_MSE .candidato-persona .nombre-candidato,
+  .opciones.max6.cat_DD .candidato-persona .nombre-candidato,
+  .opciones.max6.cat_CL .candidato-persona .nombre-candidato,
+  .opciones.max6.cat_PVM .candidato-persona .nombre-candidato,
+  .opciones.max6.cat_MFC .candidato-persona .nombre-candidato {
+    width: 100%;
+  }
+  .opciones.max6.cat_MDE .candidato-persona .nombre-candidato .candidato-principal,
+  .opciones.max6.cat_MNA .candidato-persona .nombre-candidato .candidato-principal,
+  .opciones.max6.cat_MSE .candidato-persona .nombre-candidato .candidato-principal,
+  .opciones.max6.cat_DD .candidato-persona .nombre-candidato .candidato-principal,
+  .opciones.max6.cat_CL .candidato-persona .nombre-candidato .candidato-principal,
+  .opciones.max6.cat_PVM .candidato-persona .nombre-candidato .candidato-principal,
+  .opciones.max6.cat_MFC .candidato-persona .nombre-candidato .candidato-principal {
+    width: 100%;
+  }
+  .opciones.max6.cat_MDE .candidato-persona .nombre-candidato .nombre-lista,
+  .opciones.max6.cat_MNA .candidato-persona .nombre-candidato .nombre-lista,
+  .opciones.max6.cat_MSE .candidato-persona .nombre-candidato .nombre-lista,
+  .opciones.max6.cat_DD .candidato-persona .nombre-candidato .nombre-lista,
+  .opciones.max6.cat_CL .candidato-persona .nombre-candidato .nombre-lista,
+  .opciones.max6.cat_PVM .candidato-persona .nombre-candidato .nombre-lista,
+  .opciones.max6.cat_MFC .candidato-persona .nombre-candidato .nombre-lista,
+  .opciones.max6.cat_MDE .candidato-persona .nombre-candidato .nombre-corto-lista,
+  .opciones.max6.cat_MNA .candidato-persona .nombre-candidato .nombre-corto-lista,
+  .opciones.max6.cat_MSE .candidato-persona .nombre-candidato .nombre-corto-lista,
+  .opciones.max6.cat_DD .candidato-persona .nombre-candidato .nombre-corto-lista,
+  .opciones.max6.cat_CL .candidato-persona .nombre-candidato .nombre-corto-lista,
+  .opciones.max6.cat_PVM .candidato-persona .nombre-candidato .nombre-corto-lista,
+  .opciones.max6.cat_MFC .candidato-persona .nombre-candidato .nombre-corto-lista {
+    text-align: center;
+    font-size: 3.1rem;
+  }
+  .opciones.max6.cat_MDE .candidato-persona .nombre-candidato .nombre-lista,
+  .opciones.max6.cat_MNA .candidato-persona .nombre-candidato .nombre-lista,
+  .opciones.max6.cat_MSE .candidato-persona .nombre-candidato .nombre-lista,
+  .opciones.max6.cat_DD .candidato-persona .nombre-candidato .nombre-lista,
+  .opciones.max6.cat_CL .candidato-persona .nombre-candidato .nombre-lista,
+  .opciones.max6.cat_PVM .candidato-persona .nombre-candidato .nombre-lista,
+  .opciones.max6.cat_MFC .candidato-persona .nombre-candidato .nombre-lista {
+    font-weight: 700;
+    min-height: 10rem;
+    width: 100%;
+  }
+  .opciones.max6.cat_MDE .candidato-persona .nombre-candidato .nombre-corto-lista,
+  .opciones.max6.cat_MNA .candidato-persona .nombre-candidato .nombre-corto-lista,
+  .opciones.max6.cat_MSE .candidato-persona .nombre-candidato .nombre-corto-lista,
+  .opciones.max6.cat_DD .candidato-persona .nombre-candidato .nombre-corto-lista,
+  .opciones.max6.cat_CL .candidato-persona .nombre-candidato .nombre-corto-lista,
+  .opciones.max6.cat_PVM .candidato-persona .nombre-candidato .nombre-corto-lista,
+  .opciones.max6.cat_MFC .candidato-persona .nombre-candidato .nombre-corto-lista {
+    font-weight: 500;
+  }
+  .opciones.max6.cat_MDE .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal,
+  .opciones.max6.cat_MNA .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal,
+  .opciones.max6.cat_MSE .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal,
+  .opciones.max6.cat_DD .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal,
+  .opciones.max6.cat_CL .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal,
+  .opciones.max6.cat_PVM .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal,
+  .opciones.max6.cat_MFC .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal {
+    font-size: 3.8em;
+  }
+  .opciones.max6.cat_PVM .candidato_multiple .nombre-lista {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    height: 45px;
+  }
+  .opciones.max6.cat_PVM .candidato_multiple .candidato_multiple-lista {
+    top: 20%;
+  }
+  .opciones.max6.cargo-ejecutivo-o-preferente-unico .candidato-persona .nombre-lista {
+    width: 100%;
+    font-size: 2.5rem;
+    font-weight: bold;
+    height: 80px;
+  }
+  .opciones.max6.cargo-ejecutivo-o-preferente-unico .candidato-persona .foto-candidato {
+    width: 250px;
+    height: 250px;
+  }
+  .opciones.max6.cargo-ejecutivo-o-preferente-unico .candidato-persona .lista-con-imagen .palabra-lista {
+    font-size: 3rem;
+  }
+  .opciones.max6.cargo-ejecutivo-o-preferente-unico .candidato-persona .lista-con-imagen .numero-lista {
+    font-size: 4rem;
+  }
+  .opciones.max6.cargo-ejecutivo-o-preferente-unico .candidato-persona .lista-con-imagen .nombre-corto-lista {
+    font-size: 3rem;
+  }
+  .opciones.max6.cargo-ejecutivo-o-preferente-unico .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal {
+    font-size: 3.8em;
+  }
+  .opciones.max6.cargo-ejecutivo-o-preferente-unico .candidato-persona .candidato-principal {
+    width: 100%;
+    font-size: 2.5rem;
+    color: #000;
+  }
+  .opciones.max6.preferencias .datos-lista {
+    width: calc(100% - 22px);
+    height: 85px;
+  }
+  .opciones.max6.preferencias .datos-lista .nombre-partido {
+    font-size: 3rem;
+  }
+  .opciones.max6.preferencias .datos-lista .nombre-lista .palabra-lista {
+    font-size: 2rem;
+  }
+  .opciones.max6.preferencias .opcion-preferencia.candidato {
+    height: 351px;
+  }
+  .opciones.max6.preferencias .opcion-preferencia.candidato .foto-preferencia img {
+    width: 252px;
+    margin-left: 50px;
+  }
+  .opciones.max6.preferencias .opcion-preferencia.candidato .nro-orden {
+    font-size: 6rem;
+    width: 38%;
+    text-align: left;
+    margin-top: 92px;
+  }
+  .opciones.max6.preferencias .opcion-preferencia.candidato .nombre-candidato {
+    font-size: 2.5rem;
+    width: 100%;
+    margin-top: 20px;
+  }
+  .opciones.max8.cat_INT .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal {
+    font-size: 3rem;
+  }
+  .opciones.max8.cat_INT .candidato-persona .nombre-lista {
+    font-size: 2rem;
+  }
+  .opciones.max8.cat_INT .candidato-persona .lista-con-imagen .palabra-lista {
+    font-size: 3em;
+  }
+  .opciones.max8.cat_INT .candidato-persona .lista-con-imagen .numero-lista {
+    font-size: 5rem;
+  }
+  .opciones.max8.cat_INT .candidato-persona .lista-con-imagen .nombre-corto-lista {
+    font-size: 2.5rem;
+  }
+  .opciones.max8.cat_INT .candidato-persona .candidato-principal {
+    font-size: 2rem;
+  }
+  .opciones.max8.cat_MNA .candidato-persona,
+  .opciones.max8.cat_DCO .candidato-persona {
+    display: flex;
+    flex-direction: column;
+  }
+  .opciones.max8.cat_MNA .candidato-persona .foto-partido,
+  .opciones.max8.cat_DCO .candidato-persona .foto-partido {
+    display: none;
+  }
+  .opciones.max8.cat_MNA .candidato-persona .lista,
+  .opciones.max8.cat_DCO .candidato-persona .lista {
+    display: flex;
+    justify-content: center;
+    flex-grow: 0.4;
+  }
+  .opciones.max8.cat_MNA .candidato-persona .lista .palabra-lista,
+  .opciones.max8.cat_DCO .candidato-persona .lista .palabra-lista,
+  .opciones.max8.cat_MNA .candidato-persona .lista .numero-lista,
+  .opciones.max8.cat_DCO .candidato-persona .lista .numero-lista {
+    font-size: 3.3rem;
+    color: inherit;
+  }
+  .opciones.max8.cat_MNA .candidato-persona .lista .numero-lista,
+  .opciones.max8.cat_DCO .candidato-persona .lista .numero-lista {
+    margin-left: 10px;
+  }
+  .opciones.max8.cat_MNA .candidato-persona .lista .palabra-lista,
+  .opciones.max8.cat_DCO .candidato-persona .lista .palabra-lista {
+    padding-right: 0.3rem;
+  }
+  .opciones.max8.cat_MNA .candidato-persona .nombre-candidato,
+  .opciones.max8.cat_DCO .candidato-persona .nombre-candidato {
+    width: 100%;
+  }
+  .opciones.max8.cat_MNA .candidato-persona .nombre-candidato .candidato-principal,
+  .opciones.max8.cat_DCO .candidato-persona .nombre-candidato .candidato-principal {
+    width: 100%;
+  }
+  .opciones.max8.cat_MNA .candidato-persona .nombre-candidato .nombre-lista,
+  .opciones.max8.cat_DCO .candidato-persona .nombre-candidato .nombre-lista,
+  .opciones.max8.cat_MNA .candidato-persona .nombre-candidato .nombre-corto-lista,
+  .opciones.max8.cat_DCO .candidato-persona .nombre-candidato .nombre-corto-lista {
+    text-align: center;
+    font-size: 2.4rem;
+  }
+  .opciones.max8.cat_MNA .candidato-persona .nombre-candidato .nombre-lista,
+  .opciones.max8.cat_DCO .candidato-persona .nombre-candidato .nombre-lista {
+    font-weight: 700;
+    min-height: 3rem;
+    width: 100%;
+  }
+  .opciones.max8.cat_MNA .candidato-persona .nombre-candidato .nombre-corto-lista,
+  .opciones.max8.cat_DCO .candidato-persona .nombre-candidato .nombre-corto-lista {
+    font-weight: 500;
+  }
+  .opciones.max8.cat_MNA .candidato-persona.candidato-blanco,
+  .opciones.max8.cat_DCO .candidato-persona.candidato-blanco {
+    align-items: center;
+  }
+  .opciones.max8.cat_MNA .candidato-persona.candidato-blanco .nombre-candidato,
+  .opciones.max8.cat_DCO .candidato-persona.candidato-blanco .nombre-candidato {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+  }
+  .opciones.max8.cat_MNA .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal,
+  .opciones.max8.cat_DCO .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal {
+    font-weight: 700;
+    font-size: 2.4em;
+    text-align: center;
+  }
+  .opciones.max9.cat_CNJ .candidato-persona {
+    display: flex;
+    flex-direction: column;
+  }
+  .opciones.max9.cat_CNJ .candidato-persona .foto-partido {
+    display: none;
+  }
+  .opciones.max9.cat_CNJ .candidato-persona .lista {
+    display: flex;
+    justify-content: center;
+    flex-grow: 0.5;
+    margin: 1rem 0.5rem 0;
+  }
+  .opciones.max9.cat_CNJ .candidato-persona .lista .palabra-lista,
+  .opciones.max9.cat_CNJ .candidato-persona .lista .numero-lista {
+    font-size: 1.5rem;
+    color: inherit;
+  }
+  .opciones.max9.cat_CNJ .candidato-persona .lista .numero-lista {
+    margin-left: 10px;
+  }
+  .opciones.max9.cat_CNJ .candidato-persona .lista .palabra-lista {
+    padding-right: 0.3rem;
+  }
+  .opciones.max9.cat_CNJ .candidato-persona .nombre-candidato {
+    width: 100%;
+  }
+  .opciones.max9.cat_CNJ .candidato-persona .nombre-candidato .candidato-principal {
+    width: 100%;
+  }
+  .opciones.max9.cat_CNJ .candidato-persona .nombre-candidato .nombre-lista,
+  .opciones.max9.cat_CNJ .candidato-persona .nombre-candidato .nombre-corto-lista {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .opciones.max9.cat_CNJ .candidato-persona .nombre-candidato .nombre-lista {
+    font-weight: 700;
+    min-height: 3rem;
+    width: 100%;
+  }
+  .opciones.max9.cat_CNJ .candidato-persona .nombre-candidato .nombre-corto-lista {
+    font-weight: 500;
+  }
+  .opciones.max9.cat_CNJ .candidato-persona.candidato-blanco {
+    align-items: center;
+  }
+  .opciones.max9.cat_CNJ .candidato-persona.candidato-blanco .nombre-candidato {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+  }
+  .opciones.max9.cat_CNJ .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal {
+    font-weight: 700;
+    font-size: 1.5em;
+    text-align: center;
+  }
+  .opciones.max9.preferencias .datos-lista {
+    height: 160px;
+  }
+  .opciones.max9.preferencias .datos-lista .nombre-partido {
+    font-size: 3rem;
+  }
+  .opciones.max9.preferencias .datos-lista .nombre-lista .palabra-lista {
+    font-size: 2rem;
+  }
+  .opciones.max9.preferencias .datos-lista .foto-candidato,
+  .opciones.max9.preferencias .datos-lista .color-lista {
+    display: none;
+  }
+  .opciones.max9.preferencias .datos-lista .lista {
+    display: flex;
+    justify-content: center;
+  }
+  .opciones.max9.preferencias .datos-lista .lista .palabra-lista,
+  .opciones.max9.preferencias .datos-lista .lista .numero-lista {
+    font-size: 2rem;
+    color: inherit;
+  }
+  .opciones.max9.preferencias .datos-lista .lista .numero-lista {
+    margin-left: 10px;
+  }
+  .opciones.max9.preferencias .datos-lista .lista .palabra-lista {
+    padding-right: .7rem;
+  }
+  .opciones.max9.preferencias .datos-lista .nombre-partido {
+    font-size: 3.5rem;
+    text-align: center;
+    color: inherit;
+  }
+  .opciones.max9.preferencias .opcion-preferencia.candidato {
+    width: 625px;
+    height: 237px;
+  }
+  .opciones.max9.preferencias .opcion-preferencia.candidato .foto-preferencia {
+    width: 170px;
+    margin-left: 70px;
+  }
+  .opciones.max9.preferencias .opcion-preferencia.candidato .nombre-candidato {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .opciones.max9.preferencias .opcion-preferencia.candidato .nro-orden {
+    font-size: 4em;
+    width: 50%;
+    margin-top: 40px;
+  }
+  .opciones.max10.cat_C.preferencias .datos-lista {
+    height: 160px;
+  }
+  .opciones.max10.cat_C.preferencias .datos-lista .nombre-partido {
+    font-size: 3.5rem;
+  }
+  .opciones.max10.cat_C.preferencias .opcion-preferencia.candidato {
+    height: 360px;
+    width: 372px;
+  }
+  .opciones.max10.cat_C.preferencias .opcion-preferencia.candidato .foto-preferencia {
+    width: 220px;
+    margin-top: 15px;
+  }
+  .opciones.max10.cat_C.preferencias .opcion-preferencia.candidato .nombre-candidato {
+    font-size: 2rem;
+  }
+  .opciones.max10.cat_C.preferencias .opcion-preferencia.candidato .nro-orden {
+    font-size: 3.8em;
+    width: 35%;
+    margin-top: 70px;
+  }
+  .opciones.max12.cat_CNJ .candidato-persona .lista .palabra-lista,
+  .opciones.max12.cat_DN .candidato-persona .lista .palabra-lista,
+  .opciones.max12.cat_C .candidato-persona .lista .palabra-lista,
+  .opciones.max12.cat_CL .candidato-persona .lista .palabra-lista,
+  .opciones.max12.cat_MFC .candidato-persona .lista .palabra-lista,
+  .opciones.max12.cat_CNJ .candidato-persona .lista .numero-lista,
+  .opciones.max12.cat_DN .candidato-persona .lista .numero-lista,
+  .opciones.max12.cat_C .candidato-persona .lista .numero-lista,
+  .opciones.max12.cat_CL .candidato-persona .lista .numero-lista,
+  .opciones.max12.cat_MFC .candidato-persona .lista .numero-lista {
+    font-size: 3.5rem;
+  }
+  .opciones.max12.cat_CNJ .candidato-persona .lista .numero-lista,
+  .opciones.max12.cat_DN .candidato-persona .lista .numero-lista,
+  .opciones.max12.cat_C .candidato-persona .lista .numero-lista,
+  .opciones.max12.cat_CL .candidato-persona .lista .numero-lista,
+  .opciones.max12.cat_MFC .candidato-persona .lista .numero-lista {
+    margin-left: 10px;
+  }
+  .opciones.max12.cat_CNJ .candidato-persona .lista .palabra-lista,
+  .opciones.max12.cat_DN .candidato-persona .lista .palabra-lista,
+  .opciones.max12.cat_C .candidato-persona .lista .palabra-lista,
+  .opciones.max12.cat_CL .candidato-persona .lista .palabra-lista,
+  .opciones.max12.cat_MFC .candidato-persona .lista .palabra-lista {
+    padding-right: 0.3rem;
+  }
+  .opciones.max12.cat_CNJ .candidato-persona .nombre-candidato,
+  .opciones.max12.cat_DN .candidato-persona .nombre-candidato,
+  .opciones.max12.cat_C .candidato-persona .nombre-candidato,
+  .opciones.max12.cat_CL .candidato-persona .nombre-candidato,
+  .opciones.max12.cat_MFC .candidato-persona .nombre-candidato {
+    width: 100%;
+  }
+  .opciones.max12.cat_CNJ .candidato-persona .nombre-candidato .candidato-principal,
+  .opciones.max12.cat_DN .candidato-persona .nombre-candidato .candidato-principal,
+  .opciones.max12.cat_C .candidato-persona .nombre-candidato .candidato-principal,
+  .opciones.max12.cat_CL .candidato-persona .nombre-candidato .candidato-principal,
+  .opciones.max12.cat_MFC .candidato-persona .nombre-candidato .candidato-principal {
+    width: 100%;
+    font-size: 2em;
+  }
+  .opciones.max12.cat_CNJ .candidato-persona .nombre-candidato .nombre-lista,
+  .opciones.max12.cat_DN .candidato-persona .nombre-candidato .nombre-lista,
+  .opciones.max12.cat_C .candidato-persona .nombre-candidato .nombre-lista,
+  .opciones.max12.cat_CL .candidato-persona .nombre-candidato .nombre-lista,
+  .opciones.max12.cat_MFC .candidato-persona .nombre-candidato .nombre-lista,
+  .opciones.max12.cat_CNJ .candidato-persona .nombre-candidato .nombre-corto-lista,
+  .opciones.max12.cat_DN .candidato-persona .nombre-candidato .nombre-corto-lista,
+  .opciones.max12.cat_C .candidato-persona .nombre-candidato .nombre-corto-lista,
+  .opciones.max12.cat_CL .candidato-persona .nombre-candidato .nombre-corto-lista,
+  .opciones.max12.cat_MFC .candidato-persona .nombre-candidato .nombre-corto-lista {
+    text-align: center;
+    font-size: 2.2rem;
+  }
+  .opciones.max12.cat_CNJ .candidato-persona .nombre-candidato .nombre-lista,
+  .opciones.max12.cat_DN .candidato-persona .nombre-candidato .nombre-lista,
+  .opciones.max12.cat_C .candidato-persona .nombre-candidato .nombre-lista,
+  .opciones.max12.cat_CL .candidato-persona .nombre-candidato .nombre-lista,
+  .opciones.max12.cat_MFC .candidato-persona .nombre-candidato .nombre-lista {
+    font-weight: 700;
+    min-height: 5rem;
+    width: 100%;
+  }
+  .opciones.max12.cat_CNJ .candidato-persona .nombre-candidato .nombre-corto-lista,
+  .opciones.max12.cat_DN .candidato-persona .nombre-candidato .nombre-corto-lista,
+  .opciones.max12.cat_C .candidato-persona .nombre-candidato .nombre-corto-lista,
+  .opciones.max12.cat_CL .candidato-persona .nombre-candidato .nombre-corto-lista,
+  .opciones.max12.cat_MFC .candidato-persona .nombre-candidato .nombre-corto-lista {
+    font-weight: 500;
+  }
+  .opciones.max12.cat_CNJ .candidato-persona.candidato-blanco,
+  .opciones.max12.cat_DN .candidato-persona.candidato-blanco,
+  .opciones.max12.cat_C .candidato-persona.candidato-blanco,
+  .opciones.max12.cat_CL .candidato-persona.candidato-blanco,
+  .opciones.max12.cat_MFC .candidato-persona.candidato-blanco {
+    align-items: center;
+  }
+  .opciones.max12.cat_CNJ .candidato-persona.candidato-blanco .nombre-candidato,
+  .opciones.max12.cat_DN .candidato-persona.candidato-blanco .nombre-candidato,
+  .opciones.max12.cat_C .candidato-persona.candidato-blanco .nombre-candidato,
+  .opciones.max12.cat_CL .candidato-persona.candidato-blanco .nombre-candidato,
+  .opciones.max12.cat_MFC .candidato-persona.candidato-blanco .nombre-candidato {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+  }
+  .opciones.max12.cat_CNJ .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal,
+  .opciones.max12.cat_DN .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal,
+  .opciones.max12.cat_C .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal,
+  .opciones.max12.cat_CL .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal,
+  .opciones.max12.cat_MFC .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal {
+    font-weight: 700;
+    font-size: 3em;
+    text-align: center;
+  }
+  .opciones.max12.cat_CNJ.preferencias .datos-lista,
+  .opciones.max12.cat_DN.preferencias .datos-lista,
+  .opciones.max12.cat_C.preferencias .datos-lista,
+  .opciones.max12.cat_CL.preferencias .datos-lista,
+  .opciones.max12.cat_MFC.preferencias .datos-lista {
+    height: 160px;
+  }
+  .opciones.max12.cat_CNJ.preferencias .datos-lista .nombre-partido,
+  .opciones.max12.cat_DN.preferencias .datos-lista .nombre-partido,
+  .opciones.max12.cat_C.preferencias .datos-lista .nombre-partido,
+  .opciones.max12.cat_CL.preferencias .datos-lista .nombre-partido,
+  .opciones.max12.cat_MFC.preferencias .datos-lista .nombre-partido {
+    font-size: 3rem;
+  }
+  .opciones.max12.cat_CNJ.preferencias .datos-lista .nombre-partido,
+  .opciones.max12.cat_DN.preferencias .datos-lista .nombre-partido,
+  .opciones.max12.cat_C.preferencias .datos-lista .nombre-partido,
+  .opciones.max12.cat_CL.preferencias .datos-lista .nombre-partido,
+  .opciones.max12.cat_MFC.preferencias .datos-lista .nombre-partido {
+    font-size: 3.5rem;
+  }
+  .opciones.max12.cat_CNJ.preferencias .opcion-preferencia.candidato,
+  .opciones.max12.cat_DN.preferencias .opcion-preferencia.candidato,
+  .opciones.max12.cat_C.preferencias .opcion-preferencia.candidato,
+  .opciones.max12.cat_CL.preferencias .opcion-preferencia.candidato,
+  .opciones.max12.cat_MFC.preferencias .opcion-preferencia.candidato {
+    height: 232px;
+  }
+  .opciones.max12.cat_CNJ.preferencias .opcion-preferencia.candidato .foto-preferencia,
+  .opciones.max12.cat_DN.preferencias .opcion-preferencia.candidato .foto-preferencia,
+  .opciones.max12.cat_C.preferencias .opcion-preferencia.candidato .foto-preferencia,
+  .opciones.max12.cat_CL.preferencias .opcion-preferencia.candidato .foto-preferencia,
+  .opciones.max12.cat_MFC.preferencias .opcion-preferencia.candidato .foto-preferencia {
+    width: 155px;
+  }
+  .opciones.max12.cat_CNJ.preferencias .opcion-preferencia.candidato .nombre-candidato,
+  .opciones.max12.cat_DN.preferencias .opcion-preferencia.candidato .nombre-candidato,
+  .opciones.max12.cat_C.preferencias .opcion-preferencia.candidato .nombre-candidato,
+  .opciones.max12.cat_CL.preferencias .opcion-preferencia.candidato .nombre-candidato,
+  .opciones.max12.cat_MFC.preferencias .opcion-preferencia.candidato .nombre-candidato {
+    font-size: 2rem;
+  }
+  .opciones.max12.cat_CNJ.preferencias .opcion-preferencia.candidato .nro-orden,
+  .opciones.max12.cat_DN.preferencias .opcion-preferencia.candidato .nro-orden,
+  .opciones.max12.cat_C.preferencias .opcion-preferencia.candidato .nro-orden,
+  .opciones.max12.cat_CL.preferencias .opcion-preferencia.candidato .nro-orden,
+  .opciones.max12.cat_MFC.preferencias .opcion-preferencia.candidato .nro-orden {
+    font-size: 4rem;
+    width: 40%;
+  }
+  .opciones.max24.cat_CNJ .candidato-persona {
+    display: flex;
+    flex-direction: column;
+  }
+  .opciones.max24.cat_CNJ .candidato-persona .foto-partido {
+    display: none;
+  }
+  .opciones.max24.cat_CNJ .candidato-persona .lista {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    margin: 1rem 0 .5rem 0;
+  }
+  .opciones.max24.cat_CNJ .candidato-persona .lista .palabra-lista,
+  .opciones.max24.cat_CNJ .candidato-persona .lista .numero-lista {
+    font-size: 1.5rem;
+    color: inherit;
+  }
+  .opciones.max24.cat_CNJ .candidato-persona .lista .numero-lista {
+    margin-left: 10px;
+  }
+  .opciones.max24.cat_CNJ .candidato-persona .lista .palabra-lista {
+    padding-right: 0.3rem;
+  }
+  .opciones.max24.cat_CNJ .candidato-persona .nombre-candidato {
+    width: 100%;
+  }
+  .opciones.max24.cat_CNJ .candidato-persona .nombre-candidato .candidato-principal {
+    width: 100%;
+  }
+  .opciones.max24.cat_CNJ .candidato-persona .nombre-candidato .nombre-lista,
+  .opciones.max24.cat_CNJ .candidato-persona .nombre-candidato .nombre-corto-lista {
+    text-align: center;
+    font-size: 1.2rem;
+  }
+  .opciones.max24.cat_CNJ .candidato-persona .nombre-candidato .nombre-lista {
+    font-weight: 700;
+    min-height: 3rem;
+    width: 100%;
+  }
+  .opciones.max24.cat_CNJ .candidato-persona .nombre-candidato .nombre-corto-lista {
+    font-weight: 500;
+  }
+  .opciones.max24.cat_CNJ .candidato-persona.candidato-blanco {
+    align-items: center;
+  }
+  .opciones.max24.cat_CNJ .candidato-persona.candidato-blanco .nombre-candidato {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+  }
+  .opciones.max24.cat_CNJ .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal {
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .opciones.max24.preferencias .datos-lista {
+    height: 160px;
+  }
+  .opciones.max24.preferencias .datos-lista .nombre-partido {
+    font-size: 3rem;
+  }
+  .opciones.max24.preferencias .datos-lista .nombre-lista .palabra-lista {
+    font-size: 2rem;
+  }
+  .opciones.max24.preferencias .datos-lista .foto-candidato,
+  .opciones.max24.preferencias .datos-lista .color-lista {
+    display: none;
+  }
+  .opciones.max24.preferencias .datos-lista .lista {
+    display: flex;
+    justify-content: center;
+  }
+  .opciones.max24.preferencias .datos-lista .lista .palabra-lista,
+  .opciones.max24.preferencias .datos-lista .lista .numero-lista {
+    font-size: 2rem;
+    color: inherit;
+  }
+  .opciones.max24.preferencias .datos-lista .lista .palabra-lista {
+    padding-right: .7rem;
+  }
+  .opciones.max24.preferencias .datos-lista .nombre-partido {
+    font-size: 3rem;
+    text-align: center;
+    color: inherit;
+  }
+  .opciones.max24.preferencias .opcion-preferencia.candidato {
+    height: 176px!important;
+    width: 308px;
+  }
+  .opciones.max24.preferencias .opcion-preferencia.candidato .foto-preferencia {
+    width: 40%;
+  }
+  .opciones.max24.preferencias .opcion-preferencia.candidato .nombre-candidato {
+    font-size: 1.4rem;
+  }
+  .opciones.max24.preferencias .opcion-preferencia.candidato .nro-orden {
+    font-size: 3rem;
+    width: 50%;
+    margin-top: 10%;
+  }
+  .opciones.max30.cat_PVM.preferencias .opcion-preferencia.candidato {
+    height: 139px;
+  }
+  .opciones.max30.cat_PVM.preferencias .opcion-preferencia.candidato .foto-preferencia {
+    width: 100px;
+    margin-left: 30px;
+  }
+  .opciones.max30.cat_PVM.preferencias .opcion-preferencia.candidato .nombre-candidato {
+    font-size: 1.5rem;
+  }
+  .opciones.max30.cat_PVM.preferencias .opcion-preferencia.candidato .nro-orden {
+    font-size: 2.5rem;
+    margin-top: 20px;
+    width: 50%;
+  }
+  .opciones.max30.cat_PVM.preferencias .datos-lista {
+    height: 160px;
+  }
+  .opciones.max30.cat_PVM.preferencias .datos-lista .nombre-partido {
+    font-size: 4rem;
+  }
+  .opciones.max30.preferencias .opcion-preferencia.candidato {
+    width: 308px;
+    height: 161px;
+  }
+  .opciones.max30.preferencias .opcion-preferencia.candidato .foto-preferencia {
+    width: 100px;
+  }
+  .opciones.max30.preferencias .opcion-preferencia.candidato .nombre-candidato {
+    width: 100%;
+    font-size: 1.8rem;
+  }
+  .opciones.max30.preferencias .opcion-preferencia.candidato .nro-orden {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .opciones.max30.preferencias .opcion-preferencia .datos-lista {
+    width: calc(100% - 22px);
+    height: 85px;
+  }
+  .opciones.max30.preferencias .opcion-preferencia .datos-lista .nombre-partido {
+    font-size: 3.5rem;
+    align-self: center;
+  }
+  .opciones.max30.preferencias .opcion-preferencia .datos-lista .lista .palabra-lista,
+  .opciones.max30.preferencias .opcion-preferencia .datos-lista .lista .numero-lista {
+    font-size: 3rem;
+  }
+  .opciones.max40.preferencias .opcion-preferencia.candidato {
+    width: 228px;
+    height: 135px!important;
+  }
+  .opciones.max40.preferencias .opcion-preferencia.candidato .foto-preferencia img {
+    margin-left: 20px;
+    width: 92px;
+  }
+  .opciones.max40.preferencias .opcion-preferencia.candidato .nro-orden {
+    width: 45%;
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 30px;
+  }
+  .opciones.max40.preferencias .opcion-preferencia.candidato .nombre-candidato {
+    width: 100%;
+    font-size: 1.1rem;
+    margin-top: 10px;
+  }
+  .opciones.max40.preferencias .datos-lista {
+    width: calc(100% - 27px);
+    height: 160px;
+  }
+  .opciones.max40.preferencias .datos-lista .nombre-partido {
+    font-size: 3rem;
+  }
+  .opciones.max40.preferencias .datos-lista .lista .palabra-lista,
+  .opciones.max40.preferencias .datos-lista .lista .numero-lista {
+    font-size: 2rem;
+  }
+  .candidato_multiple .candidato_multiple-lista .numero-lista {
+    font-size: 1.3em!important;
+  }
+  .candidato_multiple .candidato_multiple-lista .palabra-lista {
+    font-size: 2.3rem!important;
+  }
+  .candidato_multiple .candidato_multiple-lista .nombre-corto-lista {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .candidato_multiple .candidato_multiple-lista_container {
+    font-size: 1.5rem;
+  }
+  .candidato_multiple .candidato_multiple-nombre-candidato .nombre-lista {
+    font-size: 2rem !important;
+  }
+  .candidato_multiple .candidato_multiple-nombre-candidato .nombre-corto-lista {
+    font-size: 2rem !important;
+  }
+}
+body[data-state='alto-contraste'] #encabezado #logo_votar {
+  top: 5px;
+}
+body[data-state='alto-contraste'] #encabezado #logo_votar img {
+  width: 100%;
+  float: right;
+  background-color: transparent;
+}
+body[data-state='alto-contraste'] #contenedor_solapa {
+  left: 12%;
+  right: 12%;
+}
+body[data-state='alto-contraste'] #encabezado .logo-eleccion {
+  width: 11%;
+  background-color: transparent;
+}
+body[data-state='alto-contraste'] .confirmados .candidato-secundario {
+  font-size: 1.2rem;
+}
+body[data-state='alto-contraste'] .candidato {
+  background-color: #000 !important;
+  color: #fff !important;
+  border-color: #fff !important;
+}
+body[data-state='alto-contraste'] .candidato .lista-candidatos .nombre-candidato,
+body[data-state='alto-contraste'] .candidato .lista-candidatos .nombre-categoria {
+  display: inline-block;
+  width: 100%;
+}
+body[data-state='alto-contraste'] .candidato .foto-candidato,
+body[data-state='alto-contraste'] .candidato .foto-partido,
+body[data-state='alto-contraste'] .candidato .foto-preferencia {
+  display: none;
+}
+body[data-state='alto-contraste'] .opciones .candidato-principal,
+body[data-state='alto-contraste'] .opciones .candidato-secundario,
+body[data-state='alto-contraste'] .opciones .nombre-lista {
+  padding: 0 !important;
+}
+body[data-state='alto-contraste'] .opciones .nombre-categoria {
+  padding-top: 0.5rem;
+}
+body[data-state='alto-contraste'] .opciones .candidato.candidato-lista-completa .nombre-partido {
+  width: 80%;
+}
+body[data-state='alto-contraste'] .opciones .candidato.candidato-lista-completa .nombre-candidato,
+body[data-state='alto-contraste'] .opciones .candidato.candidato-lista-completa .nombre-categoria {
+  color: #ffffff;
+}
+body[data-state='alto-contraste'] .opciones .candidato .opciones .candidato-persona .lista {
+  width: 100%;
+}
+body[data-state='alto-contraste'] .opciones.max2.cat_DD.preferencias .opcion-preferencia.candidato .nro-orden {
+  width: 100%;
+  font-size: 6rem;
+  margin-top: 20%;
+}
+body[data-state='alto-contraste'] .opciones.max2.cat_DD.preferencias .opcion-preferencia.candidato .nombre-candidato {
+  font-size: 3rem;
+}
+body[data-state='alto-contraste'] .opciones.max6 .candidato-persona .lista {
+  height: 100px;
+  padding-top: 1rem;
+}
+body[data-state='alto-contraste'] .opciones.max6 .candidato-persona .lista .palabra-lista,
+body[data-state='alto-contraste'] .opciones.max6 .candidato-persona .lista .numero-lista {
+  font-size: 3rem;
+}
+body[data-state='alto-contraste'] .opciones.max6 .candidato-persona .nombre-candidato .nombre-corto-lista {
+  font-size: 25px;
+}
+body[data-state='alto-contraste'] .opciones.max6 .candidato-persona .nombre-candidato .candidato-principal {
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+}
+body[data-state='alto-contraste'] .opciones.max6 .candidato-persona .nombre-candidato .candidato-secundario {
+  font-size: 1.2rem;
+}
+body[data-state='alto-contraste'] .opciones.max6 .candidato-persona .nombre-candidato .nombre-lista {
+  font-size: 2.2rem;
+}
+body[data-state='alto-contraste'] .opciones.max6 .candidato-persona .nombre-candidato.candidato-blanco {
+  font-size: 2.5rem;
+}
+body[data-state='alto-contraste'] .opciones.max6.cargo-ejecutivo-o-preferente-unico .candidato-persona .lista-con-imagen {
+  width: 100%;
+}
+body[data-state='alto-contraste'] .opciones.max6.cargo-ejecutivo-o-preferente-unico .candidato-persona .nombre-lista {
+  font-size: 2.5rem;
+}
+body[data-state='alto-contraste'] .opciones.max6.cargo-ejecutivo-o-preferente-unico .candidato-persona .candidato-principal {
+  color: #fff;
+}
+body[data-state='alto-contraste'] .opciones.max6.cargo-ejecutivo-o-preferente-unico .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal {
+  color: #FFF;
+}
+body[data-state='alto-contraste'] .opciones.max6.cat_PVP .candidato_multiple {
+  height: 100%;
+  width: 100%;
+}
+body[data-state='alto-contraste'] .opciones.max6.cat_PVP .candidato_multiple .nombre-lista {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100%;
+}
+body[data-state='alto-contraste'] .opciones.max6.cat_PVP .candidato_multiple .candidato_multiple-lista {
+  left: -1%;
+}
+body[data-state='alto-contraste'] .opciones.max6.cat_PVM .candidato_multiple {
+  height: 100%;
+  width: 100%;
+}
+body[data-state='alto-contraste'] .opciones.max6.cat_PVM .candidato_multiple .nombre-lista {
+  display: flex;
+  align-items: flex-start;
+  height: 100%;
+  justify-content: center;
+}
+body[data-state='alto-contraste'] .opciones.max6.cat_PVM .candidato_multiple .candidato_multiple-lista {
+  left: -1%;
+  top: 17%;
+}
+body[data-state='alto-contraste'] .opciones.max6.cat_MDE .candidato-persona .lista .palabra-lista {
+  padding-right: 1rem;
+}
+body[data-state='alto-contraste'] .opciones.max6 .candidato-lista-completa .nombre-partido {
+  font-size: 1rem;
+}
+body[data-state='alto-contraste'] .opciones.max6 .candidato-lista-completa .lista {
+  font-size: 1.2rem;
+}
+body[data-state='alto-contraste'] .opciones.max6 .candidato-lista-completa .lista-candidatos {
+  font-size: 100%;
+  height: 145px;
+  max-height: 145px;
+}
+body[data-state='alto-contraste'] .opciones.max6 .candidato-lista-completa.boton-lista .nombre-partido {
+  font-size: 200%;
+}
+body[data-state='alto-contraste'] .opciones.max6 .opcion-preferencia.candidato .foto-preferencia {
+  display: none;
+}
+body[data-state='alto-contraste'] .opciones.max6 .opcion-preferencia.candidato .nombre-candidato {
+  text-align: center;
+  font-size: 2.2rem;
+}
+body[data-state='alto-contraste'] .opciones.max6 .opcion-preferencia.candidato .nro-orden {
+  margin: 1rem 0;
+  font-size: 4rem;
+  width: 100%;
+  text-align: center;
+}
+body[data-state='alto-contraste'] .opciones.max8 .candidato-persona .lista {
+  height: 100px;
+  padding-top: 1rem;
+}
+body[data-state='alto-contraste'] .opciones.max8 .candidato-persona .lista .palabra-lista,
+body[data-state='alto-contraste'] .opciones.max8 .candidato-persona .lista .numero-lista {
+  font-size: 3rem;
+}
+body[data-state='alto-contraste'] .opciones.max8 .candidato-persona .nombre-candidato .candidato-principal {
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+}
+body[data-state='alto-contraste'] .opciones.max8 .candidato-persona .nombre-candidato .candidato-secundario {
+  font-size: 1.2rem;
+}
+body[data-state='alto-contraste'] .opciones.max8 .candidato-persona .nombre-candidato .nombre-lista {
+  font-size: 1.7rem;
+}
+body[data-state='alto-contraste'] .opciones.max8.cat_INT .candidato-persona .nombre-lista {
+  font-size: 2rem;
+}
+body[data-state='alto-contraste'] .opciones.max8.cat_INT .candidato-persona .lista-con-imagen {
+  width: 100%;
+}
+body[data-state='alto-contraste'] .opciones.max8.cat_INT .candidato-persona .candidato-principal {
+  color: #fff;
+}
+body[data-state='alto-contraste'] .opciones.max8.cat_INT .candidato-persona.candidato-blanco .nombre-candidato .candidato-principal {
+  color: #FFF;
+}
+body[data-state='alto-contraste'] .opciones.max8.cat_MNA .candidato-persona .lista .palabra-lista {
+  padding-right: 1rem;
+}
+body[data-state='alto-contraste'] .opciones.max8 .candidato-lista-completa .nombre-partido {
+  font-size: 1rem;
+}
+body[data-state='alto-contraste'] .opciones.max8 .candidato-lista-completa .lista {
+  font-size: 1.2rem;
+}
+body[data-state='alto-contraste'] .opciones.max8 .candidato-lista-completa .lista-candidatos {
+  font-size: 100%;
+  height: 145px;
+  max-height: 145px;
+}
+body[data-state='alto-contraste'] .opciones.max8 .candidato-lista-completa.boton-lista .nombre-partido {
+  font-size: 200%;
+}
+body[data-state='alto-contraste'] .opciones.max9.preferencias .candidato.candidato-persona .lista {
+  font-size: 1.2rem;
+}
+body[data-state='alto-contraste'] .opciones.max9.preferencias .candidato.candidato-persona .nombre-candidato .nombre-lista {
+  font-size: 1.2rem;
+}
+body[data-state='alto-contraste'] .opciones.max9.preferencias .candidato.candidato-persona .nombre-candidato .candidato-principal {
+  font-size: 1.1rem;
+}
+body[data-state='alto-contraste'] .opciones.max9.preferencias .candidato.candidato-persona .nombre-candidato .candidato-secundario {
+  font-size: 1rem;
+}
+body[data-state='alto-contraste'] .opciones.max9 .opcion-preferencia.candidato .foto-preferencia {
+  display: none;
+}
+body[data-state='alto-contraste'] .opciones.max9 .opcion-preferencia.candidato .nombre-candidato {
+  text-align: center;
+  font-size: 2rem;
+}
+body[data-state='alto-contraste'] .opciones.max9 .opcion-preferencia.candidato .nro-orden {
+  margin: 0.5rem 0;
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+}
+body[data-state='alto-contraste'] .opciones.max10.cat_C.preferencias .opcion-preferencia.candidato .nro-orden {
+  font-size: 3.5em;
+  margin-top: 20%;
+  width: 100%;
+}
+body[data-state='alto-contraste'] .opciones.max10.cat_C.preferencias .opcion-preferencia.candidato .nombre-candidato {
+  font-size: 1.8rem;
+  width: 100%;
+}
+body[data-state='alto-contraste'] .opciones.max12.cat_CNJ.preferencias .opcion-preferencia.candidato .nro-orden {
+  margin-top: 0%;
+  font-size: 3.5rem;
+  width: 100%;
+}
+body[data-state='alto-contraste'] .opciones.max12.cat_CNJ.preferencias .opcion-preferencia.candidato .nro-orden .span {
+  font-size: 1.5rem;
+}
+body[data-state='alto-contraste'] .opciones.max12.cat_CNJ.preferencias .opcion-preferencia.candidato .nombre-candidato {
+  width: 100%;
+  font-size: 1.8rem;
+}
+body[data-state='alto-contraste'] .opciones.max12.cat_DN.preferencias .opcion-preferencia.candidato .nro-orden,
+body[data-state='alto-contraste'] .opciones.max12.cat_C.preferencias .opcion-preferencia.candidato .nro-orden,
+body[data-state='alto-contraste'] .opciones.max12.cat_CL.preferencias .opcion-preferencia.candidato .nro-orden {
+  margin-top: 0%;
+  font-size: 3.5rem;
+  width: 100%;
+}
+body[data-state='alto-contraste'] .opciones.max12.cat_DN.preferencias .opcion-preferencia.candidato .nro-orden .span,
+body[data-state='alto-contraste'] .opciones.max12.cat_C.preferencias .opcion-preferencia.candidato .nro-orden .span,
+body[data-state='alto-contraste'] .opciones.max12.cat_CL.preferencias .opcion-preferencia.candidato .nro-orden .span {
+  font-size: 1.5rem;
+}
+body[data-state='alto-contraste'] .opciones.max12.cat_DN.preferencias .opcion-preferencia.candidato .nombre-candidato,
+body[data-state='alto-contraste'] .opciones.max12.cat_C.preferencias .opcion-preferencia.candidato .nombre-candidato,
+body[data-state='alto-contraste'] .opciones.max12.cat_CL.preferencias .opcion-preferencia.candidato .nombre-candidato {
+  width: 100%;
+  font-size: 1.8rem;
+}
+body[data-state='alto-contraste'] .opciones.max12.cat_MFC.preferencias .opcion-preferencia.candidato .nro-orden {
+  font-size: 3.5rem;
+  margin-top: 0%;
+  width: 100%;
+}
+body[data-state='alto-contraste'] .opciones.max12.cat_MFC.preferencias .opcion-preferencia.candidato .nombre-candidato {
+  width: 100%;
+  font-size: 1.8rem;
+}
+body[data-state='alto-contraste'] .opciones.max12 .candidato-persona .lista {
+  flex-grow: 0.3;
+}
+body[data-state='alto-contraste'] .opciones.max12 .candidato-persona .lista .palabra-lista,
+body[data-state='alto-contraste'] .opciones.max12 .candidato-persona .lista .numero-lista {
+  font-size: 1em;
+}
+body[data-state='alto-contraste'] .opciones.max12 .candidato-persona .nombre-candidato .nombre-corto-lista {
+  font-size: 25px;
+}
+body[data-state='alto-contraste'] .opciones.max12 .candidato-persona .nombre-candidato .nombre-lista {
+  font-size: 1.6em;
+  line-height: 1.3em;
+}
+body[data-state='alto-contraste'] .opciones.max12 .candidato-persona .nombre-candidato .candidato-principal {
+  font-size: 2rem;
+  text-align: center;
+  width: 100%;
+}
+body[data-state='alto-contraste'] .opciones.max12 .candidato-persona .nombre-candidato .candidato-secundario {
+  font-size: 1.2rem;
+}
+body[data-state='alto-contraste'] .opciones.max12.preferencias .candidato.candidato-persona .lista {
+  font-size: 1.2rem;
+}
+body[data-state='alto-contraste'] .opciones.max12.preferencias .candidato.candidato-persona .nombre-candidato .nombre-lista {
+  font-size: 0.9rem;
+}
+body[data-state='alto-contraste'] .opciones.max12.preferencias .candidato.candidato-persona .nombre-candidato .candidato-principal {
+  font-size: 1.1rem;
+}
+body[data-state='alto-contraste'] .opciones.max12.preferencias .candidato.candidato-persona .nombre-candidato .candidato-secundario {
+  font-size: 1rem;
+}
+body[data-state='alto-contraste'] .opciones.max12 .opcion-preferencia.candidato .foto-preferencia {
+  display: none;
+}
+body[data-state='alto-contraste'] .opciones.max12 .opcion-preferencia.candidato .nombre-candidato {
+  text-align: center;
+  font-size: 2rem;
+}
+body[data-state='alto-contraste'] .opciones.max12 .opcion-preferencia.candidato .nro-orden {
+  margin: 0.5rem 0;
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+}
+body[data-state='alto-contraste'] .opciones.max24.preferencias .candidato.candidato-persona .lista {
+  font-size: 1.2rem;
+}
+body[data-state='alto-contraste'] .opciones.max24.preferencias .candidato.candidato-persona .nombre-candidato .nombre-lista {
+  font-size: 0.9rem;
+}
+body[data-state='alto-contraste'] .opciones.max24.preferencias .candidato.candidato-persona .nombre-candidato .candidato-principal {
+  font-size: 1.1rem;
+}
+body[data-state='alto-contraste'] .opciones.max24.preferencias .candidato.candidato-persona .nombre-candidato .candidato-secundario {
+  font-size: 1rem;
+}
+body[data-state='alto-contraste'] .opciones.max24 .opcion-preferencia.candidato .foto-preferencia {
+  display: none;
+}
+body[data-state='alto-contraste'] .opciones.max24 .opcion-preferencia.candidato .nombre-candidato {
+  text-align: center;
+  font-size: 1.1rem;
+}
+body[data-state='alto-contraste'] .opciones.max24 .opcion-preferencia.candidato .nro-orden {
+  margin: 0.5rem 0 0 0;
+  font-size: 2rem;
+  width: 100%;
+  text-align: center;
+}
+body[data-state='alto-contraste'] .opciones.max30.cat_PVM.preferencias .opcion-preferencia.candidato .nro-orden {
+  font-size: 2rem;
+  margin-top: 5%;
+}
+body[data-state='alto-contraste'] .opciones.max30.cat_PVM.preferencias .opcion-preferencia.candidato .nombre-candidato {
+  font-size: 1.2rem;
+}
+body[data-state='alto-contraste'] .opciones.max30.preferencias.candidato.candidato-persona {
+  justify-content: space-evenly;
+}
+body[data-state='alto-contraste'] .opciones.max30.preferencias.candidato.candidato-persona .lista {
+  font-size: 1.2rem;
+}
+body[data-state='alto-contraste'] .opciones.max30.preferencias.candidato .nombre-candidato .nombre-lista {
+  font-size: 0.9rem;
+}
+body[data-state='alto-contraste'] .opciones.max30.preferencias.candidato .nombre-candidato .candidato-principal {
+  font-size: 1.1rem;
+}
+body[data-state='alto-contraste'] .opciones.max30.preferencias.candidato .nombre-candidato .candidato-secundario {
+  font-size: 1rem;
+}
+body[data-state='alto-contraste'] .opciones.max30.preferencias .opcion-preferencia.candidato {
+  justify-content: space-evenly;
+}
+body[data-state='alto-contraste'] .opciones.max30.preferencias .opcion-preferencia.candidato .foto-preferencia {
+  display: none;
+}
+body[data-state='alto-contraste'] .opciones.max30.preferencias .opcion-preferencia.candidato .nombre-candidato {
+  text-align: center;
+  font-size: 1rem;
+}
+body[data-state='alto-contraste'] .opciones.max30.preferencias .opcion-preferencia.candidato .nro-orden {
+  font-size: 3rem;
+  width: 100%;
+  text-align: center;
+}
+body[data-state='alto-contraste'] .opciones.max40.preferencias.opcion-preferencia.candidato {
+  justify-content: space-evenly;
+}
+body[data-state='alto-contraste'] .opciones.max40.preferencias.opcion-preferencia.candidato .foto-preferencia {
+  display: none;
+}
+body[data-state='alto-contraste'] .opciones.max40.preferencias.opcion-preferencia.candidato .nombre-candidato {
+  text-align: center;
+  font-size: 1rem;
+}
+body[data-state='alto-contraste'] .opciones.max40.preferencias.opcion-preferencia.candidato .nro-orden {
+  font-size: 1.4rem;
+  width: 100%;
+  text-align: center;
+}
+body[data-state='alto-contraste'] .opciones.cargo-ejecutivo-o-preferente-unico .candidato-persona .nombre-candidato .nombre-corto-lista {
+  padding-top: 7px;
+  font-size: 30px;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion .candidato_plra .candidato_plra-cargos {
+  margin-bottom: 2em;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion .candidato_plra .candidato_plra-contenedor_fotos {
+  display: none;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion .candidato_plra .candidato_plra-categoria {
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 10px;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados .candidato .contenedor-candidato .nombre-partido-plra {
+  margin-top: -2em;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados .candidato .contenedor-candidato .candidato-principal {
+  font-size: 1.3rem;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados .candidato .contenedor-candidato .nombre-partido {
+  font-size: 1.3rem;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .candidato-principal {
+  padding-top: 6rem;
+  flex-grow: 0;
+  margin-bottom: 35px;
+  font-size: 3.3rem;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .lista {
+  font-size: 2.5rem;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .nombre-partido {
+  font-size: 2rem;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .candidato-secundario > .nombre-candidato {
+  font-size: 3.3rem;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .candidato-secundario > .nro-orden {
+  font-size: 1.5rem;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-secundarios {
+  flex-grow: 0;
+  padding-top: 6rem;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion8 .candidato .candidato_plra-contenedor_fotos {
+  display: none;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato {
+  height: 75%;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .lista {
+  font-size: 1.5rem;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .nombre-partido {
+  font-size: 1.5rem;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .nombre-partido-plra {
+  margin-top: -27px;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .candidato-secundario .nombre-candidato {
+  font-size: 1.8rem;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .candidato-secundario .nro-orden {
+  font-size: 1.2rem;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .candidato-principal,
+body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .contenedor-secundarios {
+  justify-content: center;
+  align-content: center;
+  font-size: 1.8rem;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .candidato-jlra {
+  font-size: 1.2rem;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .candidato-secundario .nro-orden {
+  font-size: 1.3rem;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .candidato-secundario .nombre-candidato {
+  font-size: 1.3rem;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .candidato-secundario .nombre-candidato .opcion-preferente-jlra {
+  font-size: 1rem;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .candidato-secundario .nombre-candidato .candidato-preferente-jlra {
+  font-size: 1rem;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .candidato-secundario .nombre-candidato .span {
+  font-size: 1rem;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .lista {
+  font-size: 1.3rem;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion10 .candidato .nombre-cargo-con-secundarios {
+  border-bottom: 1px solid #fff;
+}
+body[data-state='alto-contraste'] #pantalla_consulta #candidatos_seleccion .candidato .candidato-principal-int {
+  margin-top: 0%;
+}
+body[data-state='alto-contraste'] #pantalla_consulta #candidatos_seleccion .candidato .nombre-cargo {
+  border-bottom: #fff solid 1px;
+}
+body[data-state='alto-contraste'] #pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .foto-blanco {
+  display: none;
+}
+body[data-state='alto-contraste'] #pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-8 .foto-blanco {
+  display: none;
+}
+body[data-state='alto-contraste'] #pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-8 .datos-cargo #datos-texto {
+  line-height: 1.1em;
+  font-size: 1.2em;
+}
+body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados .candidato .btn-modificar-voto {
+  width: 155px;
+  margin: auto;
+}
+body[data-state='alto-contraste'] #contenedor_pantallas {
+  margin: 0px;
+}
+body[data-state='alto-contraste'] .borde_confirma {
+  background-color: black;
+  float: right;
+  height: 486px;
+  margin-top: 2px;
+}
+body[data-state='alto-contraste'] .borde {
+  float: right;
+  height: 155px;
+  background-color: black;
+  border: none!important;
+  margin-top: 0px;
+}
+body[data-state='alto-contraste'] #contenedor_izq > #no_confirmar_voto p {
+  height: auto;
+}
+@media screen and (min-width: 1900px) {
+  body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados .candidato .contenedor-candidato .nombre-partido-plra {
+    margin-top: -1em;
+  }
+  body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados .candidato .btn-modificar-voto {
+    width: 250px;
+    margin: auto;
+    height: 60px;
+  }
+  body[data-state='alto-contraste'] .borde_confirma {
+    height: 591px;
+  }
+  body[data-state='alto-contraste'] .borde {
+    height: 328px;
+  }
+  body[data-state='alto-contraste'] .opciones.max2.cat_DD.preferencias .opcion-preferencia.candidato .nro-orden {
+    font-size: 10rem;
+  }
+  body[data-state='alto-contraste'] .opciones.max2.cat_DD.preferencias .opcion-preferencia.candidato .nro-orden .span {
+    font-size: 3rem;
+  }
+  body[data-state='alto-contraste'] .opciones.max2.cat_DD.preferencias .opcion-preferencia.candidato .nombre-candidato {
+    font-size: 5rem;
+  }
+  body[data-state='alto-contraste'] .opciones.max6.cargo-ejecutivo-o-preferente-unico .nombre-candidato {
+    height: 50%;
+  }
+  body[data-state='alto-contraste'] .opciones.max6 .candidato-persona .lista .palabra-lista,
+  body[data-state='alto-contraste'] .opciones.max6 .candidato-persona .lista .numero-lista {
+    font-size: 4rem;
+  }
+  body[data-state='alto-contraste'] .opciones.max6 .candidato-persona .lista .numero-lista {
+    margin-left: 10px;
+  }
+  body[data-state='alto-contraste'] .opciones.max6 .candidato-persona .nombre-candidato .candidato-principal {
+    font-size: 3em;
+  }
+  body[data-state='alto-contraste'] .opciones.max6 .candidato-persona .nombre-candidato .nombre-corto-lista {
+    font-size: 2.5rem;
+  }
+  body[data-state='alto-contraste'] .opciones.max6.cat_MDE .candidato-persona .lista {
+    flex-grow: 0.2;
+  }
+  body[data-state='alto-contraste'] .opciones.max6.cat_MDE .candidato-persona .lista .palabra-lista {
+    font-size: 4rem;
+  }
+  body[data-state='alto-contraste'] .opciones.max6.cat_MDE .candidato-persona .nombre-candidato .nombre-lista {
+    font-size: 4em;
+  }
+  body[data-state='alto-contraste'] .opciones.max6.cat_MDE .candidato-persona .nombre-corto-lista {
+    margin-top: 30px;
+  }
+  body[data-state='alto-contraste'] .opciones.max6.preferencias .opcion-preferencia.candidato .nombre-candidato {
+    text-align: center;
+    font-size: 3rem;
+  }
+  body[data-state='alto-contraste'] .opciones.max6.preferencias .opcion-preferencia.candidato .nro-orden {
+    font-size: 5rem;
+    width: 100%;
+    text-align: center;
+  }
+  body[data-state='alto-contraste'] .opciones.max8 .candidato-persona .lista {
+    height: 100px;
+    padding-top: 1rem;
+  }
+  body[data-state='alto-contraste'] .opciones.max8 .candidato-persona .lista .palabra-lista,
+  body[data-state='alto-contraste'] .opciones.max8 .candidato-persona .lista .numero-lista {
+    font-size: 4rem;
+  }
+  body[data-state='alto-contraste'] .opciones.max8 .candidato-persona .lista .numero-lista {
+    margin-left: 10px;
+  }
+  body[data-state='alto-contraste'] .opciones.max8 .candidato-persona .nombre-candidato .candidato-principal {
+    font-size: 2.5rem;
+    text-align: center;
+    width: 100%;
+  }
+  body[data-state='alto-contraste'] .opciones.max8 .candidato-persona .nombre-candidato .candidato-principal:not(.candidato-blanco) {
+    margin-bottom: 0rem;
+    font-size: 2.5rem;
+  }
+  body[data-state='alto-contraste'] .opciones.max8 .candidato-persona .nombre-candidato .nombre-lista {
+    font-size: 2.3rem;
+  }
+  body[data-state='alto-contraste'] .opciones.max8 .candidato-persona .nombre-candidato .nombre-corto-lista {
+    padding-top: 42px;
+    font-size: 2.5rem;
+  }
+  body[data-state='alto-contraste'] .opciones.max8.cat_MNA .candidato-persona .lista .palabra-lista,
+  body[data-state='alto-contraste'] .opciones.max8.cat_MNA .candidato-persona .lista .numero-lista {
+    font-size: 4rem;
+  }
+  body[data-state='alto-contraste'] .opciones.max8.cat_MNA .candidato-persona .lista .numero-lista {
+    margin-left: 10px;
+  }
+  body[data-state='alto-contraste'] .opciones.max10.cat_C.preferencias .opcion-preferencia.candidato .nro-orden {
+    font-size: 5rem;
+    margin-top: 20%;
+    width: 100%;
+  }
+  body[data-state='alto-contraste'] .opciones.max10.cat_C.preferencias .opcion-preferencia.candidato .nombre-candidato {
+    width: 100%;
+    font-size: 2.5rem;
+  }
+  body[data-state='alto-contraste'] .opciones.max12 .candidato-persona .lista .palabra-lista,
+  body[data-state='alto-contraste'] .opciones.max12 .candidato-persona .lista .numero-lista {
+    font-size: 1.5em;
+  }
+  body[data-state='alto-contraste'] .opciones.max12 .candidato-persona .lista .numero-lista {
+    margin-left: 10px;
+  }
+  body[data-state='alto-contraste'] .opciones.max12 .candidato-persona .nombre-candidato .nombre-lista {
+    font-size: 2.3em;
+  }
+  body[data-state='alto-contraste'] .opciones.max12 .candidato-persona .nombre-candidato .nombre-corto-lista {
+    font-size: 2.5rem;
+  }
+  body[data-state='alto-contraste'] .opciones.max12.cat_CNJ.preferencias .opcion-preferencia.candidato .nro-orden {
+    font-size: 4.5rem;
+    margin-top: 5%;
+    width: 100%;
+  }
+  body[data-state='alto-contraste'] .opciones.max12.cat_CNJ.preferencias .opcion-preferencia.candidato .nombre-candidato {
+    width: 100%;
+    font-size: 2.5rem;
+  }
+  body[data-state='alto-contraste'] .opciones.max12.cat_CL.preferencias .opcion-preferencia.candidato .nro-orden {
+    font-size: 4.5rem;
+    margin-top: 5%;
+    width: 100%;
+  }
+  body[data-state='alto-contraste'] .opciones.max12.cat_CL.preferencias .opcion-preferencia.candidato .nombre-candidato {
+    width: 100%;
+    font-size: 2.5rem;
+  }
+  body[data-state='alto-contraste'] .opciones.max12.cat_MFC.preferencias .opcion-preferencia.candidato .nro-orden {
+    font-size: 4.5rem;
+    margin-top: 5%;
+    width: 100%;
+  }
+  body[data-state='alto-contraste'] .opciones.max12.cat_MFC.preferencias .opcion-preferencia.candidato .nombre-candidato {
+    width: 100%;
+    font-size: 2.5rem;
+  }
+  body[data-state='alto-contraste'] .opciones.max12 .candidato-persona .nombre-candidato .nombre-corto-lista {
+    font-size: 2.2rem;
+    margin-top: 10px;
+  }
+  body[data-state='alto-contraste'] .opciones.max12 .candidato-persona .candidato-blanco .nombre-candidato {
+    font-size: 2.3em;
+  }
+  body[data-state='alto-contraste'] .opciones.max12.max12.preferencias .candidato .lista {
+    font-size: 1.2rem;
+  }
+  body[data-state='alto-contraste'] .opciones.max12.max12.preferencias .candidato .nombre-candidato {
+    font-size: 2.6rem;
+  }
+  body[data-state='alto-contraste'] .opciones.max24.preferencias .opcion-preferencia.candidato .nombre-candidato {
+    font-size: 2em;
+  }
+  body[data-state='alto-contraste'] .opciones.max24.preferencias .opcion-preferencia.candidato .nro-orden {
+    font-size: 2.5em;
+  }
+  body[data-state='alto-contraste'] .opciones.max30.cat_PVM.preferencias .opcion-preferencia.candidato .nro-orden {
+    font-size: 3rem;
+  }
+  body[data-state='alto-contraste'] .opciones.max30.cat_PVM.preferencias .opcion-preferencia.candidato .nombre-candidato {
+    font-size: 1.8rem;
+  }
+  body[data-state='alto-contraste'] .opciones.max30.preferencias .opcion-preferencia.candidato .nombre-candidato {
+    font-size: 1.8rem;
+  }
+  body[data-state='alto-contraste'] .opciones.max40.preferencias .opcion-preferencia.candidato .nombre-candidato {
+    font-size: 1.5em;
+  }
+  body[data-state='alto-contraste'] .opciones.max40.preferencias .opcion-preferencia.candidato .nro-orden {
+    font-size: 2.5em;
+    margin-top: 10px;
+  }
+  body[data-state='alto-contraste'] #pantalla_confirmacion .candidato_plra .candidato_plra-contenedor_fotos {
+    display: none;
+  }
+  body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .candidato-principal {
+    padding-top: 6rem;
+    flex-grow: 0;
+    margin-bottom: 35px;
+    font-size: 5.3rem;
+  }
+  body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .lista {
+    font-size: 4rem;
+  }
+  body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .nombre-partido {
+    font-size: 3rem;
+  }
+  body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .candidato-secundario > .nombre-candidato {
+    font-size: 5.3rem;
+  }
+  body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .candidato-secundario > .nro-orden {
+    font-size: 2.5rem;
+  }
+  body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato {
+    height: 75%;
+  }
+  body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .nombre-cargo-con-secundarios {
+    border-bottom: 1px solid #FFF;
+  }
+  body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .candidato_plra-cargos {
+    height: 30%;
+  }
+  body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .lista {
+    font-size: 2rem;
+  }
+  body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .nombre-partido-plra {
+    margin-top: -50px;
+  }
+  body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .nombre-partido {
+    font-size: 1.5rem;
+  }
+  body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .candidato-secundario .nombre-candidato {
+    font-size: 2.3rem;
+  }
+  body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .candidato-secundario .nro-orden {
+    font-size: 1.5rem;
+  }
+  body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .candidato-principal,
+  body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .contenedor-secundarios {
+    justify-content: center;
+    align-content: center;
+    font-size: 2.3rem;
+  }
+  body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .candidato-jlra {
+    font-size: 1.5rem;
+  }
+  body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .lista {
+    font-size: 1.8rem;
+  }
+  body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .nombre-partido {
+    font-size: 1.8rem;
+  }
+  body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .candidato-secundario .nombre-candidato {
+    font-size: 1.5rem;
+  }
+  body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .candidato-secundario .nombre-candidato .opcion-preferente-jlra {
+    font-size: 1.2rem;
+  }
+  body[data-state='alto-contraste'] #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .candidato-secundario .nombre-candidato .candidato-preferente-jlra {
+    font-size: 1.2rem;
+  }
+}
+#pantalla_confirmacion.confirmados.confirmacion10 {
+  font-size: 70%;
+}
+#pantalla_confirmacion.confirmados.confirmacion10 .preferido-jlra {
+  margin-top: -10px;
+}
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato {
+  width: calc((100% / 5) - 10px - (10px / 5));
+  height: calc((100% / 2) - 10px - (10px / 2));
+  box-sizing: border-box;
+  position: relative;
+}
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .btn-modificar-voto p {
+  font-size: 0.9em;
+}
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .contenedor-secundarios .nombre-candidato {
+  margin-bottom: 5px;
+}
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .contenedor-secundarios .nombre-candidato .candidato-preferente-jlra {
+  font-size: 0.7rem;
+}
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .contenedor-secundarios .nombre-candidato .opcion-preferente-jlra {
+  font-size: 0.7rem;
+}
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .foto-candidato,
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .candidato-secundario > .foto-preferencia {
+  width: 110px;
+  border: none;
+}
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .foto-candidato img,
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .candidato-secundario > .foto-preferencia img {
+  width: 90%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .foto-candidato-custom {
+  width: 110px;
+  border: none;
+}
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .foto-candidato-custom img {
+  width: 90%;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .candidato-jlra {
+  font-size: 0.9rem;
+}
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .foto-candidato {
+  margin-left: auto;
+  margin-right: auto;
+}
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .foto-candidato-con-secundarios {
+  width: 66.5px;
+}
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .foto-candidato-confirmacion-jlra {
+  margin-left: 24%;
+  margin-top: 1.2em;
+}
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .fotos-candidatos {
+  height: 80px;
+  margin-top: 25px;
+}
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .lista {
+  font-size: 1rem;
+}
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .lista .palabra-lista {
+  margin-right: 0.5rem;
+}
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .lista-con-secundarios {
+  margin-top: 43px;
+}
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .nombre-cargo {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .nombre-cargo-con-secundarios {
+  border-bottom: 1px solid black;
+  font-weight: bold;
+  /*margin-bottom:7px;*/
+  font-size: 0.8rem;
+  display: flex;
+  align-items: flex-end;
+  height: 24px;
+}
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .foto-partido {
+  width: 40%;
+}
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .foto-partido {
+  margin: 37px 0 0 0;
+}
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .nombre-partido,
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .nombre-lista {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .nombre-partido-con-secundarios {
+  margin-top: 2px;
+}
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .key-pdte {
+  float: left;
+  display: contents;
+  font-weight: normal;
+}
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .candidato-principal,
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .candidato-secundario > .nombre-candidato {
+  font-size: 1rem;
+  margin-top: 16px;
+  font-weight: 700;
+}
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .candidato-secundario > .nro-orden {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-top: 10px;
+}
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .nombre-partido,
+#pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .nombre-lista {
+  padding-bottom: 1rem;
+}
+#pantalla_confirmacion.confirmados.confirmacion8 .candidato {
+  width: calc((100% / 4) - 10px - (10px / 4));
+  height: calc((100% / 2) - 10px - (10px / 2));
+  box-sizing: border-box;
+}
+#pantalla_confirmacion.confirmados.confirmacion8 .candidato .candidato_plra-contenedor_fotos {
+  display: flex;
+  width: 100%;
+  height: 50%;
+}
+#pantalla_confirmacion.confirmados.confirmacion8 .candidato .candidato_plra-contenedor_fotos .foto-candidato {
+  width: 100%;
+}
+#pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .foto-candidato-custom {
+  border: none;
+}
+#pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .foto-candidato-custom img {
+  width: 90px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .foto-candidato {
+  border: none;
+  width: calc(60%);
+}
+#pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .lista .palabra-lista {
+  margin-right: 5px;
+}
+#pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .nombre-partido {
+  font-weight: bold;
+  font-size: 1em;
+}
+#pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .contenedor-secundarios .foto-preferencia {
+  width: calc(60%);
+}
+#pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .contenedor-secundarios .foto-preferencia img {
+  width: 100%;
+}
+#pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .candidato-secundario > .nro-orden {
+  font-weight: 500;
+}
+#pantalla_confirmacion.confirmados.confirmacion7 .candidato {
+  width: calc((100% / 7) - 10px - (10px / 7));
+  height: calc((100% / 1) - 10px - (10px / 1));
+  box-sizing: border-box;
+  position: relative;
+}
+#pantalla_confirmacion.confirmados.confirmacion7 .candidato .btn-modificar-voto {
+  width: 85%;
+  height: 7%;
+}
+#pantalla_confirmacion.confirmados.confirmacion7 .candidato .btn-modificar-voto p {
+  font-size: 0.9em;
+}
+#pantalla_confirmacion.confirmados.confirmacion7 .candidato .contenedor-candidato .contenedor-secundarios {
+  max-height: 205px;
+}
+#pantalla_confirmacion.confirmados.confirmacion7 .candidato .contenedor-candidato .foto-candidato,
+#pantalla_confirmacion.confirmados.confirmacion7 .candidato .contenedor-candidato .candidato-secundario > .foto-preferencia {
+  width: 140px;
+  border: none;
+}
+#pantalla_confirmacion.confirmados.confirmacion7 .candidato .contenedor-candidato .foto-candidato img,
+#pantalla_confirmacion.confirmados.confirmacion7 .candidato .contenedor-candidato .candidato-secundario > .foto-preferencia img {
+  width: 90%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pantalla_confirmacion.confirmados.confirmacion7 .candidato .contenedor-candidato .foto-candidato {
+  margin-left: auto;
+  margin-right: auto;
+}
+#pantalla_confirmacion.confirmados.confirmacion7 .candidato .contenedor-candidato .lista {
+  font-size: 1rem;
+}
+#pantalla_confirmacion.confirmados.confirmacion7 .candidato .contenedor-candidato .lista .palabra-lista {
+  margin-right: 0.5rem;
+}
+#pantalla_confirmacion.confirmados.confirmacion7 .candidato .contenedor-candidato .nombre-cargo {
+  font-size: 0.9rem;
+  font-weight: bold;
+  min-height: 32px;
+}
+#pantalla_confirmacion.confirmados.confirmacion7 .candidato .contenedor-candidato .foto-partido {
+  width: 40%;
+}
+#pantalla_confirmacion.confirmados.confirmacion7 .candidato .contenedor-candidato .foto-partido {
+  margin: 37px 0 0 0;
+}
+#pantalla_confirmacion.confirmados.confirmacion7 .candidato .contenedor-candidato .candidato-secundario {
+  font-size: 0.9rem;
+  margin: 0;
+}
+#pantalla_confirmacion.confirmados.confirmacion7 .candidato .contenedor-candidato .nombre-partido,
+#pantalla_confirmacion.confirmados.confirmacion7 .candidato .contenedor-candidato .nombre-lista {
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+#pantalla_confirmacion.confirmados.confirmacion7 .candidato .contenedor-candidato .candidato-principal,
+#pantalla_confirmacion.confirmados.confirmacion7 .candidato .contenedor-candidato .candidato-secundario > .nombre-candidato {
+  font-size: 1rem;
+  margin-top: 5px;
+  font-weight: 700;
+  max-height: 49px;
+}
+#pantalla_confirmacion.confirmados.confirmacion7 .candidato .contenedor-candidato .candidato-secundario > .nombre-candidato {
+  padding-bottom: 4px;
+}
+#pantalla_confirmacion.confirmados.confirmacion7 .candidato .contenedor-candidato .candidato-secundario > .nro-orden {
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-top: 10px;
+}
+#pantalla_confirmacion.confirmados.confirmacion7 .candidato .contenedor-candidato .candidato-secundario span {
+  margin-top: 2px;
+}
+#pantalla_confirmacion.confirmados.confirmacion7 .candidato .contenedor-candidato .nombre-partido,
+#pantalla_confirmacion.confirmados.confirmacion7 .candidato .contenedor-candidato .nombre-lista {
+  padding-bottom: 1rem;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato * {
+  color: inherit;
+  text-align: center;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .header-suplentes,
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .suplente {
+  display: none;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .nombre-cargo {
+  width: 100%;
+  text-align: center;
+  order: 1;
+  border-bottom-color: initial;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .foto-partido {
+  display: none;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .foto-candidato,
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .contenedor-secundarios {
+  order: 4;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .contenedor-secundarios {
+  width: 100%;
+  margin: 0;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .contenedor-secundarios .candidato-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .candidato-principal,
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .candidato-secundario {
+  order: 4;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .lista {
+  order: 3;
+  display: flex;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .lista * {
+  font-size: inherit;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .nombre-partido-plra {
+  order: 0!important;
+  padding-bottom: 0px!important;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .nombre-partido {
+  order: 2;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .nombre-lista {
+  order: 5;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .candidato-secundario {
+  display: flex;
+  flex-direction: column;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .candidato-principal,
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .contenedor-secundarios {
+  flex-grow: 1;
+}
+#pantalla_confirmacion.confirmados.confirmacion2 .candidato {
+  width: calc((100% / 2) - 10px - (10px / 2));
+  height: calc((100% / 1) - 10px - (10px / 1));
+  box-sizing: border-box;
+  position: relative;
+}
+#pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .foto-candidato,
+#pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .candidato-secundario > .foto-preferencia {
+  width: 250px;
+  border: none;
+}
+#pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .foto-candidato img,
+#pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .candidato-secundario > .foto-preferencia img {
+  width: 90%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .foto-candidato {
+  margin-left: auto;
+  margin-right: auto;
+}
+#pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .lista {
+  font-size: 3rem;
+}
+#pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .lista .palabra-lista {
+  margin-right: 0.5rem;
+}
+#pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .nombre-cargo {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+#pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .foto-partido {
+  width: 40%;
+}
+#pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .foto-partido {
+  margin: 37px 0 0 0;
+}
+#pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .candidato-secundario {
+  font-size: 2rem;
+  margin: 0;
+}
+#pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .nombre-partido,
+#pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .nombre-lista {
+  font-size: 2rem;
+  font-weight: 700;
+}
+#pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .candidato-principal,
+#pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .candidato-secundario > .nombre-candidato {
+  font-size: 2rem;
+  margin-top: 5px;
+  font-weight: 700;
+}
+#pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .candidato-secundario > .nombre-candidato {
+  padding-bottom: 8px;
+}
+#pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .candidato-secundario > .nro-orden {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+#pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .nombre-partido,
+#pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .nombre-lista {
+  padding-bottom: 2rem;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: calc(100% - 12.5% - 0.5rem);
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato * {
+  color: inherit;
+  text-align: center;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .header-suplentes,
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .suplente {
+  display: none;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .nombre-cargo {
+  width: 100%;
+  text-align: center;
+  order: 1;
+  border-bottom-color: initial;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .foto-partido {
+  display: none;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .foto-candidato,
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .contenedor-secundarios {
+  order: 4;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .contenedor-secundarios {
+  width: 100%;
+  margin: 0;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .contenedor-secundarios .candidato-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .candidato-principal,
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .candidato-secundario {
+  order: 4;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .lista {
+  order: 3;
+  display: flex;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .lista * {
+  font-size: inherit;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .nombre-partido-plra {
+  order: 0!important;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .nombre-partido {
+  order: 2;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .nombre-lista {
+  order: 5;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .candidato-secundario {
+  display: flex;
+  flex-direction: column;
+}
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .candidato-principal,
+#pantalla_confirmacion.confirmados .candidato .contenedor-candidato .contenedor-secundarios {
+  flex-grow: 1;
+}
+#pantalla_confirmacion .candidato_plra {
+  justify-content: space-between;
+}
+#pantalla_confirmacion .candidato_plra .candidato_plra-categoria {
+  border-bottom: 1px solid black;
+  font-size: 0.8em;
+  font-weight: bold;
+  width: 100%;
+}
+#pantalla_confirmacion .candidato_plra .candidato_plra-contenedor_fotos {
+  display: flex;
+  width: 100%;
+  /*height: 57%;*/
+}
+#pantalla_confirmacion .candidato_plra .candidato_plra-contenedor_fotos .foto-candidato {
+  width: 100%;
+}
+#pantalla_confirmacion .candidato_plra .candidato_plra-cargos {
+  list-style: none;
+  font-size: 0.75rem;
+}
+#pantalla_confirmacion .candidato_plra .candidato_plra-cargos li {
+  margin: 0.33em 0;
+}
+#pantalla_confirmacion .candidato_plra .candidato_plra-cargos__nombre {
+  display: inline-block;
+}
+#pantalla_confirmacion .candidato_plra .candidato_plra-cargos__candidato {
+  font-weight: bold;
+  padding-left: 1ch;
+  font-size: 0.9em;
+}
+#pantalla_confirmacion .candidato_plra .candidato_plra-cargos li:first-child > .candidato_plra-cargos__candidato {
+  font-size: 1rem;
+}
+#pantalla_confirmacion .candidato_plra .candidato_plra-lista {
+  float: none !important;
+  justify-content: center;
+}
+#pantalla_confirmacion.confirmacion7 .candidato_plra {
+  padding-bottom: 244px;
+}
+#pantalla_confirmacion.confirmacion7 .candidato_plra .candidato_plra-categoria {
+  font-weight: bold;
+  font-size: 0.95rem;
+  margin-bottom: 2px;
+}
+@media screen and (min-width: 1900px) {
+  #pantalla_confirmacion.confirmacion7 .candidato_plra {
+    padding-bottom: 510px;
+  }
+}
+@media screen and (min-width: 1900px) {
+  #pantalla_confirmacion.confirmacion10 .candidato_plra .candidato_plra-cargos {
+    font-size: 1.2rem;
+  }
+  #pantalla_confirmacion.confirmacion10 .candidato_plra .candidato_plra-cargos li:first-child > .candidato_plra-cargos__candidato {
+    font-size: 1.25rem;
+  }
+}
+@media screen and (min-width: 1900px) {
+  #pantalla_confirmacion.confirmados.confirmacion2 .candidato {
+    box-sizing: border-box;
+    display: inline;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .foto-candidato,
+  #pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .candidato-secundario > .foto-preferencia {
+    width: 50%;
+    border: none;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .candidato-principal,
+  #pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .contenedor-secundarios {
+    flex-grow: 0.5;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .candidato-principal,
+  #pantalla_confirmacion.confirmados.confirmacion2 .candidato .contenedor-candidato .candidato-secundario > .nombre-candidato {
+    font-size: 3.5rem;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion7 .contenedor-candidato .nombre-cargo-con-secundarios {
+    border-bottom: solid 1px #000;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .nombre-cargo-con-secundarios {
+    border-bottom: 1px solid black;
+    font-weight: bolder;
+    margin-bottom: 7px;
+    font-size: 1.2rem;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .foto-candidato-custom {
+    border: none;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .foto-candidato-custom img {
+    width: 130px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .candidato_plra-cargos {
+    list-style: none;
+    height: 20%;
+    font-size: 1.1rem;
+    font-size: 1.2rem;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .candidato_plra-cargos li {
+    margin: 0.33em 0;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .foto-candidato,
+  #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .candidato-secundario > .foto-preferencia {
+    width: 220px;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .candidato-principal,
+  #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .nombre-candidato {
+    font-size: 1.5rem;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .candidato-secundario > .nro-orden {
+    font-size: 1.3rem;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .lista {
+    font-size: 1.3rem;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .nombre-partido {
+    font-size: 1.2rem;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion8 .candidato .contenedor-candidato .nombre-cargo {
+    font-size: 1.2rem;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion8 .candidato_plra .candidato_plra-cargos__candidato {
+    font-size: 0.9em;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion8 .candidato_plra .candidato_plra-cargos li:first-child > .candidato_plra-cargos__candidato {
+    font-size: 1.3rem;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion10 {
+    font-size: 70%;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion10 .candidato_plra-cargos {
+    margin-bottom: 57px;
+    margin-top: 20px;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .contenedor-secundarios .nombre-candidato {
+    margin-bottom: 5px;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .contenedor-secundarios .nombre-candidato .candidato-preferente-jlra {
+    font-size: 1.1rem;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .contenedor-secundarios .nombre-candidato .opcion-preferente-jlra {
+    font-size: 1.1rem;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .foto-candidato,
+  #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .candidato-secundario > .foto-preferencia {
+    width: 50%;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .candidato-principal {
+    font-size: 1.5rem;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .candidato-secundario > .nro-orden {
+    font-size: 1rem;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .lista {
+    font-size: 1.3rem;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .nombre-partido {
+    font-size: 1.2rem;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .nombre-cargo {
+    font-size: 1.2rem;
+    height: 40px;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .foto-candidato-con-secundarios {
+    width: 100.5px;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .foto-candidato-confirmacion-jlra {
+    margin-left: 20%;
+    width: 60%;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .lista-con-secundarios {
+    margin-top: 43px;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .candidato-con-secundarios {
+    font-size: 1.3rem;
+    margin-top: 40px;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .candidato-jlra {
+    margin-top: 0px;
+    font-size: 1.3rem;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .nombre-cargo-con-secundarios {
+    border-bottom: 1px solid black;
+    font-weight: bolder;
+    margin-bottom: 7px;
+    font-size: 1.2rem;
+    margin-top: 2.4px;
+    height: 38px;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .nombre-partido-con-secundarios {
+    margin-top: 26px;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .key-pdte {
+    float: left;
+    display: contents;
+    font-weight: normal;
+  }
+  #pantalla_confirmacion.confirmados.confirmacion10 .candidato .contenedor-candidato .nombre-candidato {
+    font-size: 1.3rem!important;
+  }
+}
+#pantalla_consulta {
+  height: 649px;
+  text-align: center;
+  padding: 0px;
+}
+#pantalla_consulta .nombre-lista,
+#pantalla_consulta .numero-lista,
+#pantalla_consulta .candidato-terna,
+#pantalla_consulta .candidato-principal-int {
+  font-weight: bolder;
+}
+#pantalla_consulta .key-pdte {
+  font-weight: normal;
+}
+#pantalla_consulta #img_voto {
+  overflow: hidden;
+  height: 485px;
+}
+#pantalla_consulta #img_voto svg,
+#pantalla_consulta #img_voto img {
+  display: block;
+  margin: 0 auto;
+  -webkit-transform: scale(0.56);
+  -moz-transform: scale(0.56);
+  transform: scale(0.56);
+  -webkit-transform-origin: 278px 30px;
+  -moz-transform-origin: 278px 30px;
+  transform-origin: 278px 30px;
+  margin-left: -6%;
+}
+#pantalla_consulta .texto-mediano {
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+#pantalla_consulta h2.texto-mediano {
+  display: none;
+}
+#pantalla_consulta h2.asistida {
+  margin-top: 100px;
+  font-size: 3em;
+}
+#pantalla_consulta #candidatos_seleccion {
+  display: block;
+  height: 164px;
+  width: 100%;
+  background: #fff;
+  border-top: 2px solid #bec3be;
+  padding: 5px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#pantalla_consulta #candidatos_seleccion div.candidato:first-child:nth-last-child(6),
+#pantalla_consulta #candidatos_seleccion div.candidato:first-child:nth-last-child(6) ~ div.candidato {
+  width: 16.666666666666668%;
+}
+#pantalla_consulta #candidatos_seleccion div.candidato:first-child:nth-last-child(5),
+#pantalla_consulta #candidatos_seleccion div.candidato:first-child:nth-last-child(5) ~ div.candidato {
+  width: 20%;
+}
+#pantalla_consulta #candidatos_seleccion div.candidato:first-child:nth-last-child(4),
+#pantalla_consulta #candidatos_seleccion div.candidato:first-child:nth-last-child(4) ~ div.candidato {
+  width: 25%;
+}
+#pantalla_consulta #candidatos_seleccion div.candidato:first-child:nth-last-child(3),
+#pantalla_consulta #candidatos_seleccion div.candidato:first-child:nth-last-child(3) ~ div.candidato {
+  width: 33.333333333333336%;
+}
+#pantalla_consulta #candidatos_seleccion div.candidato:first-child:nth-last-child(2),
+#pantalla_consulta #candidatos_seleccion div.candidato:first-child:nth-last-child(2) ~ div.candidato {
+  width: 50%;
+}
+#pantalla_consulta #candidatos_seleccion div.candidato:first-child:nth-last-child(1),
+#pantalla_consulta #candidatos_seleccion div.candidato:first-child:nth-last-child(1) ~ div.candidato {
+  width: 100%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato {
+  padding-left: 4px;
+  padding-right: 4px;
+  float: left;
+  height: 100%;
+  box-sizing: border-box;
+}
+#pantalla_consulta #candidatos_seleccion .candidato:not(:last-of-type) {
+  border-right: 1px solid #999;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.blanco .lista,
+#pantalla_consulta #candidatos_seleccion .candidato.blanco .nombre-partido {
+  display: none;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.blanco .candidato-principal {
+  font-size: 0.8em;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.consulta_popular .candidato-principal {
+  font-size: 1.7em;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.consulta_popular .candidato-secundario {
+  font-size: 1.3em;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-basis: 100%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .nombre-cargo {
+  font-size: 1.2rem;
+  padding-top: 6px;
+  width: 100%;
+  color: inherit;
+  text-align: center;
+  height: 16%;
+  border-bottom: 1px solid;
+  order: 0;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .datos-cargo {
+  display: flex;
+  align-items: stretch;
+  height: inherit;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .datos-cargo + .foto-blanco {
+  display: block;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .datos-cargo .foto-blanco + #datos-texto {
+  margin-left: 0;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 #datos-texto {
+  width: 100%;
+  /* margin-left: -19%;*/
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .foto-candidato,
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .foto-partido,
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .foto-preferencia {
+  order: 4;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .candidato-principal,
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .candidato-secundario {
+  order: 2;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .nro-orden {
+  order: 3;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .numero-lista {
+  order: 4;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .nombre-lista {
+  order: 5;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .foto-candidato-principal {
+  width: 19%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .foto-candidato-principal img {
+  width: 91%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .foto-blanco {
+  height: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .foto-blanco img {
+  height: 100%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .candidato-principal-int {
+  font-weight: bold;
+  font-size: 1.6rem;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .candidato-principal,
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .candidato-secundario,
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .nro-orden,
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .numero-lista,
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .nombre-lista {
+  text-align: center;
+  color: inherit;
+  margin: 0;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .candidato-principal,
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .candidato-secundario {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .nro-orden {
+  font-size: 1.6rem;
+  min-height: 1.4rem;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .numero-lista {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .nombre-lista {
+  font-size: 1.9rem;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-8 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-basis: 100%;
+  width: 12.5%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-8 .nombre-cargo {
+  font-size: 0.5rem;
+  padding-top: 6px;
+  width: 100%;
+  color: inherit;
+  border-bottom: 1px solid;
+  text-align: center;
+  height: 13%;
+  order: 0;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-8 .foto-candidato-principal {
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-8 .foto-candidato-principal img {
+  width: 91%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-8 .foto-blanco {
+  height: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-8 .foto-blanco img {
+  height: 100%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-8 .datos-cargo {
+  display: block;
+  height: 80%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-8 .datos-cargo #datos-texto {
+  font-size: 1em;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-8 .datos-cargo #datos-texto .numero-lista,
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-8 .datos-cargo #datos-texto .nombre-lista {
+  margin: 0px;
+  font-size: 0.7em;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-8 .foto-candidato,
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-8 .foto-partido,
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-8 .foto-preferencia {
+  order: 4;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-8 .candidato-principal,
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-8 .candidato-secundario {
+  order: 2;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-basis: 100%;
+  width: 10%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .nombre-cargo {
+  font-size: 0.55em;
+  padding-top: 6px;
+  width: 100%;
+  color: inherit;
+  border-bottom: 1px solid;
+  text-align: center;
+  height: 13%;
+  order: 0;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .foto-lista {
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .foto-lista img {
+  width: 91%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .foto-candidato-principal {
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .foto-candidato-principal img {
+  width: 91%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .fotos-terna {
+  display: flex;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .fotos-terna .foto-candidato-terna {
+  width: 34%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .fotos-terna .foto-candidato-terna img {
+  width: 91%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .candidatos-terna {
+  text-align: left;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .candidatos-terna .candidato-terna {
+  font-size: 8px;
+  margin-bottom: 5%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .candidato-preferente {
+  font-size: 10%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .foto-blanco {
+  height: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .foto-blanco img {
+  height: 100%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .datos-cargo {
+  display: block;
+  height: 80%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .datos-cargo #datos-texto {
+  font-size: 1em;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .datos-cargo #datos-texto .numero-lista,
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .datos-cargo #datos-texto .nombre-lista {
+  margin: 0px;
+  font-size: 0.7em;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .foto-candidato,
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .foto-partido,
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .foto-preferencia {
+  order: 4;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .candidato-principal,
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .candidato-secundario {
+  order: 2;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-7 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  flex-basis: 100%;
+  width: 14.2%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-7 .nombre-cargo {
+  font-size: 8px;
+  padding-top: 6px;
+  width: 100%;
+  color: inherit;
+  border-bottom: 1px solid;
+  text-align: center;
+  height: 13%;
+  order: 0;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-7 .foto-lista {
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-7 .foto-lista img {
+  width: 91%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-7 .foto-candidato-principal {
+  width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-7 .foto-candidato-principal img {
+  width: 91%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-7 .fotos-terna {
+  display: flex;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-7 .fotos-terna .foto-candidato-terna {
+  width: 34%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-7 .fotos-terna .foto-candidato-terna img {
+  width: 91%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-7 .candidatos-terna {
+  text-align: left;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-7 .candidatos-terna .candidato-terna {
+  font-size: 8px;
+  margin-bottom: 2%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-7 .candidato-preferente {
+  font-size: 10%;
+  text-align: left;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-7 .foto-blanco {
+  height: 65%;
+  margin-left: auto;
+  margin-right: auto;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-7 .foto-blanco img {
+  height: 100%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-7 .datos-cargo {
+  display: block;
+  height: 80%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-7 .datos-cargo #datos-texto {
+  font-size: 1em;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-7 .datos-cargo #datos-texto .numero-lista,
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-7 .datos-cargo #datos-texto .nombre-lista {
+  margin: 0px;
+  font-size: 0.7em;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-7 .foto-candidato,
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-7 .foto-partido,
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-7 .foto-preferencia {
+  order: 4;
+}
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-7 .candidato-principal,
+#pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-7 .candidato-secundario {
+  order: 2;
+}
+#pantalla_consulta #candidatos_seleccion .candidato .color-lista {
+  display: inline;
+  float: left;
+  width: 10%;
+  position: relative;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border: 1px solid #cccccc;
+  margin-bottom: 5px;
+}
+#pantalla_consulta #candidatos_seleccion .candidato .color-lista:before {
+  content: "";
+  display: block;
+}
+#pantalla_consulta #candidatos_seleccion .candidato .color-lista .colores1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato .color-lista .colores2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato .color-lista .colores2:nth-child(2) {
+  left: 50%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato .color-lista .colores3 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 33.33333333%;
+  height: 100%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato .color-lista .colores3:nth-child(2) {
+  left: 33.33333333%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato .color-lista .colores3:nth-child(3) {
+  left: 66.66666667%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato .nombre-cargo {
+  text-align: left;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 0.7em;
+  margin-bottom: 5px;
+}
+#pantalla_consulta #candidatos_seleccion .candidato .foto-candidato,
+#pantalla_consulta #candidatos_seleccion .candidato .foto-partido,
+#pantalla_consulta #candidatos_seleccion .candidato .foto-secundario,
+#pantalla_consulta #candidatos_seleccion .candidato .color-lista {
+  position: relative;
+}
+#pantalla_consulta #candidatos_seleccion .candidato .foto-candidato:before,
+#pantalla_consulta #candidatos_seleccion .candidato .foto-partido:before,
+#pantalla_consulta #candidatos_seleccion .candidato .foto-secundario:before,
+#pantalla_consulta #candidatos_seleccion .candidato .color-lista:before {
+  content: "";
+  display: block;
+  padding-top: 90%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato .foto-candidato img,
+#pantalla_consulta #candidatos_seleccion .candidato .foto-partido img,
+#pantalla_consulta #candidatos_seleccion .candidato .foto-secundario img,
+#pantalla_consulta #candidatos_seleccion .candidato .color-lista img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+#pantalla_consulta #candidatos_seleccion .candidato .foto-candidato,
+#pantalla_consulta #candidatos_seleccion .candidato .foto-secundario {
+  margin-right: 5px;
+  display: block;
+  float: left;
+  border: 1px solid #cccccc;
+  margin-bottom: 5px;
+}
+#pantalla_consulta #candidatos_seleccion .candidato .foto-partido {
+  border: 1px solid #cccccc;
+  float: left;
+  margin-right: 5px;
+}
+#pantalla_consulta #candidatos_seleccion .candidato .lista {
+  font-size: 1.2em;
+  float: right;
+  text-align: right;
+}
+#pantalla_consulta #candidatos_seleccion .candidato .lista .palabra-lista {
+  margin: 0px;
+  text-transform: uppercase;
+  color: #545859;
+  font-size: 0.8em;
+  font-weight: bold;
+}
+#pantalla_consulta #candidatos_seleccion .candidato .lista .numero-lista {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0px;
+}
+#pantalla_consulta #candidatos_seleccion .candidato .nombre-partido,
+#pantalla_consulta #candidatos_seleccion .candidato .candidato-principal,
+#pantalla_consulta #candidatos_seleccion .candidato .candidato-secundario {
+  width: 100%;
+}
+#pantalla_consulta #candidatos_seleccion .candidato .nombre-partido {
+  float: left;
+  margin-top: 5px;
+  display: block;
+  padding-bottom: 3px;
+  text-align: left;
+}
+#pantalla_consulta #candidatos_seleccion .candidato .candidato-principal {
+  font-size: 0.85em;
+  font-weight: bold;
+  color: #000;
+  clear: both;
+  text-align: left;
+}
+#pantalla_consulta #candidatos_seleccion .candidato .candidato-secundario {
+  font-size: 1.3rem;
+  margin-top: 3px;
+  font-weight: bold;
+  clear: both;
+  text-align: left;
+  color: #545859;
+}
+@media screen and (min-width: 1900px) {
+  #pantalla_consulta {
+    height: 960px;
+  }
+  #pantalla_consulta #img_voto {
+    height: 730px;
+  }
+  #pantalla_consulta #img_voto svg,
+  #pantalla_consulta #img_voto #pantalla_consulta #img_voto img {
+    transform: scale(0.76);
+    margin-left: 50px;
+  }
+  #pantalla_consulta #candidatos_seleccion .candidato {
+    height: 140%;
+  }
+  #pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .datos-cargo {
+    width: 100%;
+    margin-top: 10px;
+  }
+  #pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-2 .foto-candidato-principal {
+    width: 19%;
+  }
+  #pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .foto-candidato-principal {
+    width: 50%;
+  }
+  #pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .candidatos-terna {
+    text-align: left;
+  }
+  #pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .candidatos-terna .candidato-terna {
+    font-size: 11px;
+    margin-bottom: 2%;
+  }
+  #pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .candidato-preferente {
+    font-size: 10%;
+  }
+  #pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .datos-cargo #datos-texto .numero-lista,
+  #pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .datos-cargo #datos-texto .nombre-lista {
+    font-size: 0.9em;
+  }
+  #pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-10 .nombre-cargo {
+    font-size: 0.8em;
+  }
+  #pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-7 .candidatos-terna .candidato-terna {
+    font-size: 0.8em;
+  }
+  #pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-7 .datos-cargo #datos-texto .numero-lista,
+  #pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-7 .datos-cargo #datos-texto .nombre-lista {
+    font-size: 0.9em;
+  }
+  #pantalla_consulta #candidatos_seleccion .candidato.candidato.cant-7 .nombre-cargo {
+    font-size: 0.9rem;
+  }
+}

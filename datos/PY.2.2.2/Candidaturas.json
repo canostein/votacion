@@ -1,0 +1,1563 @@
+[
+  {
+      "asistida": "Otro Candidato",
+      "cargo_ejecutivo": true,
+      "clase": "Candidato",
+      "cod_categoria": "INT",
+      "cod_lista": "99500",
+      "codigo": "99500.1089",
+      "id_candidatura": "99500.1089",
+      "id_umv": 162,
+      "imagenes": [
+          "99500.1089"
+      ],
+      "mostrar_foto_candidato_principal": true,
+      "nombre": "Otro Candidato",
+      "nro_orden": 1,
+      "orden_absoluto": [
+          85,
+          1,
+          1
+      ],
+      "secundarios": [],
+      "secundarios_datos_extra": [],
+      "sexo": "M",
+      "suplentes": [],
+      "suplentes_datos_extra": []
+  },
+  {
+      "asistida": "Alfrodicio Paez",
+      "cargo_ejecutivo": false,
+      "clase": "Candidato",
+      "cod_categoria": "CNJ",
+      "cod_lista": "99500",
+      "codigo": "99500.1092",
+      "habilitar_preferencias": true,
+      "id_candidatura": "99500.1092",
+      "id_umv": 64,
+      "imagenes": [
+          "99500.1092",
+          "99500.1094",
+          "99500.1096",
+          "99500.1098",
+          "99500.1100",
+          "99500.1102",
+          "99500.1104",
+          "99500.1106",
+          "99500.1108",
+          "99500.1109",
+          "99500.1110",
+          "99500.1111"
+      ],
+      "nombre": "Alfrodicio Paez",
+      "nro_orden": 1,
+      "orden_absoluto": [
+          85,
+          2,
+          1
+      ],
+      "secundarios": [
+          "Aniano Baez",
+          "Aparicia Lesme",
+          "Filiberto Caceres",
+          "Aquilina Paredes",
+          "Engracia Lopez",
+          "Evanildo Morel",
+          "Justa Aguiar",
+          "Mamerto Cano",
+          "Bienvenido Rejala",
+          "Abundio Perez",
+          "Perpetua Benitez"
+      ],
+      "secundarios_datos_extra": [
+          {
+              "id_candidatura": "99500.1094",
+              "imagen": "99500.1094",
+              "nombre": "Aniano Baez",
+              "nro_orden": 2,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99500.1096",
+              "imagen": "99500.1096",
+              "nombre": "Aparicia Lesme",
+              "nro_orden": 3,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99500.1098",
+              "imagen": "99500.1098",
+              "nombre": "Filiberto Caceres",
+              "nro_orden": 4,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99500.1100",
+              "imagen": "99500.1100",
+              "nombre": "Aquilina Paredes",
+              "nro_orden": 5,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99500.1102",
+              "imagen": "99500.1102",
+              "nombre": "Engracia Lopez",
+              "nro_orden": 6,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99500.1104",
+              "imagen": "99500.1104",
+              "nombre": "Evanildo Morel",
+              "nro_orden": 7,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99500.1106",
+              "imagen": "99500.1106",
+              "nombre": "Justa Aguiar",
+              "nro_orden": 8,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99500.1108",
+              "imagen": "99500.1108",
+              "nombre": "Mamerto Cano",
+              "nro_orden": 9,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99500.1109",
+              "imagen": "99500.1109",
+              "nombre": "Bienvenido Rejala",
+              "nro_orden": 10,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99500.1110",
+              "imagen": "99500.1110",
+              "nombre": "Abundio Perez",
+              "nro_orden": 11,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99500.1111",
+              "imagen": "99500.1111",
+              "nombre": "Perpetua Benitez",
+              "nro_orden": 12,
+              "sexo": "F"
+          }
+      ],
+      "sexo": "M",
+      "suplentes": [],
+      "suplentes_datos_extra": []
+  },
+  {
+      "asistida": "Apolonia Aquino",
+      "cargo_ejecutivo": true,
+      "clase": "Candidato",
+      "cod_categoria": "INT",
+      "cod_lista": "99520",
+      "codigo": "99520.1112",
+      "id_candidatura": "99520.1112",
+      "id_umv": 165,
+      "imagenes": [
+          "99520.1112"
+      ],
+      "mostrar_foto_candidato_principal": true,
+      "nombre": "Otro Candidato",
+      "nro_orden": 1,
+      "orden_absoluto": [
+          86,
+          1,
+          1
+      ],
+      "secundarios": [],
+      "secundarios_datos_extra": [],
+      "sexo": "F",
+      "suplentes": [],
+      "suplentes_datos_extra": []
+  },
+  {
+      "asistida": "Candidato 1",
+      "cargo_ejecutivo": false,
+      "clase": "Candidato",
+      "cod_categoria": "CNJ",
+      "cod_lista": "99520",
+      "codigo": "99520.1115",
+      "habilitar_preferencias": true,
+      "id_candidatura": "99520.1115",
+      "id_umv": 67,
+      "imagenes": [
+          "99520.1115",
+          "99520.1117",
+          "99520.1119",
+          "99520.1121",
+          "99520.1123",
+          "99520.1125",
+          "99520.1127",
+          "99520.1129",
+          "99520.1131",
+          "99520.1132",
+          "99520.1133",
+          "99520.1134"
+      ],
+      "nombre": "Candidato 1",
+      "nro_orden": 1,
+      "orden_absoluto": [
+          86,
+          2,
+          1
+      ],
+      "secundarios": [
+          "Candidato 2",
+          "Candidato 3",
+          "Candidato 4",
+          "Candidato 5",
+          "Candidato 6",
+          "Candidato 7",
+          "Candidato 8",
+          "Candidato 9",
+          "Candidato 10",
+          "Candidato 11",
+          "Candidato 12"
+      ],
+      "secundarios_datos_extra": [
+          {
+              "id_candidatura": "99520.1117",
+              "imagen": "99520.1117",
+              "nombre": "Candidato 2",
+              "nro_orden": 2,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99520.1119",
+              "imagen": "99520.1119",
+              "nombre": "Candidato 3",
+              "nro_orden": 3,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99520.1121",
+              "imagen": "99520.1121",
+              "nombre": "Candidato 4",
+              "nro_orden": 4,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99520.1123",
+              "imagen": "99520.1123",
+              "nombre": "Candidato 5",
+              "nro_orden": 5,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99520.1125",
+              "imagen": "99520.1125",
+              "nombre": "Candidato 6",
+              "nro_orden": 6,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99520.1127",
+              "imagen": "99520.1127",
+              "nombre": "Candidato 7",
+              "nro_orden": 7,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99520.1129",
+              "imagen": "99520.1129",
+              "nombre": "Candidato 8",
+              "nro_orden": 8,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99520.1131",
+              "imagen": "99520.1131",
+              "nombre": "Candidato 9",
+              "nro_orden": 9,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99520.1132",
+              "imagen": "99520.1132",
+              "nombre": "Candidato 10",
+              "nro_orden": 10,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99520.1133",
+              "imagen": "99520.1133",
+              "nombre": "Candidato 11",
+              "nro_orden": 11,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99520.1134",
+              "imagen": "99520.1134",
+              "nombre": "Candidato 12",
+              "nro_orden": 12,
+              "sexo": "M"
+          }
+      ],
+      "sexo": "M",
+      "suplentes": [],
+      "suplentes_datos_extra": []
+  },
+  {
+      "asistida": "Clementino Ruiz",
+      "cargo_ejecutivo": false,
+      "clase": "Candidato",
+      "cod_categoria": "CNJ",
+      "cod_lista": "99530",
+      "codigo": "99530.1136",
+      "habilitar_preferencias": true,
+      "id_candidatura": "99530.1136",
+      "id_umv": 70,
+      "imagenes": [
+          "99530.1136",
+          "99530.1138",
+          "99530.1140",
+          "99530.1142",
+          "99530.1144",
+          "99530.1146",
+          "99530.1148",
+          "99530.1150",
+          "99530.1152",
+          "99530.1153",
+          "99530.1154",
+          "99530.1155"
+      ],
+      "nombre": "Otro Candidato",
+      "nro_orden": 1,
+      "orden_absoluto": [
+          87,
+          2,
+          1
+      ],
+      "secundarios": [
+          "Cornelio Moro",
+          "Benefrida Ortiz",
+          "Esutacio Martinez",
+          "Dalmiro Aguilera",
+          "Aquilina Espinola",
+          "Bartolome Gil",
+          "Clotilde Riveros",
+          "Ambrosio Dominguez",
+          "Claudio Duarte",
+          "Laureana Ruiz Diaz",
+          "Doroteo Cabrera"
+      ],
+      "secundarios_datos_extra": [
+          {
+              "id_candidatura": "99530.1138",
+              "imagen": "99530.1138",
+              "nombre": "Cornelio Moro",
+              "nro_orden": 2,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99530.1140",
+              "imagen": "99530.1140",
+              "nombre": "Benefrida Ortiz",
+              "nro_orden": 3,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99530.1142",
+              "imagen": "99530.1142",
+              "nombre": "Esutacio Martinez",
+              "nro_orden": 4,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99530.1144",
+              "imagen": "99530.1144",
+              "nombre": "Dalmiro Aguilera",
+              "nro_orden": 5,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99530.1146",
+              "imagen": "99530.1146",
+              "nombre": "Aquilina Espinola",
+              "nro_orden": 6,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99530.1148",
+              "imagen": "99530.1148",
+              "nombre": "Bartolome Gil",
+              "nro_orden": 7,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99530.1150",
+              "imagen": "99530.1150",
+              "nombre": "Clotilde Riveros",
+              "nro_orden": 8,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99530.1152",
+              "imagen": "99530.1152",
+              "nombre": "Ambrosio Dominguez",
+              "nro_orden": 9,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99530.1153",
+              "imagen": "99530.1153",
+              "nombre": "Claudio Duarte",
+              "nro_orden": 10,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99530.1154",
+              "imagen": "99530.1154",
+              "nombre": "Laureana Ruiz Diaz",
+              "nro_orden": 11,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99530.1155",
+              "imagen": "99530.1155",
+              "nombre": "Doroteo Cabrera",
+              "nro_orden": 12,
+              "sexo": "M"
+          }
+      ],
+      "sexo": "M",
+      "suplentes": [],
+      "suplentes_datos_extra": []
+  },
+  {
+      "asistida": "Roberto Rodriguez",
+      "cargo_ejecutivo": true,
+      "clase": "Candidato",
+      "cod_categoria": "INT",
+      "cod_lista": "99540",
+      "codigo": "99540.1156",
+      "id_candidatura": "99540.1156",
+      "id_umv": 168,
+      "imagenes": [
+          "99540.1156"
+      ],
+      "mostrar_foto_candidato_principal": true,
+      "nombre": "Roberto Rodriguez",
+      "nro_orden": 1,
+      "orden_absoluto": [
+          88,
+          1,
+          1
+      ],
+      "secundarios": [],
+      "secundarios_datos_extra": [],
+      "sexo": "M",
+      "suplentes": [],
+      "suplentes_datos_extra": []
+  },
+  {
+      "asistida": "Prof. Carmelo",
+      "cargo_ejecutivo": false,
+      "clase": "Candidato",
+      "cod_categoria": "CNJ",
+      "cod_lista": "99540",
+      "codigo": "99540.1159",
+      "habilitar_preferencias": true,
+      "id_candidatura": "99540.1159",
+      "id_umv": 73,
+      "imagenes": [
+          "99540.1159",
+          "99540.1161",
+          "99540.1163",
+          "99540.1165",
+          "99540.1167",
+          "99540.1169",
+          "99540.1171",
+          "99540.1173",
+          "99540.1175",
+          "99540.1176",
+          "99540.1177",
+          "99540.1178"
+      ],
+      "nombre": "Prof. Carmelo",
+      "nro_orden": 1,
+      "orden_absoluto": [
+          88,
+          2,
+          1
+      ],
+      "secundarios": [
+          "Dr. Cabral",
+          "Ña Peli",
+          "Samaniego",
+          "Pitu Caceres",
+          "Prof. Adalberto",
+          "Dr. Acevedo",
+          "Deysi Rumich",
+          "Gabriel Pakova Alderete",
+          "Abog. Sergio Moreno",
+          "Cristino Arrua",
+          "Sixto Lopez"
+      ],
+      "secundarios_datos_extra": [
+          {
+              "id_candidatura": "99540.1161",
+              "imagen": "99540.1161",
+              "nombre": "Dr. Cabral",
+              "nro_orden": 2,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99540.1163",
+              "imagen": "99540.1163",
+              "nombre": "Ña Peli",
+              "nro_orden": 3,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99540.1165",
+              "imagen": "99540.1165",
+              "nombre": "Samaniego",
+              "nro_orden": 4,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99540.1167",
+              "imagen": "99540.1167",
+              "nombre": "Pitu Caceres",
+              "nro_orden": 5,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99540.1169",
+              "imagen": "99540.1169",
+              "nombre": "Prof. Adalberto",
+              "nro_orden": 6,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99540.1171",
+              "imagen": "99540.1171",
+              "nombre": "Dr. Acevedo",
+              "nro_orden": 7,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99540.1173",
+              "imagen": "99540.1173",
+              "nombre": "Deysi Rumich",
+              "nro_orden": 8,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99540.1175",
+              "imagen": "99540.1175",
+              "nombre": "Gabriel Pakova Alderete",
+              "nro_orden": 9,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99540.1176",
+              "imagen": "99540.1176",
+              "nombre": "Abog. Sergio Moreno",
+              "nro_orden": 10,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99540.1177",
+              "imagen": "99540.1177",
+              "nombre": "Cristino Arrua",
+              "nro_orden": 11,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99540.1178",
+              "imagen": "99540.1178",
+              "nombre": "Sixto Lopez",
+              "nro_orden": 12,
+              "sexo": "M"
+          }
+      ],
+      "sexo": "F",
+      "suplentes": [],
+      "suplentes_datos_extra": []
+  },
+  {
+      "asistida": "Eulalio Peña",
+      "cargo_ejecutivo": false,
+      "clase": "Candidato",
+      "cod_categoria": "CNJ",
+      "cod_lista": "99550",
+      "codigo": "99550.1180",
+      "habilitar_preferencias": true,
+      "id_candidatura": "99550.1180",
+      "id_umv": 76,
+      "imagenes": [
+          "99550.1180",
+          "99550.1182",
+          "99550.1184",
+          "99550.1186",
+          "99550.1188",
+          "99550.1190",
+          "99550.1192",
+          "99550.1194",
+          "99550.1196",
+          "99550.1197",
+          "99550.1198",
+          "99550.1199"
+      ],
+      "nombre": "Eulalio Peña",
+      "nro_orden": 1,
+      "orden_absoluto": [
+          89,
+          2,
+          1
+      ],
+      "secundarios": [
+          "Eustaquia Regis",
+          "Secundina Paniagua",
+          "Herculano Cubilla",
+          "Cipriana Vera",
+          "Benerio Iglesias",
+          "Aureliana Humen",
+          "Eloisa Osorio",
+          "Leonida Sanchez",
+          "Fabia Vera",
+          "Hemildo Ozorio",
+          "Virna Romero"
+      ],
+      "secundarios_datos_extra": [
+          {
+              "id_candidatura": "99550.1182",
+              "imagen": "99550.1182",
+              "nombre": "Eustaquia Regis",
+              "nro_orden": 2,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99550.1184",
+              "imagen": "99550.1184",
+              "nombre": "Secundina Paniagua",
+              "nro_orden": 3,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99550.1186",
+              "imagen": "99550.1186",
+              "nombre": "Herculano Cubilla",
+              "nro_orden": 4,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99550.1188",
+              "imagen": "99550.1188",
+              "nombre": "Cipriana Vera",
+              "nro_orden": 5,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99550.1190",
+              "imagen": "99550.1190",
+              "nombre": "Benerio Iglesias",
+              "nro_orden": 6,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99550.1192",
+              "imagen": "99550.1192",
+              "nombre": "Aureliana Humen",
+              "nro_orden": 7,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99550.1194",
+              "imagen": "99550.1194",
+              "nombre": "Eloisa Osorio",
+              "nro_orden": 8,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99550.1196",
+              "imagen": "99550.1196",
+              "nombre": "Leonida Sanchez",
+              "nro_orden": 9,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99550.1197",
+              "imagen": "99550.1197",
+              "nombre": "Fabia Vera",
+              "nro_orden": 10,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99550.1198",
+              "imagen": "99550.1198",
+              "nombre": "Hemildo Ozorio",
+              "nro_orden": 11,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99550.1199",
+              "imagen": "99550.1199",
+              "nombre": "Virna Romero",
+              "nro_orden": 12,
+              "sexo": "F"
+          }
+      ],
+      "sexo": "M",
+      "suplentes": [],
+      "suplentes_datos_extra": []
+  },
+  {
+      "asistida": "Silvestre Gomez",
+      "cargo_ejecutivo": true,
+      "clase": "Candidato",
+      "cod_categoria": "INT",
+      "cod_lista": "99560",
+      "codigo": "99560.1200",
+      "id_candidatura": "99560.1200",
+      "id_umv": 171,
+      "imagenes": [
+          "99560.1200"
+      ],
+      "mostrar_foto_candidato_principal": true,
+      "nombre": "Otro Candidato",
+      "nro_orden": 1,
+      "orden_absoluto": [
+          90,
+          1,
+          1
+      ],
+      "secundarios": [],
+      "secundarios_datos_extra": [],
+      "sexo": "M",
+      "suplentes": [],
+      "suplentes_datos_extra": []
+  },
+  {
+      "asistida": "Egidio Maciel",
+      "cargo_ejecutivo": false,
+      "clase": "Candidato",
+      "cod_categoria": "CNJ",
+      "cod_lista": "99560",
+      "codigo": "99560.1203",
+      "habilitar_preferencias": true,
+      "id_candidatura": "99560.1203",
+      "id_umv": 79,
+      "imagenes": [
+          "99560.1203",
+          "99560.1205",
+          "99560.1207",
+          "99560.1209",
+          "99560.1211",
+          "99560.1213",
+          "99560.1215",
+          "99560.1217",
+          "99560.1219",
+          "99560.1220",
+          "99560.1221",
+          "99560.1222"
+      ],
+      "nombre": "Egidio Maciel",
+      "nro_orden": 1,
+      "orden_absoluto": [
+          90,
+          2,
+          1
+      ],
+      "secundarios": [
+          "Olinda Portillo",
+          "Celedonio Ortellado",
+          "Loreto Romero",
+          "Parmelinda Cabrera",
+          "Fidelina Alegre",
+          "Ubaldo Barboza",
+          "Evangelista Quintana",
+          "Geronimo Diaz",
+          "Maximino Gimenez",
+          "Demetria Paiva",
+          "Calixto Caballero"
+      ],
+      "secundarios_datos_extra": [
+          {
+              "id_candidatura": "99560.1205",
+              "imagen": "99560.1205",
+              "nombre": "Olinda Portillo",
+              "nro_orden": 2,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99560.1207",
+              "imagen": "99560.1207",
+              "nombre": "Celedonio Ortellado",
+              "nro_orden": 3,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99560.1209",
+              "imagen": "99560.1209",
+              "nombre": "Loreto Romero",
+              "nro_orden": 4,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99560.1211",
+              "imagen": "99560.1211",
+              "nombre": "Parmelinda Cabrera",
+              "nro_orden": 5,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99560.1213",
+              "imagen": "99560.1213",
+              "nombre": "Fidelina Alegre",
+              "nro_orden": 6,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99560.1215",
+              "imagen": "99560.1215",
+              "nombre": "Ubaldo Barboza",
+              "nro_orden": 7,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99560.1217",
+              "imagen": "99560.1217",
+              "nombre": "Evangelista Quintana",
+              "nro_orden": 8,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99560.1219",
+              "imagen": "99560.1219",
+              "nombre": "Geronimo Diaz",
+              "nro_orden": 9,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99560.1220",
+              "imagen": "99560.1220",
+              "nombre": "Maximino Gimenez",
+              "nro_orden": 10,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99560.1221",
+              "imagen": "99560.1221",
+              "nombre": "Demetria Paiva",
+              "nro_orden": 11,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99560.1222",
+              "imagen": "99560.1222",
+              "nombre": "Calixto Caballero",
+              "nro_orden": 12,
+              "sexo": "M"
+          }
+      ],
+      "sexo": "M",
+      "suplentes": [],
+      "suplentes_datos_extra": []
+  },
+  {
+      "asistida": "Ludovina Almada",
+      "cargo_ejecutivo": false,
+      "clase": "Candidato",
+      "cod_categoria": "CNJ",
+      "cod_lista": "99570",
+      "codigo": "99570.1224",
+      "habilitar_preferencias": true,
+      "id_candidatura": "99570.1224",
+      "id_umv": 82,
+      "imagenes": [
+          "99570.1224",
+          "99570.1226",
+          "99570.1228",
+          "99570.1230",
+          "99570.1232",
+          "99570.1234",
+          "99570.1236",
+          "99570.1238",
+          "99570.1240",
+          "99570.1241",
+          "99570.1242",
+          "99570.1243"
+      ],
+      "nombre": "Ludovina Almada",
+      "nro_orden": 1,
+      "orden_absoluto": [
+          91,
+          2,
+          1
+      ],
+      "secundarios": [
+          "Eleuteria Britos",
+          "Lina Riveros",
+          "Castulo Tomay",
+          "Laislada Duarte",
+          "Porfirio Ayala",
+          "Obdulia Paez",
+          "Aureliano Cañete",
+          "Teodosio Molinas",
+          "Heriberto Ramos",
+          "Cirilo Encina",
+          "Virgilio Marin"
+      ],
+      "secundarios_datos_extra": [
+          {
+              "id_candidatura": "99570.1226",
+              "imagen": "99570.1226",
+              "nombre": "Eleuteria Britos",
+              "nro_orden": 2,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99570.1228",
+              "imagen": "99570.1228",
+              "nombre": "Lina Riveros",
+              "nro_orden": 3,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99570.1230",
+              "imagen": "99570.1230",
+              "nombre": "Castulo Tomay",
+              "nro_orden": 4,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99570.1232",
+              "imagen": "99570.1232",
+              "nombre": "Laislada Duarte",
+              "nro_orden": 5,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99570.1234",
+              "imagen": "99570.1234",
+              "nombre": "Porfirio Ayala",
+              "nro_orden": 6,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99570.1236",
+              "imagen": "99570.1236",
+              "nombre": "Obdulia Paez",
+              "nro_orden": 7,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99570.1238",
+              "imagen": "99570.1238",
+              "nombre": "Aureliano Cañete",
+              "nro_orden": 8,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99570.1240",
+              "imagen": "99570.1240",
+              "nombre": "Teodosio Molinas",
+              "nro_orden": 9,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99570.1241",
+              "imagen": "99570.1241",
+              "nombre": "Heriberto Ramos",
+              "nro_orden": 10,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99570.1242",
+              "imagen": "99570.1242",
+              "nombre": "Cirilo Encina",
+              "nro_orden": 11,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99570.1243",
+              "imagen": "99570.1243",
+              "nombre": "Virgilio Marin",
+              "nro_orden": 12,
+              "sexo": "M"
+          }
+      ],
+      "sexo": "F",
+      "suplentes": [],
+      "suplentes_datos_extra": []
+  },
+  {
+      "asistida": "Agripina Olmedo",
+      "cargo_ejecutivo": true,
+      "clase": "Candidato",
+      "cod_categoria": "INT",
+      "cod_lista": "99580",
+      "codigo": "99580.1244",
+      "id_candidatura": "99580.1244",
+      "id_umv": 175,
+      "imagenes": [
+          "99580.1244"
+      ],
+      "mostrar_foto_candidato_principal": true,
+      "nombre": "Otro Candidato",
+      "nro_orden": 1,
+      "orden_absoluto": [
+          92,
+          1,
+          1
+      ],
+      "secundarios": [],
+      "secundarios_datos_extra": [],
+      "sexo": "F",
+      "suplentes": [],
+      "suplentes_datos_extra": []
+  },
+  {
+      "asistida": "Eufracio Zapata",
+      "cargo_ejecutivo": false,
+      "clase": "Candidato",
+      "cod_categoria": "CNJ",
+      "cod_lista": "99580",
+      "codigo": "99580.1247",
+      "habilitar_preferencias": true,
+      "id_candidatura": "99580.1247",
+      "id_umv": 86,
+      "imagenes": [
+          "99580.1247",
+          "99580.1249",
+          "99580.1251",
+          "99580.1253",
+          "99580.1255",
+          "99580.1257",
+          "99580.1259",
+          "99580.1261",
+          "99580.1263",
+          "99580.1264",
+          "99580.1265",
+          "99580.1266"
+      ],
+      "nombre": "Eufracio Zapata",
+      "nro_orden": 1,
+      "orden_absoluto": [
+          92,
+          2,
+          1
+      ],
+      "secundarios": [
+          "Filemona Ortellado",
+          "Nicodemo Vergara",
+          "Lauro Benitez",
+          "Octaviano Gomez",
+          "Celestina Miranda",
+          "Panfilo Florentin",
+          "Prisciliana Medina",
+          "Atilio Ozuna",
+          "Gumercinda Sanchez",
+          "Anastacia Vera",
+          "Eduarda Solis"
+      ],
+      "secundarios_datos_extra": [
+          {
+              "id_candidatura": "99580.1249",
+              "imagen": "99580.1249",
+              "nombre": "Filemona Ortellado",
+              "nro_orden": 2,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99580.1251",
+              "imagen": "99580.1251",
+              "nombre": "Nicodemo Vergara",
+              "nro_orden": 3,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99580.1253",
+              "imagen": "99580.1253",
+              "nombre": "Lauro Benitez",
+              "nro_orden": 4,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99580.1255",
+              "imagen": "99580.1255",
+              "nombre": "Octaviano Gomez",
+              "nro_orden": 5,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99580.1257",
+              "imagen": "99580.1257",
+              "nombre": "Celestina Miranda",
+              "nro_orden": 6,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99580.1259",
+              "imagen": "99580.1259",
+              "nombre": "Panfilo Florentin",
+              "nro_orden": 7,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99580.1261",
+              "imagen": "99580.1261",
+              "nombre": "Prisciliana Medina",
+              "nro_orden": 8,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99580.1263",
+              "imagen": "99580.1263",
+              "nombre": "Atilio Ozuna",
+              "nro_orden": 9,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99580.1264",
+              "imagen": "99580.1264",
+              "nombre": "Gumercinda Sanchez",
+              "nro_orden": 10,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99580.1265",
+              "imagen": "99580.1265",
+              "nombre": "Anastacia Vera",
+              "nro_orden": 11,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99580.1266",
+              "imagen": "99580.1266",
+              "nombre": "Eduarda Solis",
+              "nro_orden": 12,
+              "sexo": "F"
+          }
+      ],
+      "sexo": "M",
+      "suplentes": [],
+      "suplentes_datos_extra": []
+  },
+  {
+      "asistida": "Ceferina Gomez",
+      "cargo_ejecutivo": true,
+      "clase": "Candidato",
+      "cod_categoria": "INT",
+      "cod_lista": "99590",
+      "codigo": "99590.1267",
+      "id_candidatura": "99590.1267",
+      "id_umv": 178,
+      "imagenes": [
+          "99590.1267"
+      ],
+      "mostrar_foto_candidato_principal": true,
+      "nombre": "Otro Candidato",
+      "nro_orden": 1,
+      "orden_absoluto": [
+          93,
+          1,
+          1
+      ],
+      "secundarios": [],
+      "secundarios_datos_extra": [],
+      "sexo": "F",
+      "suplentes": [],
+      "suplentes_datos_extra": []
+  },
+  {
+      "asistida": "Severiana Paredes",
+      "cargo_ejecutivo": false,
+      "clase": "Candidato",
+      "cod_categoria": "CNJ",
+      "cod_lista": "99590",
+      "codigo": "99590.1270",
+      "habilitar_preferencias": true,
+      "id_candidatura": "99590.1270",
+      "id_umv": 89,
+      "imagenes": [
+          "99590.1270",
+          "99590.1272",
+          "99590.1274",
+          "99590.1276",
+          "99590.1278",
+          "99590.1280",
+          "99590.1282",
+          "99590.1284",
+          "99590.1286",
+          "99590.1287",
+          "99590.1288",
+          "99590.1289"
+      ],
+      "nombre": "Severiana Paredes",
+      "nro_orden": 1,
+      "orden_absoluto": [
+          93,
+          2,
+          1
+      ],
+      "secundarios": [
+          "Ana Ferreira",
+          "Ranulfo Portillo",
+          "Gertrudis Villalba",
+          "Juvencia Lopez",
+          "Hilaria Rojas",
+          "Teodosia Chavez",
+          "Erotida Lopez",
+          "Rutilio Martinez",
+          "Zoilo Lopez",
+          "Baudilio Silva",
+          "Dalmiro Duarte"
+      ],
+      "secundarios_datos_extra": [
+          {
+              "id_candidatura": "99590.1272",
+              "imagen": "99590.1272",
+              "nombre": "Ana Ferreira",
+              "nro_orden": 2,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99590.1274",
+              "imagen": "99590.1274",
+              "nombre": "Ranulfo Portillo",
+              "nro_orden": 3,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99590.1276",
+              "imagen": "99590.1276",
+              "nombre": "Gertrudis Villalba",
+              "nro_orden": 4,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99590.1278",
+              "imagen": "99590.1278",
+              "nombre": "Juvencia Lopez",
+              "nro_orden": 5,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99590.1280",
+              "imagen": "99590.1280",
+              "nombre": "Hilaria Rojas",
+              "nro_orden": 6,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99590.1282",
+              "imagen": "99590.1282",
+              "nombre": "Teodosia Chavez",
+              "nro_orden": 7,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99590.1284",
+              "imagen": "99590.1284",
+              "nombre": "Erotida Lopez",
+              "nro_orden": 8,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99590.1286",
+              "imagen": "99590.1286",
+              "nombre": "Rutilio Martinez",
+              "nro_orden": 9,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99590.1287",
+              "imagen": "99590.1287",
+              "nombre": "Zoilo Lopez",
+              "nro_orden": 10,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99590.1288",
+              "imagen": "99590.1288",
+              "nombre": "Baudilio Silva",
+              "nro_orden": 11,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99590.1289",
+              "imagen": "99590.1289",
+              "nombre": "Dalmiro Duarte",
+              "nro_orden": 12,
+              "sexo": "M"
+          }
+      ],
+      "sexo": "F",
+      "suplentes": [],
+      "suplentes_datos_extra": []
+  },
+  {
+      "asistida": "Ursulina Sanchez",
+      "cargo_ejecutivo": false,
+      "clase": "Candidato",
+      "cod_categoria": "CNJ",
+      "cod_lista": "99600",
+      "codigo": "99600.1291",
+      "habilitar_preferencias": true,
+      "id_candidatura": "99600.1291",
+      "id_umv": 92,
+      "imagenes": [
+          "99600.1291",
+          "99600.1293",
+          "99600.1295",
+          "99600.1297",
+          "99600.1299",
+          "99600.1301",
+          "99600.1303",
+          "99600.1305",
+          "99600.1307",
+          "99600.1308",
+          "99600.1309",
+          "99600.1310"
+      ],
+      "nombre": "Ursulina Sanchez",
+      "nro_orden": 1,
+      "orden_absoluto": [
+          94,
+          2,
+          1
+      ],
+      "secundarios": [
+          "Cervellon Gonzalez",
+          "Cancio Martienz",
+          "Onofre Britez",
+          "Eradio Cubilla",
+          "Leongino Espinola",
+          "Clotilde Quiñonez",
+          "Laureano Segovia",
+          "Sinforiano Benitez",
+          "Celmira Azuaga",
+          "Hermes Fanego",
+          "Esildo Nuñez"
+      ],
+      "secundarios_datos_extra": [
+          {
+              "id_candidatura": "99600.1293",
+              "imagen": "99600.1293",
+              "nombre": "Cervellon Gonzalez",
+              "nro_orden": 2,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99600.1295",
+              "imagen": "99600.1295",
+              "nombre": "Cancio Martienz",
+              "nro_orden": 3,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99600.1297",
+              "imagen": "99600.1297",
+              "nombre": "Onofre Britez",
+              "nro_orden": 4,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99600.1299",
+              "imagen": "99600.1299",
+              "nombre": "Eradio Cubilla",
+              "nro_orden": 5,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99600.1301",
+              "imagen": "99600.1301",
+              "nombre": "Leongino Espinola",
+              "nro_orden": 6,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99600.1303",
+              "imagen": "99600.1303",
+              "nombre": "Clotilde Quiñonez",
+              "nro_orden": 7,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99600.1305",
+              "imagen": "99600.1305",
+              "nombre": "Laureano Segovia",
+              "nro_orden": 8,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99600.1307",
+              "imagen": "99600.1307",
+              "nombre": "Sinforiano Benitez",
+              "nro_orden": 9,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99600.1308",
+              "imagen": "99600.1308",
+              "nombre": "Celmira Azuaga",
+              "nro_orden": 10,
+              "sexo": "F"
+          },
+          {
+              "id_candidatura": "99600.1309",
+              "imagen": "99600.1309",
+              "nombre": "Hermes Fanego",
+              "nro_orden": 11,
+              "sexo": "M"
+          },
+          {
+              "id_candidatura": "99600.1310",
+              "imagen": "99600.1310",
+              "nombre": "Esildo Nuñez",
+              "nro_orden": 12,
+              "sexo": "M"
+          }
+      ],
+      "sexo": "F",
+      "suplentes": [],
+      "suplentes_datos_extra": []
+  },
+  {
+      "asistida": "VOTO EN BLANCO",
+      "cargo_ejecutivo": false,
+      "clase": "Blanco",
+      "cod_categoria": "CNJ",
+      "cod_lista": "",
+      "codigo": "BLC",
+      "habilitar_preferencias": false,
+      "habilitar_tachas": false,
+      "id_candidatura": "BLC",
+      "id_umv": 96,
+      "imagenes": [
+          "BLC"
+      ],
+      "nombre": "VOTO EN BLANCO",
+      "nro_orden": 2,
+      "orden_absoluto": [
+          994,
+          2
+      ],
+      "secundarios": [],
+      "sexo": null,
+      "suplentes": [],
+      "suplentes_datos_extra": []
+  },
+  {
+      "asistida": "VOTO EN BLANCO",
+      "cargo_ejecutivo": true,
+      "clase": "Blanco",
+      "cod_categoria": "INT",
+      "cod_lista": "",
+      "codigo": "BLC",
+      "habilitar_preferencias": false,
+      "habilitar_tachas": false,
+      "id_candidatura": "BLC",
+      "id_umv": 183,
+      "imagenes": [
+          "BLC"
+      ],
+      "mostrar_foto_candidato_principal": true,
+      "nombre": "VOTO EN BLANCO",
+      "nro_orden": 1,
+      "orden_absoluto": [
+          994,
+          1
+      ],
+      "secundarios": [],
+      "sexo": null,
+      "suplentes": [],
+      "suplentes_datos_extra": []
+  },
+  {
+      "asistida": "Votos NULOS",
+      "cargo_ejecutivo": false,
+      "clase": "Especial",
+      "cod_categoria": "CNJ",
+      "cod_lista": "",
+      "codigo": "NUL",
+      "habilitar_preferencias": true,
+      "id_candidatura": "NUL",
+      "id_umv": 101,
+      "nombre": "Votos NULOS",
+      "nro_orden": 2,
+      "orden_absoluto": [
+          998,
+          2
+      ],
+      "secundarios": [],
+      "sexo": null,
+      "suplentes": [],
+      "suplentes_datos_extra": []
+  },
+  {
+      "asistida": "Votos NULOS",
+      "cargo_ejecutivo": true,
+      "clase": "Especial",
+      "cod_categoria": "INT",
+      "cod_lista": "",
+      "codigo": "NUL",
+      "id_candidatura": "NUL",
+      "id_umv": 188,
+      "mostrar_foto_candidato_principal": true,
+      "nombre": "Votos NULOS",
+      "nro_orden": 1,
+      "orden_absoluto": [
+          998,
+          1
+      ],
+      "secundarios": [],
+      "sexo": null,
+      "suplentes": [],
+      "suplentes_datos_extra": []
+  },
+  {
+      "asistida": "Votos NO COMPUTADOS",
+      "cargo_ejecutivo": false,
+      "clase": "Especial",
+      "cod_categoria": "CNJ",
+      "cod_lista": "",
+      "codigo": "VAC",
+      "habilitar_preferencias": true,
+      "id_candidatura": "VAC",
+      "id_umv": 106,
+      "nombre": "Votos a Computar",
+      "nro_orden": 2,
+      "orden_absoluto": [
+          1000,
+          2
+      ],
+      "secundarios": [],
+      "sexo": null,
+      "suplentes": [],
+      "suplentes_datos_extra": []
+  },
+  {
+      "asistida": "Votos NO COMPUTADOS",
+      "cargo_ejecutivo": true,
+      "clase": "Especial",
+      "cod_categoria": "INT",
+      "cod_lista": "",
+      "codigo": "VAC",
+      "id_candidatura": "VAC",
+      "id_umv": 193,
+      "mostrar_foto_candidato_principal": true,
+      "nombre": "Votos a Computar",
+      "nro_orden": 1,
+      "orden_absoluto": [
+          1000,
+          1
+      ],
+      "secundarios": [],
+      "sexo": null,
+      "suplentes": [],
+      "suplentes_datos_extra": []
+  }
+]

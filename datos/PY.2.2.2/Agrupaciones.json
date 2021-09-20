@@ -1,0 +1,242 @@
+[
+  {
+      "asistida": "500 -300- Colorado Renovador",
+      "clase": "Lista",
+      "cod_alianza": null,
+      "cod_partido": null,
+      "codigo": "99500",
+      "color": [
+          "#FFFFFF"
+      ],
+      "color_tipografia": [
+          "#000000"
+      ],
+      "datos_extra": null,
+      "id_candidatura": "99500",
+      "imagenes": [
+          "default_lista"
+      ],
+      "nombre": "Colorado Renovador",
+      "nombre_corto": "MCR",
+      "numero": "07",
+      "orden_absoluto": [
+          85
+      ]
+  },
+  {
+      "asistida": "520 -300- Actitud Republicana",
+      "clase": "Lista",
+      "cod_alianza": null,
+      "cod_partido": null,
+      "codigo": "99520",
+      "color": [
+          "#FFFFFF"
+      ],
+      "color_tipografia": [
+          "#000000"
+      ],
+      "datos_extra": null,
+      "id_candidatura": "99520",
+      "imagenes": [
+          "default_lista"
+      ],
+      "nombre": "Actitud Republicana",
+      "nombre_corto": "MAR",
+      "numero": "28",
+      "orden_absoluto": [
+          86
+      ]
+  },
+  {
+      "asistida": "530 -300- Nueva Dirigencia Colorada",
+      "clase": "Lista",
+      "cod_alianza": null,
+      "cod_partido": null,
+      "codigo": "99530",
+      "color": [
+          "#FFFFFF"
+      ],
+      "color_tipografia": [
+          "#000000"
+      ],
+      "datos_extra": null,
+      "id_candidatura": "99530",
+      "imagenes": [
+          "default_lista"
+      ],
+      "nombre": "Nueva Dirigencia Colorada",
+      "nombre_corto": "MNDC",
+      "numero": "08",
+      "orden_absoluto": [
+          87
+      ]
+  },
+  {
+      "asistida": "540 -300- Partido Tierra Guarani",
+      "clase": "Lista",
+      "cod_alianza": null,
+      "cod_partido": null,
+      "codigo": "99540",
+      "color": [
+          "#FFFFFF"
+      ],
+      "color_tipografia": [
+          "#000000"
+      ],
+      "datos_extra": null,
+      "id_candidatura": "99540",
+      "imagenes": [
+          "default_lista"
+      ],
+      "nombre": "Compromiso Republicano",
+      "nombre_corto": "MCR",
+      "numero": "1",
+      "orden_absoluto": [
+          88
+      ]
+  },
+  {
+      "asistida": "550 -300- Onondivepa Colorado",
+      "clase": "Lista",
+      "cod_alianza": null,
+      "cod_partido": null,
+      "codigo": "99550",
+      "color": [
+          "#FFFFFF"
+      ],
+      "color_tipografia": [
+          "#000000"
+      ],
+      "datos_extra": null,
+      "id_candidatura": "99550",
+      "imagenes": [
+          "default_lista"
+      ],
+      "nombre": "Onondivepa Colorado",
+      "nombre_corto": "MOC",
+      "numero": "90",
+      "orden_absoluto": [
+          89
+      ]
+  },
+  {
+      "asistida": "560 -300- De Reconstruccion Republicana",
+      "clase": "Lista",
+      "cod_alianza": null,
+      "cod_partido": null,
+      "codigo": "99560",
+      "color": [
+          "#FFFFFF"
+      ],
+      "color_tipografia": [
+          "#000000"
+      ],
+      "datos_extra": null,
+      "id_candidatura": "99560",
+      "imagenes": [
+          "default_lista"
+      ],
+      "nombre": "De Reconstruccion Republicana",
+      "nombre_corto": "MRR",
+      "numero": "09",
+      "orden_absoluto": [
+          90
+      ]
+  },
+  {
+      "asistida": "570 -300- Nueva republica",
+      "clase": "Lista",
+      "cod_alianza": null,
+      "cod_partido": null,
+      "codigo": "99570",
+      "color": [
+          "#FFFFFF"
+      ],
+      "color_tipografia": [
+          "#000000"
+      ],
+      "datos_extra": null,
+      "id_candidatura": "99570",
+      "imagenes": [
+          "default_lista"
+      ],
+      "nombre": "Nueva republica",
+      "nombre_corto": "PG",
+      "numero": "77",
+      "orden_absoluto": [
+          91
+      ]
+  },
+  {
+      "asistida": "580 -300- De Autenticidad Republicana",
+      "clase": "Lista",
+      "cod_alianza": null,
+      "cod_partido": null,
+      "codigo": "99580",
+      "color": [
+          "#FFFFFF"
+      ],
+      "color_tipografia": [
+          "#000000"
+      ],
+      "datos_extra": null,
+      "id_candidatura": "99580",
+      "imagenes": [
+          "default_lista"
+      ],
+      "nombre": "De Autenticidad Republicana",
+      "nombre_corto": "MDAR",
+      "numero": "2",
+      "orden_absoluto": [
+          92
+      ]
+  },
+  {
+      "asistida": "590 -300- Frente Independiente Republicano",
+      "clase": "Lista",
+      "cod_alianza": null,
+      "cod_partido": null,
+      "codigo": "99590",
+      "color": [
+          "#FFFFFF"
+      ],
+      "color_tipografia": [
+          "#000000"
+      ],
+      "datos_extra": null,
+      "id_candidatura": "99590",
+      "imagenes": [
+          "default_lista"
+      ],
+      "nombre": "Frente Independiente Republicano",
+      "nombre_corto": "MFIR",
+      "numero": "29",
+      "orden_absoluto": [
+          93
+      ]
+  },
+  {
+      "asistida": "600 -300- Accion Republicana Unida",
+      "clase": "Lista",
+      "cod_alianza": null,
+      "cod_partido": null,
+      "codigo": "99600",
+      "color": [
+          "#FFFFFF"
+      ],
+      "color_tipografia": [
+          "#000000"
+      ],
+      "datos_extra": null,
+      "id_candidatura": "99600",
+      "imagenes": [
+          "default_lista"
+      ],
+      "nombre": "Accion Republicana Unida",
+      "nombre_corto": "MARU",
+      "numero": "80",
+      "orden_absoluto": [
+          94
+      ]
+  }
+]

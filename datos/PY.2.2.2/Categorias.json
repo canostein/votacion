@@ -1,0 +1,25 @@
+[
+  {
+    "adhiere":null,
+    "asistida":"JUNTA MUNICIPAL",
+    "cargo_ejecutivo":false,
+    "codigo":"CNJ",
+    "consulta_popular":false,
+    "id_grupo":2,
+    "max_preferencias":1,
+    "max_selecciones":1,
+    "nombre":"JUNTA MUNICIPAL",
+    "posicion":2
+  },
+  {
+    "adhiere":null,
+    "asistida":"INTENDENTE MUNICIPAL",
+    "cargo_ejecutivo":true,
+    "codigo":"INT",
+    "consulta_popular":false,
+    "id_grupo":1,
+    "max_selecciones":1,
+    "nombre":"INTENDENTE MUNICIPAL",
+    "posicion":1
+  }
+]
