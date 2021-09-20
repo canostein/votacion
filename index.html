@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Simulador del uso de la máquina de votación</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/boot.css">
+
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/instructivo.css">
+
+    <script src="js/jquery-1.8.1.min.js"></script>
+    <script src="js/jquery.history.js"></script>
+    <script src="js/instructivo.js"></script>
+    <link href="img/favicon.png" rel="shortcut icon" type="image/png">
+</head>
+<body class="vanilla">
+    <div id="contenedor">
+        <div id="ayuda">
+            <div id="contenedor-ayuda" class="container">
+                <header>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-12 col-xs-12" id="superior">
+                                <img class="logo_eleccion_izq" src="img/logo_eleccion.png">
+                                <a class="navbar-brand" href="#"><span><br /></span></a>
+
+                            </div>
+                            <div class="col-md-6 texto-tribunal col-xs-12">
+                                <p class="simulador-guia">GUÍA RÁPIDA PARA VOTAR EN LA MÁQUINA DE VOTACIÓN</p>
+                                <img class="logo_simulador" src="img/header.png">
+                            </div>
+                        </div>
+                    </header>
+
+                    <div id="bienvenido" style="display:none;">
+                        <img class="grafico" src="img/maquina0.png">
+                        <h1>Simulador del uso de la máquina de votación.</h1>
+                        <button id="empezar" class="btn btn-success btn-lg">Comenzar</button><br>
+
+                    </div>
+
+                    <div id="paso-1" class="paso" style="display:none;">
+                        <img class="grafico" src="img/boleta-troquel.png">
+                        <h1>Presentá tu <b>cédula de identidad civil</b> a los miembros de la mesa receptora de votos, quienes te entregarán el <b>boletín</b> firmado por los dos vocales.</h1>
+                        <button class="next btn btn-primary btn-lg">Continuar</button>
+                    </div>
+
+                    <div id="paso-2" class="paso" style="display:none;">
+                        <img class="grafico" src="img/maquina2.png" id="maquina-boleta">
+                        <h1>Colocá el <b>boletín</b> en la ranura como lo indica la flecha.</h1>
+
+                        <button class="next btn btn-primary btn-lg">Continuar</button>
+                    </div>
+
+                    <div id="ubicaciones" class="paso" style="display:none;">
+                        <h1 class="ubicacion">Para iniciar el simulador elija el tipo de elección de su distrito: </h1>
+                        <div id="ubicaciones" class="container">
+                            <ul class="departamentos col-md-12">
+
+                                <li id="PY.2.2.2" class="btn btn-default btn-lg ubicacion-destino">Opción Con 12 Candidatos A Junta Municipal</li>
+                                
+                            </ul> 
+
+                        </div>
+                    </div>
+                    
+
+                    <div id="paso-3" class="paso" style="display:none;">
+                        <img class="grafico" src="img/maquina_verificar.png" id="maquina-verificacion">
+                        <h1>Una vez impreso el boletín, <b>verificá</b> que el registro electrónico de tu voto, coincida con la versión impresa, acercando el boletín al lector verificador.</h1>
+                        <button class="next btn btn-primary btn-lg">Continuar</button>
+                    </div>
+
+                    <div id="paso-4" class="paso" style="display:none;">
+                        <img class="grafico" src="img/dobla_voto.png"  id="maquina-verificacion">
+                        <h1><b>Doblá</b> el boletín de manera que se asegure el secreto del voto.<br><b>Entregá</b> al presidente de mesa para que lo firme.</h1>
+                        <button class="next btn btn-primary btn-lg">Continuar</button>
+                    </div>
+
+                    <div id="paso-5" class="paso" style="display:none;">
+                        <img class="grafico" src="img/info_tinta.png" id="maquina-verificacion">
+                        <h1><b>Entintate</b> el dedo índice de la mano derecha. Recibí del presidente de mesa el boletín y <b>depositalo</b> en la urna plástica. Retirá tu cédula de identidad civil.</h1>
+                        <button class="next btn btn-primary btn-lg">Continuar</button>
+                    </div>
+
+                    <div id="agradecimiento" style="display:none;">
+                        <img class="grafico" src="img/agradecimiento.png" >
+                        <h1>Gracias por utilizar el simulador para el uso de la <b>Máquina de votación.</b></h1>
+                        <button id="reset" class="btn btn-primary btn-lg">Reiniciar</button>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
